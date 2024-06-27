@@ -264,6 +264,11 @@ Response = GetTroubleCodeData(ELM327, b'07')
 print("Pending Trouble Codes:")
 print(Response)
 
+# Get the Permanent Trouble Codes from the ECU.
+Response = GetTroubleCodeData(ELM327, b'0A')
+print("Permanent Trouble Codes:")
+print(Response)
+
 # Erase all Pending/Stored Trouble Codes and Data from the ECU.
 # Response = GetResponse(ELM327, b'04\r')
 
