@@ -36,7 +36,7 @@ import serial
 
 # Set SERIAL_PORT_NAME to the serial port your ELM327 device is connected to. 
 SERIAL_PORT_NAME = "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A800eaG9-if00-port0"
-SERIAL_PORT_BAUD = 38400
+SERIAL_PORT_BAUD = 9600
 SERIAL_PORT_TIME_OUT = 60
 
 ELM_CONNECT_SETTLE_PERIOD = 5
