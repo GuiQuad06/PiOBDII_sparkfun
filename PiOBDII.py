@@ -30,18 +30,50 @@
 
 import sys
 import time
-import serial
 
-
+try:
+    import serial
+    import serial.tools.list_ports
+except ImportError as e:
+    print(e)
+    msg = str(e).split()
+    print("Please, run: pip install " + msg[-1].replace("'", ""))
+    input("Press enter to quit. . . ")
+    sys.exit()
 
 # Set SERIAL_PORT_NAME to the serial port your ELM327 device is connected to. 
-SERIAL_PORT_NAME = "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A800eaG9-if00-port0"
 SERIAL_PORT_BAUD = 9600
 SERIAL_PORT_TIME_OUT = 60
 
 ELM_CONNECT_SETTLE_PERIOD = 5
 ELM_CONNECT_TRY_COUNT = 5
 
+#/*************************************************/
+#/* This function can be used to auto detect the  */
+#/* serial COM Port.                              */
+#/* Only one match is allowed, else an Error is   */
+#/* raised (ValueError).                          */
+#/* Takes the search pattern as a parameter,      */
+#/* for instance FTDI cables interfaces started   */
+#/* with "USB Serial Port"                        */
+#/* Returns the COM Port.                         */
+#/* response.                                     */
+#/*************************************************/
+def serial_auto_detect(search_pattern="USB Serial Port"):
+    # retrieve comport by description
+    tmp_comport = list(serial.tools.list_ports.grep(f".*{search_pattern}.*"))
+
+    if len(tmp_comport) == 0:
+        raise ValueError(f"Unable to find comport with pattern '{search_pattern}'")
+
+    if len(tmp_comport) > 1:
+        tmp_name = "\t-> " + ",\n\t-> ".join([c.description for c in tmp_comport])
+        raise ValueError(f"Several comports with pattern '{search_pattern}'\n{tmp_name}")
+
+    else:
+        comport = tmp_comport[0]
+        print(f"[auto detect] Found {comport.description}")
+        return comport
 
 
 #/*************************************************/
@@ -145,7 +177,8 @@ with open("TroubleCodes-R53_Cooper_S.txt", encoding='utf-8') as ThisFile:
 #  /****************************************************************/
 # /* Open the required serial port which the ELM327 device is on. */
 #/****************************************************************/
-ELM327 = serial.Serial(SERIAL_PORT_NAME, SERIAL_PORT_BAUD)
+comport = serial_auto_detect()
+ELM327 = serial.Serial(comport.device, SERIAL_PORT_BAUD)
 ELM327.timeout = SERIAL_PORT_TIME_OUT
 ELM327.write_timeout = SERIAL_PORT_TIME_OUT
 print("Serial Port: " + ELM327.name)
