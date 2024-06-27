@@ -122,7 +122,7 @@ def GetTroubleCodeData(ELM327, OBDIImode):
 # /* Read OBDII Trouble Code lookup table data. */
 #/**********************************************/
 TroubleCodePrefix = {}
-with open("TroubleCodePrefix.txt") as ThisFile:
+with open("TroubleCodePrefix.txt", encoding='utf-8') as ThisFile:
 	for ThisLine in ThisFile:
 		Digit, Code = ThisLine.partition(" ")[::2]
 		TroubleCodePrefix[Digit] = Code.strip()
@@ -132,12 +132,12 @@ with open("TroubleCodePrefix.txt") as ThisFile:
 #/**********************************************************/
 TroubleCodeDescriptions = {}
 # Load the ISO/SAE Trouble Code Descriptions.
-with open("TroubleCodes-ISO-SAE.txt") as ThisFile:
+with open("TroubleCodes-ISO-SAE.txt", encoding='utf-8') as ThisFile:
 	for ThisLine in ThisFile:
 		Code, Description = ThisLine.partition(" ")[::2]
 		TroubleCodeDescriptions[Code] = Description.strip()
 # Load the Vehicle/Manufacturer Trouble Code Descriptions.
-with open("TroubleCodes-R53_Cooper_S.txt") as ThisFile:
+with open("TroubleCodes-R53_Cooper_S.txt", encoding='utf-8') as ThisFile:
 	for ThisLine in ThisFile:
 		Code, Description = ThisLine.partition(" ")[::2]
 		TroubleCodeDescriptions[Code] = Description.strip()
