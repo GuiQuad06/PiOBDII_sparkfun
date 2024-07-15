@@ -87,7 +87,7 @@ class ELM327:
 #/*************************************************/
 		self.VehicleObdStandards = {}
 		try:
-			with open("DATA/VehicleObdStandards.txt") as ThisFile:
+			with open("DATA/VehicleObdStandards.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.VehicleObdStandards[Digit] = Code.strip()
@@ -100,7 +100,7 @@ class ELM327:
 #/**********************************************************/
 		self.CommandedSecondaryAirStatus = {}
 		try:
-			with open("DATA/CommandedSecondaryAirStatus.txt") as ThisFile:
+			with open("DATA/CommandedSecondaryAirStatus.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.CommandedSecondaryAirStatus[Digit] = Code.strip()
@@ -113,7 +113,7 @@ class ELM327:
 #/**********************************************/
 		self.FuelSystemStatus = {}
 		try:
-			with open("DATA/FuelSystemStatus.txt") as ThisFile:
+			with open("DATA/FuelSystemStatus.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.FuelSystemStatus[Digit] = Code.strip()
@@ -126,7 +126,7 @@ class ELM327:
 #/**********************************************/
 		self.TroubleCodePrefix = {}
 		try:
-			with open("DATA/TroubleCodePrefix.txt") as ThisFile:
+			with open("DATA/TroubleCodePrefix.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.TroubleCodePrefix[Digit] = Code.strip()
@@ -144,7 +144,7 @@ class ELM327:
 #/***************************************************/
 		self.PidDescriptionsMode01 = {}
 		try:
-			with open("DATA/PidDescriptionsMode01.txt") as ThisFile:
+			with open("DATA/PidDescriptionsMode01.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.PidDescriptionsMode01[Digit] = Code.strip()
@@ -156,7 +156,7 @@ class ELM327:
 #/***************************************************/
 		self.PidDescriptionsMode05 = {}
 		try:
-			with open("DATA/PidDescriptionsMode05.txt") as ThisFile:
+			with open("DATA/PidDescriptionsMode05.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.PidDescriptionsMode05[Digit] = Code.strip()
@@ -168,7 +168,7 @@ class ELM327:
 #/***************************************************/
 		self.PidDescriptionsMode09 = {}
 		try:
-			with open("DATA/PidDescriptionsMode09.txt") as ThisFile:
+			with open("DATA/PidDescriptionsMode09.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Digit, Code = ThisLine.partition(" ")[::2]
 					self.PidDescriptionsMode09[Digit] = Code.strip()
@@ -190,7 +190,7 @@ class ELM327:
 		self.TroubleCodeDescriptions = {}
 		# Load the ISO/SAE Trouble Code Descriptions.
 		try:
-			with open("DATA/TroubleCodes-ISO-SAE.txt") as ThisFile:
+			with open("DATA/TroubleCodes-ISO-SAE.txt", encoding='utf-8') as ThisFile:
 				for ThisLine in ThisFile:
 					Code, Description = ThisLine.partition(" ")[::2]
 					self.TroubleCodeDescriptions[Code] = Description.strip()
