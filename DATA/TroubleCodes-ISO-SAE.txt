@@ -3,33 +3,33 @@ P0001 Fuel Volume Regulator Control Circuit/Open
 P0002 Fuel Volume Regulator Control Circuit Range/Performance
 P0003 Fuel Volume Regulator Control Circuit Low
 P0004 Fuel Volume Regulator Control Circuit High
-P0005 Fuel Shutoff Valve “A” Control Circuit/Open
-P0006 Fuel Shutoff Valve “A” Control Circuit Low
-P0007 Fuel Shutoff Valve “A” Control Circuit High
+P0005 Fuel Shutoff Valve "A" Control Circuit/Open
+P0006 Fuel Shutoff Valve "A" Control Circuit Low
+P0007 Fuel Shutoff Valve "A" Control Circuit High
 P0008 Engine Position System Performance Bank 1
 P0009 Engine Position System Performance Bank 2
-P000A “A” Camshaft Position Slow Response Bank 1
-P000B “B” Camshaft Position Slow Response Bank 1
-P000C “A” Camshaft Position Slow Response Bank 2
-P000D “B” Camshaft Position Slow Response Bank 2
+P000A "A" Camshaft Position Slow Response Bank 1
+P000B "B" Camshaft Position Slow Response Bank 1
+P000C "A" Camshaft Position Slow Response Bank 2
+P000D "B" Camshaft Position Slow Response Bank 2
 P000E ISO/SAE reserved
 P000F ISO/SAE reserved
-P0010 “A” Camshaft Position Actuator Circuit / Open Bank 1
-P0011 “A” Camshaft Position – Timing Over-Advanced or System Performance Bank 1
-P0012 “A” Camshaft Position – Timing Over-Retarded Bank 1
-P0013 “B” Camshaft Position – Actuator Circuit / Open Bank 1
-P0014 “B” Camshaft Position – Timing Over-Advanced or System Performance Bank 1
-P0015 “B” Camshaft Position – Timing Over-Retarded Bank 1
+P0010 "A" Camshaft Position Actuator Circuit / Open Bank 1
+P0011 "A" Camshaft Position – Timing Over-Advanced or System Performance Bank 1
+P0012 "A" Camshaft Position – Timing Over-Retarded Bank 1
+P0013 "B" Camshaft Position – Actuator Circuit / Open Bank 1
+P0014 "B" Camshaft Position – Timing Over-Advanced or System Performance Bank 1
+P0015 "B" Camshaft Position – Timing Over-Retarded Bank 1
 P0016 Crankshaft Position – Camshaft Position Correlation Bank 1 Sensor A
 P0017 Crankshaft Position – Camshaft Position Correlation Bank 1 Sensor B
 P0018 Crankshaft Position – Camshaft Position Correlation Bank 2 Sensor A
 P0019 Crankshaft Position – Camshaft Position Correlation Bank 2 Sensor B
-P0020 “A” Camshaft Position Actuator Circuit / Open Bank 2
-P0021 “A” Camshaft Position – Timing Over-Advanced or System Performance Bank 2
-P0022 “A” Camshaft Position – Timing Over-Retarded Bank 2
-P0023 “B” Camshaft Position – Actuator Circuit / Open Bank 2
-P0024 “B” Camshaft Position – Timing Over-Advanced or System Performance Bank 2
-P0025 “B” Camshaft Position – Timing Over-Retarded Bank 2
+P0020 "A" Camshaft Position Actuator Circuit / Open Bank 2
+P0021 "A" Camshaft Position – Timing Over-Advanced or System Performance Bank 2
+P0022 "A" Camshaft Position – Timing Over-Retarded Bank 2
+P0023 "B" Camshaft Position – Actuator Circuit / Open Bank 2
+P0024 "B" Camshaft Position – Timing Over-Advanced or System Performance Bank 2
+P0025 "B" Camshaft Position – Timing Over-Retarded Bank 2
 P0026 Intake Valve Control Solenoid Circuit Range/Performance Bank 1
 P0027 Exhaust Valve Control Solenoid Circuit Range/Performance Bank 1
 P0028 Intake Valve Control Solenoid Circuit Range/Performance Bank 2
@@ -49,17 +49,17 @@ P0041 O2 Sensor Signals Swapped Bank 1 Sensor 2/Bank 2 Sensor 2
 P0042 HO2S Heater Control Circuit Bank 1 Sensor 3
 P0043 HO2S Heater Control Circuit Low Bank 1 Sensor 3
 P0044 HO2S Heater Control Circuit High Bank 1 Sensor 3
-P0045 Turbocharger/Supercharger Boost Control Solenoid “A” Circuit/Open
-P0046 Turbocharger/Supercharger Boost Control Solenoid “A” Circuit Range/Performance
-P0047 Turbocharger/Supercharger Boost Control Solenoid “A” Circuit Low
-P0048 Turbocharger/Supercharger Boost Control Solenoid “A” Circuit High
+P0045 Turbocharger/Supercharger Boost Control Solenoid "A" Circuit/Open
+P0046 Turbocharger/Supercharger Boost Control Solenoid "A" Circuit Range/Performance
+P0047 Turbocharger/Supercharger Boost Control Solenoid "A" Circuit Low
+P0048 Turbocharger/Supercharger Boost Control Solenoid "A" Circuit High
 P0049 Turbocharger/Supercharger Turbine Overspeed
-P004A Turbocharger/Supercharger Boost Control Solenoid “B” Circuit / Open
-P004B Turbocharger/Supercharger Boost Control Solenoid “B” Circuit Range/Performance
-P004C Turbocharger/Supercharger Boost Control Solenoid “B” Circuit Low
-P004D Turbocharger/Supercharger Boost Control Solenoid “B” Circuit High
-P004E Turbocharger/Supercharger Boost Control Solenoid “A” Circuit Intermittent/Erratic
-P004F Turbocharger/Supercharger Boost Control Solenoid “B” Circuit Intermittent/Erratic
+P004A Turbocharger/Supercharger Boost Control Solenoid "B" Circuit / Open
+P004B Turbocharger/Supercharger Boost Control Solenoid "B" Circuit Range/Performance
+P004C Turbocharger/Supercharger Boost Control Solenoid "B" Circuit Low
+P004D Turbocharger/Supercharger Boost Control Solenoid "B" Circuit High
+P004E Turbocharger/Supercharger Boost Control Solenoid "A" Circuit Intermittent/Erratic
+P004F Turbocharger/Supercharger Boost Control Solenoid "B" Circuit Intermittent/Erratic
 P0050 HO2S Heater Control Circuit Bank 2 Sensor 1
 P0051 HO2S Heater Control Circuit Low Bank 2 Sensor 1
 P0052 HO2S Heater Control Circuit High Bank 2 Sensor 1
@@ -117,21 +117,21 @@ P0097 Intake Air Temperature Sensor 2 Circuit Low
 P0098 Intake Air Temperature Sensor 2 Circuit High
 P0099 Intake Air Temperature Sensor 2 Circuit Intermittent/Erratic
 P009A Intake Air Temperature / Ambient Air Temperature Correlation
-P0100 Mass or Volume Air Flow “A” Circuit
-P0101 Mass or Volume Air Flow “A” Circuit Range/Performance
-P0102 Mass or Volume Air Flow “A” Circuit Low
-P0103 Mass or Volume Air Flow “A” Circuit High
-P0104 Mass or Volume Air Flow “A” Circuit Intermittent
+P0100 Mass or Volume Air Flow "A" Circuit
+P0101 Mass or Volume Air Flow "A" Circuit Range/Performance
+P0102 Mass or Volume Air Flow "A" Circuit Low
+P0103 Mass or Volume Air Flow "A" Circuit High
+P0104 Mass or Volume Air Flow "A" Circuit Intermittent
 P0105 Manifold Absolute Pressure/Barometric Pressure Circuit
 P0106 Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance
 P0107 Manifold Absolute Pressure/Barometric Pressure Circuit Low
 P0108 Manifold Absolute Pressure/Barometric Pressure Circuit High
 P0109 Manifold Absolute Pressure/Barometric Pressure Circuit Intermittent
-P010A Mass or Volume Air Flow “B” Circuit
-P010B Mass or Volume Air Flow “B” Circuit Range/Performance
-P010C Mass or Volume Air Flow “B” Circuit Low
-P010D Mass or Volume Air Flow “B” Circuit High
-P010E Mass or Volume Air Flow “B” Circuit Intermittent/Erratic
+P010A Mass or Volume Air Flow "B" Circuit
+P010B Mass or Volume Air Flow "B" Circuit Range/Performance
+P010C Mass or Volume Air Flow "B" Circuit Low
+P010D Mass or Volume Air Flow "B" Circuit High
+P010E Mass or Volume Air Flow "B" Circuit Intermittent/Erratic
 P010F Mass or Volume Air Flow Sensor A/B Correlation
 P0110 Intake Air Temperature Sensor 1 Circuit
 P0111 Intake Air Temperature Sensor 1 Circuit Range/Performance
@@ -144,11 +144,11 @@ P0117 Engine Coolant Temperature Sensor 1 Circuit Low
 P0118 Engine Coolant Temperature Sensor 1 Circuit High
 P0119 Engine Coolant Temperature Sensor 1 Circuit Intermittent
 P011A Engine Coolant Temperature Sensor 1/2 Correlation
-P0120 Throttle/Pedal Position Sensor/Switch “A” Circuit
-P0121 Throttle/Pedal Position Sensor/Switch “A” Circuit Range/Performance
-P0122 Throttle/Pedal Position Sensor/Switch “A” Circuit Low
-P0123 Throttle/Pedal Position Sensor/Switch “A” Circuit High
-P0124 Throttle/Pedal Position Sensor/Switch “A” Circuit Intermittent
+P0120 Throttle/Pedal Position Sensor/Switch "A" Circuit
+P0121 Throttle/Pedal Position Sensor/Switch "A" Circuit Range/Performance
+P0122 Throttle/Pedal Position Sensor/Switch "A" Circuit Low
+P0123 Throttle/Pedal Position Sensor/Switch "A" Circuit High
+P0124 Throttle/Pedal Position Sensor/Switch "A" Circuit Intermittent
 P0125 Insufficient Coolant Temperature for Closed Loop Fuel Control
 P0126 Insufficient Coolant Temperature for Stable Operation
 P0127 Intake Air Temperature Too High
@@ -210,27 +210,27 @@ P0176 Fuel Composition Sensor Circuit
 P0177 Fuel Composition Sensor Circuit Range/Performance
 P0178 Fuel Composition Sensor Circuit Low
 P0179 Fuel Composition Sensor Circuit High
-P0180 Fuel Temperature Sensor “A” Circuit
-P0181 Fuel Temperature Sensor “A” Circuit Range/Performance
-P0182 Fuel Temperature Sensor “A” Circuit Low
-P0183 Fuel Temperature Sensor “A” Circuit High
-P0184 Fuel Temperature Sensor “A” Circuit Intermittent
-P0185 Fuel Temperature Sensor “B” Circuit
-P0186 Fuel Temperature Sensor “B” Circuit Range/Performance
-P0187 Fuel Temperature Sensor “B” Circuit Low
-P0188 Fuel Temperature Sensor “B” Circuit High
-P0189 Fuel Temperature Sensor “B” Circuit Intermittent
-P018A Fuel Pressure Sensor “B” Circuit
-P018B Fuel Pressure Sensor “B” Circuit Range/Performance
-P018C Fuel Pressure Sensor “B” Circuit Low
-P018D Fuel Pressure Sensor “B” Circuit High
-P018E Fuel Pressure Sensor “B” Circuit Intermittent/Erratic
+P0180 Fuel Temperature Sensor "A" Circuit
+P0181 Fuel Temperature Sensor "A" Circuit Range/Performance
+P0182 Fuel Temperature Sensor "A" Circuit Low
+P0183 Fuel Temperature Sensor "A" Circuit High
+P0184 Fuel Temperature Sensor "A" Circuit Intermittent
+P0185 Fuel Temperature Sensor "B" Circuit
+P0186 Fuel Temperature Sensor "B" Circuit Range/Performance
+P0187 Fuel Temperature Sensor "B" Circuit Low
+P0188 Fuel Temperature Sensor "B" Circuit High
+P0189 Fuel Temperature Sensor "B" Circuit Intermittent
+P018A Fuel Pressure Sensor "B" Circuit
+P018B Fuel Pressure Sensor "B" Circuit Range/Performance
+P018C Fuel Pressure Sensor "B" Circuit Low
+P018D Fuel Pressure Sensor "B" Circuit High
+P018E Fuel Pressure Sensor "B" Circuit Intermittent/Erratic
 P018F ISO/SAE reserved
-P0190 Fuel Rail Pressure Sensor “A” Circuit
-P0191 Fuel Rail Pressure Sensor “A” Circuit Range/Performance
-P0192 Fuel Rail Pressure Sensor “A” Circuit Low
-P0193 Fuel Rail Pressure Sensor “A” Circuit High
-P0194 Fuel Rail Pressure Sensor “A” Circuit Intermittent/Erratic
+P0190 Fuel Rail Pressure Sensor "A" Circuit
+P0191 Fuel Rail Pressure Sensor "A" Circuit Range/Performance
+P0192 Fuel Rail Pressure Sensor "A" Circuit Low
+P0193 Fuel Rail Pressure Sensor "A" Circuit High
+P0194 Fuel Rail Pressure Sensor "A" Circuit Intermittent/Erratic
 P0195 Engine Oil Temperature Sensor
 P0196 Engine Oil Temperature Sensor Range/Performance
 P0197 Engine Oil Temperature Sensor Low
@@ -268,69 +268,69 @@ P021C Cylinder 9 Injection Timing
 P021D Cylinder 10 Injection Timing
 P021E Cylinder 11 Injection Timing
 P021F Cylinder 12 Injection Timing
-P0220 Throttle/Pedal Position Sensor/Switch “B” Circuit
-P0221 Throttle/Pedal Position Sensor/Switch “B” Circuit Range/Performance
-P0222 Throttle/Pedal Position Sensor/Switch “B” Circuit Low
-P0223 Throttle/Pedal Position Sensor/Switch “B” Circuit High
-P0224 Throttle/Pedal Position Sensor/Switch “B” Circuit Intermittent
-P0225 Throttle/Pedal Position Sensor/Switch “C” Circuit
-P0226 Throttle/Pedal Position Sensor/Switch “C” Circuit Range/Performance
-P0227 Throttle/Pedal Position Sensor/Switch “C” Circuit Low
-P0228 Throttle/Pedal Position Sensor/Switch “C” Circuit High
-P0229 Throttle/Pedal Position Sensor/Switch “C” Circuit Intermittent
-P022A Charge Air Cooler Bypass Control “A” Circuit /Open
-P022B Charge Air Cooler Bypass Control “A” Circuit Low
-P022C Charge Air Cooler Bypass Control “A” Circuit High
-P022D Charge Air Cooler Bypass Control “B” Circuit /Open
-P022E Charge Air Cooler Bypass Control “B” Circuit Low
-P022F Charge Air Cooler Bypass Control “B” Circuit High
+P0220 Throttle/Pedal Position Sensor/Switch "B" Circuit
+P0221 Throttle/Pedal Position Sensor/Switch "B" Circuit Range/Performance
+P0222 Throttle/Pedal Position Sensor/Switch "B" Circuit Low
+P0223 Throttle/Pedal Position Sensor/Switch "B" Circuit High
+P0224 Throttle/Pedal Position Sensor/Switch "B" Circuit Intermittent
+P0225 Throttle/Pedal Position Sensor/Switch "C" Circuit
+P0226 Throttle/Pedal Position Sensor/Switch "C" Circuit Range/Performance
+P0227 Throttle/Pedal Position Sensor/Switch "C" Circuit Low
+P0228 Throttle/Pedal Position Sensor/Switch "C" Circuit High
+P0229 Throttle/Pedal Position Sensor/Switch "C" Circuit Intermittent
+P022A Charge Air Cooler Bypass Control "A" Circuit /Open
+P022B Charge Air Cooler Bypass Control "A" Circuit Low
+P022C Charge Air Cooler Bypass Control "A" Circuit High
+P022D Charge Air Cooler Bypass Control "B" Circuit /Open
+P022E Charge Air Cooler Bypass Control "B" Circuit Low
+P022F Charge Air Cooler Bypass Control "B" Circuit High
 P0230 Fuel Pump Primary Circuit
 P0231 Fuel Pump Secondary Circuit Low
 P0232 Fuel Pump Secondary Circuit High
 P0233 Fuel Pump Secondary Circuit Intermittent
 P0234 Turbocharger/Supercharger Overboost Condition
-P0235 Turbocharger/Supercharger Boost Sensor “A” Circuit
-P0236 Turbocharger/Supercharger Boost Sensor “A” Circuit Range/Performance
-P0237 Turbocharger/Supercharger Boost Sensor “A” Circuit Low
-P0238 Turbocharger/Supercharger Boost Sensor “A” Circuit High
-P0239 Turbocharger/Supercharger Boost Sensor “B” Circuit
+P0235 Turbocharger/Supercharger Boost Sensor "A" Circuit
+P0236 Turbocharger/Supercharger Boost Sensor "A" Circuit Range/Performance
+P0237 Turbocharger/Supercharger Boost Sensor "A" Circuit Low
+P0238 Turbocharger/Supercharger Boost Sensor "A" Circuit High
+P0239 Turbocharger/Supercharger Boost Sensor "B" Circuit
 P023A Charge Air Cooler Coolant Pump Control Circuit/Open
 P023B Charge Air Cooler Coolant Pump Control Circuit Low
 P023C Charge Air Cooler Coolant Pump Control Circuit High
-P023D Manifold Absolute Pressure – Turbocharger/Supercharger Boost Sensor “A” Correlation
-P023E Manifold Absolute Pressure – Turbocharger/Supercharger Boost Sensor “B” Correlation
+P023D Manifold Absolute Pressure – Turbocharger/Supercharger Boost Sensor "A" Correlation
+P023E Manifold Absolute Pressure – Turbocharger/Supercharger Boost Sensor "B" Correlation
 P023F ISO/SAE reserved
-P0240 Turbocharger/Supercharger Boost Sensor “B” Circuit Range/Performance
-P0241 Turbocharger/Supercharger Boost Sensor “B” Circuit Low
-P0242 Turbocharger/Supercharger Boost Sensor “B” Circuit High
-P0243 Turbocharger/Supercharger Wastegate Solenoid “A”
-P0244 Turbocharger/Supercharger Wastegate Solenoid “A” Range/Performance
-P0245 Turbocharger/Supercharger Wastegate Solenoid “A” Low
-P0246 Turbocharger/Supercharger Wastegate Solenoid “A” High
-P0247 Turbocharger/Supercharger Wastegate Solenoid “B”
-P0248 Turbocharger/Supercharger Wastegate Solenoid “B” Range/Performance
-P0249 Turbocharger/Supercharger Wastegate Solenoid “B” Low
-P024A Charge Air Cooler Bypass Control “A” Range/Performance
-P024B Charge Air Cooler Bypass Control “A” Stuck
-P024C Charge Air Cooler Bypass Position Sensor “A” Circuit
-P024D Charge Air Cooler Bypass Position Sensor “A” Circuit Range/Performance
-P024E Charge Air Cooler Bypass Position Sensor “A” Circuit Low
-P024F Charge Air Cooler Bypass Position Sensor “A” Circuit High
-P0250 Turbocharger/Supercharger Wastegate Solenoid “B” High
-P0251 Injection Pump Fuel Metering Control “A” (Cam/Rotor/Injector)
-P0252 Injection Pump Fuel Metering Control “A” Range/Performance (Cam/Rotor/Injector)
-P0253 Injection Pump Fuel Metering Control “A” Low (Cam/Rotor/Injector)
-P0254 Injection Pump Fuel Metering Control “A” High (Cam/Rotor/Injector)
-P0255 Injection Pump Fuel Metering Control “A” Intermittent (Cam/Rotor/Injector)
-P0256 Injection Pump Fuel Metering Control “B” (Cam/Rotor/Injector)
-P0257 Injection Pump Fuel Metering Control “B” Range/Performance (Cam/Rotor/Injector)
-P0258 Injection Pump Fuel Metering Control “B” Low (Cam/Rotor/Injector)
-P0259 Injection Pump Fuel Metering Control “B” High (Cam/Rotor/Injector)
+P0240 Turbocharger/Supercharger Boost Sensor "B" Circuit Range/Performance
+P0241 Turbocharger/Supercharger Boost Sensor "B" Circuit Low
+P0242 Turbocharger/Supercharger Boost Sensor "B" Circuit High
+P0243 Turbocharger/Supercharger Wastegate Solenoid "A"
+P0244 Turbocharger/Supercharger Wastegate Solenoid "A" Range/Performance
+P0245 Turbocharger/Supercharger Wastegate Solenoid "A" Low
+P0246 Turbocharger/Supercharger Wastegate Solenoid "A" High
+P0247 Turbocharger/Supercharger Wastegate Solenoid "B"
+P0248 Turbocharger/Supercharger Wastegate Solenoid "B" Range/Performance
+P0249 Turbocharger/Supercharger Wastegate Solenoid "B" Low
+P024A Charge Air Cooler Bypass Control "A" Range/Performance
+P024B Charge Air Cooler Bypass Control "A" Stuck
+P024C Charge Air Cooler Bypass Position Sensor "A" Circuit
+P024D Charge Air Cooler Bypass Position Sensor "A" Circuit Range/Performance
+P024E Charge Air Cooler Bypass Position Sensor "A" Circuit Low
+P024F Charge Air Cooler Bypass Position Sensor "A" Circuit High
+P0250 Turbocharger/Supercharger Wastegate Solenoid "B" High
+P0251 Injection Pump Fuel Metering Control "A" (Cam/Rotor/Injector)
+P0252 Injection Pump Fuel Metering Control "A" Range/Performance (Cam/Rotor/Injector)
+P0253 Injection Pump Fuel Metering Control "A" Low (Cam/Rotor/Injector)
+P0254 Injection Pump Fuel Metering Control "A" High (Cam/Rotor/Injector)
+P0255 Injection Pump Fuel Metering Control "A" Intermittent (Cam/Rotor/Injector)
+P0256 Injection Pump Fuel Metering Control "B" (Cam/Rotor/Injector)
+P0257 Injection Pump Fuel Metering Control "B" Range/Performance (Cam/Rotor/Injector)
+P0258 Injection Pump Fuel Metering Control "B" Low (Cam/Rotor/Injector)
+P0259 Injection Pump Fuel Metering Control "B" High (Cam/Rotor/Injector)
 P025A Fuel Pump Module Control Circuit/Open
 P025B Fuel Pump Module Control Circuit Range/Performance
 P025C Fuel Pump Module Control Circuit Low
 P025D Fuel Pump Module Control Circuit High
-P0260 Injection Pump Fuel Metering Control “B” Intermittent (Cam/Rotor/Injector)
+P0260 Injection Pump Fuel Metering Control "B" Intermittent (Cam/Rotor/Injector)
 P0261 Cylinder 1 Injector Circuit Low
 P0262 Cylinder 1 Injector Circuit High
 P0263 Cylinder 1 Contribution/Balance
@@ -388,8 +388,8 @@ P0314 Single Cylinder Misfire (Cylinder not Specified)
 P0315 Crankshaft Position System Variation Not Learned
 P0316 Engine Misfire Detected on Startup (First 1000 Revolutions)
 P0317 Rough Road Hardware Not Present
-P0318 Rough Road Sensor “A” Signal Circuit
-P0319 Rough Road Sensor “B” Signal Circuit
+P0318 Rough Road Sensor "A" Signal Circuit
+P0319 Rough Road Sensor "B" Signal Circuit
 P0320 Ignition/Distributor Engine Speed Input Circuit
 P0321 Ignition/Distributor Engine Speed Input Circuit Range/Performance
 P0322 Ignition/Distributor Engine Speed Input Circuit No Signal
@@ -405,97 +405,97 @@ P0331 Knock Sensor 2 Circuit Range/Performance Bank 2
 P0332 Knock Sensor 2 Circuit Low Bank 2
 P0333 Knock Sensor 2 Circuit High Bank 2
 P0334 Knock Sensor 2 Circuit Intermittent Bank 2
-P0335 Crankshaft Position Sensor “A” Circuit
-P0336 Crankshaft Position Sensor “A” Circuit Range/Performance
-P0337 Crankshaft Position Sensor “A” Circuit Low
-P0338 Crankshaft Position Sensor “A” Circuit High
-P0339 Crankshaft Position Sensor “A” Circuit Intermittent
-P0340 Camshaft Position Sensor “A” Circuit Bank 1 or Single Sensor
-P0341 Camshaft Position Sensor “A” Circuit Range/Performance Bank 1 or Single Sensor
-P0342 Camshaft Position Sensor “A” Circuit Low Bank 1 or Single Sensor
-P0343 Camshaft Position Sensor “A” Circuit High Bank 1 or Single Sensor
-P0344 Camshaft Position Sensor “A” Circuit Intermittent Bank 1 or Single Sensor
-P0345 Camshaft Position Sensor “A” Circuit Bank 2
-P0346 Camshaft Position Sensor “A” Circuit Range/Performance Bank 2
-P0347 Camshaft Position Sensor “A” Circuit Low Bank 2
-P0348 Camshaft Position Sensor “A” Circuit High Bank 2
-P0349 Camshaft Position Sensor “A” Circuit Intermittent Bank 2
+P0335 Crankshaft Position Sensor "A" Circuit
+P0336 Crankshaft Position Sensor "A" Circuit Range/Performance
+P0337 Crankshaft Position Sensor "A" Circuit Low
+P0338 Crankshaft Position Sensor "A" Circuit High
+P0339 Crankshaft Position Sensor "A" Circuit Intermittent
+P0340 Camshaft Position Sensor "A" Circuit Bank 1 or Single Sensor
+P0341 Camshaft Position Sensor "A" Circuit Range/Performance Bank 1 or Single Sensor
+P0342 Camshaft Position Sensor "A" Circuit Low Bank 1 or Single Sensor
+P0343 Camshaft Position Sensor "A" Circuit High Bank 1 or Single Sensor
+P0344 Camshaft Position Sensor "A" Circuit Intermittent Bank 1 or Single Sensor
+P0345 Camshaft Position Sensor "A" Circuit Bank 2
+P0346 Camshaft Position Sensor "A" Circuit Range/Performance Bank 2
+P0347 Camshaft Position Sensor "A" Circuit Low Bank 2
+P0348 Camshaft Position Sensor "A" Circuit High Bank 2
+P0349 Camshaft Position Sensor "A" Circuit Intermittent Bank 2
 P0350 Ignition Coil Primary/Secondary Circuit
-P0351 Ignition Coil “A” Primary/Secondary Circuit
-P0352 Ignition Coil “B” Primary/Secondary Circuit
-P0353 Ignition Coil “C” Primary/Secondary Circuit
-P0354 Ignition Coil “D” Primary/Secondary Circuit
-P0355 Ignition Coil “E” Primary/Secondary Circuit
-P0356 Ignition Coil “F” Primary/Secondary Circuit
-P0357 Ignition Coil “G” Primary/Secondary Circuit
-P0358 Ignition Coil “H” Primary/Secondary Circuit
-P0359 Ignition Coil “I” Primary/Secondary Circuit
-P0360 Ignition Coil “J” Primary/Secondary Circuit
-P0361 Ignition Coil “K” Primary/Secondary Circuit
-P0362 Ignition Coil “L” Primary/Secondary Circuit
+P0351 Ignition Coil "A" Primary/Secondary Circuit
+P0352 Ignition Coil "B" Primary/Secondary Circuit
+P0353 Ignition Coil "C" Primary/Secondary Circuit
+P0354 Ignition Coil "D" Primary/Secondary Circuit
+P0355 Ignition Coil "E" Primary/Secondary Circuit
+P0356 Ignition Coil "F" Primary/Secondary Circuit
+P0357 Ignition Coil "G" Primary/Secondary Circuit
+P0358 Ignition Coil "H" Primary/Secondary Circuit
+P0359 Ignition Coil "I" Primary/Secondary Circuit
+P0360 Ignition Coil "J" Primary/Secondary Circuit
+P0361 Ignition Coil "K" Primary/Secondary Circuit
+P0362 Ignition Coil "L" Primary/Secondary Circuit
 P0363 Misfire Detected – Fueling Disabled
 P0364 ISO/SAE reserved
-P0365 Camshaft Position Sensor “B” Circuit Bank 1
-P0366 Camshaft Position Sensor “B” Circuit Range/Performance Bank 1
-P0367 Camshaft Position Sensor “B” Circuit Low Bank 1
-P0368 Camshaft Position Sensor “B” Circuit High Bank 1
-P0369 Camshaft Position Sensor “B” Circuit Intermittent Bank 1
-P0370 Timing Reference High Resolution Signal “A”
-P0371 Timing Reference High Resolution Signal “A” Too Many Pulses
-P0372 Timing Reference High Resolution Signal “A” Too Few Pulses
-P0373 Timing Reference High Resolution Signal “A” Intermittent/Erratic Pulses
-P0374 Timing Reference High Resolution Signal “A” No Pulse
-P0375 Timing Reference High Resolution Signal “B”
-P0376 Timing Reference High Resolution Signal “B” Too Many Pulses
-P0377 Timing Reference High Resolution Signal “B” Too Few Pulses
-P0378 Timing Reference High Resolution Signal “B” Intermittent/Erratic Pulses
-P0379 Timing Reference High Resolution Signal “B” No Pulses
-P0380 Glow Plug/Heater Circuit “A”
+P0365 Camshaft Position Sensor "B" Circuit Bank 1
+P0366 Camshaft Position Sensor "B" Circuit Range/Performance Bank 1
+P0367 Camshaft Position Sensor "B" Circuit Low Bank 1
+P0368 Camshaft Position Sensor "B" Circuit High Bank 1
+P0369 Camshaft Position Sensor "B" Circuit Intermittent Bank 1
+P0370 Timing Reference High Resolution Signal "A"
+P0371 Timing Reference High Resolution Signal "A" Too Many Pulses
+P0372 Timing Reference High Resolution Signal "A" Too Few Pulses
+P0373 Timing Reference High Resolution Signal "A" Intermittent/Erratic Pulses
+P0374 Timing Reference High Resolution Signal "A" No Pulse
+P0375 Timing Reference High Resolution Signal "B"
+P0376 Timing Reference High Resolution Signal "B" Too Many Pulses
+P0377 Timing Reference High Resolution Signal "B" Too Few Pulses
+P0378 Timing Reference High Resolution Signal "B" Intermittent/Erratic Pulses
+P0379 Timing Reference High Resolution Signal "B" No Pulses
+P0380 Glow Plug/Heater Circuit "A"
 P0381 Glow Plug/Heater Indicator Circuit
-P0382 Glow Plug/Heater Circuit “B”
+P0382 Glow Plug/Heater Circuit "B"
 P0383 Glow Plug Control Module Control Circuit Low
 P0384 Glow Plug Control Module Control Circuit High
-P0385 Crankshaft Position Sensor “B” Circuit
-P0386 Crankshaft Position Sensor “B” Circuit Range/Performance
-P0387 Crankshaft Position Sensor “B” Circuit Low
-P0388 Crankshaft Position Sensor “B” Circuit High
-P0389 Crankshaft Position Sensor “B” Circuit Intermittent
-P0390 Camshaft Position Sensor “B” Circuit Bank 2
-P0391 Camshaft Position Sensor “B” Circuit Range/Performance Bank 2
-P0392 Camshaft Position Sensor “B” Circuit Low Bank 2
-P0393 Camshaft Position Sensor “B” Circuit High Bank 2
-P0394 Camshaft Position Sensor “B” Circuit Intermittent Bank 2
+P0385 Crankshaft Position Sensor "B" Circuit
+P0386 Crankshaft Position Sensor "B" Circuit Range/Performance
+P0387 Crankshaft Position Sensor "B" Circuit Low
+P0388 Crankshaft Position Sensor "B" Circuit High
+P0389 Crankshaft Position Sensor "B" Circuit Intermittent
+P0390 Camshaft Position Sensor "B" Circuit Bank 2
+P0391 Camshaft Position Sensor "B" Circuit Range/Performance Bank 2
+P0392 Camshaft Position Sensor "B" Circuit Low Bank 2
+P0393 Camshaft Position Sensor "B" Circuit High Bank 2
+P0394 Camshaft Position Sensor "B" Circuit Intermittent Bank 2
 P0400 Exhaust Gas Recirculation Flow
 P0401 Exhaust Gas Recirculation Flow Insufficient Detected
 P0402 Exhaust Gas Recirculation Flow Excessive Detected
 P0403 Exhaust Gas Recirculation Control Circuit
 P0404 Exhaust Gas Recirculation Control Circuit Range/Performance
-P0405 Exhaust Gas Recirculation Sensor “A” Circuit Low
-P0406 Exhaust Gas Recirculation Sensor “A” Circuit High
-P0407 Exhaust Gas Recirculation Sensor “B” Circuit Low
-P0408 Exhaust Gas Recirculation Sensor “B” Circuit High
-P0409 Exhaust Gas Recirculation Sensor “A” Circuit
-P040A Exhaust Gas Recirculation Temperature Sensor “A” Circuit
-P040B Exhaust Gas Recirculation Temperature Sensor “A” Circuit Range/Performance
-P040C Exhaust Gas Recirculation Temperature Sensor “A” Circuit Low
-P040D Exhaust Gas Recirculation Temperature Sensor “A” Circuit High
-P040E Exhaust Gas Recirculation Temperature Sensor “A” Circuit Intermittent/Erratic
-P040F Exhaust Gas Recirculation Temperature Sensor “A”/”B” Correlation
+P0405 Exhaust Gas Recirculation Sensor "A" Circuit Low
+P0406 Exhaust Gas Recirculation Sensor "A" Circuit High
+P0407 Exhaust Gas Recirculation Sensor "B" Circuit Low
+P0408 Exhaust Gas Recirculation Sensor "B" Circuit High
+P0409 Exhaust Gas Recirculation Sensor "A" Circuit
+P040A Exhaust Gas Recirculation Temperature Sensor "A" Circuit
+P040B Exhaust Gas Recirculation Temperature Sensor "A" Circuit Range/Performance
+P040C Exhaust Gas Recirculation Temperature Sensor "A" Circuit Low
+P040D Exhaust Gas Recirculation Temperature Sensor "A" Circuit High
+P040E Exhaust Gas Recirculation Temperature Sensor "A" Circuit Intermittent/Erratic
+P040F Exhaust Gas Recirculation Temperature Sensor "A"/"B" Correlation
 P0410 Secondary Air Injection System
 P0411 Secondary Air Injection System Incorrect Flow Detected
-P0412 Secondary Air Injection System Switching Valve “A” Circuit
-P0413 Secondary Air Injection System Switching Valve “A” Circuit Open
-P0414 Secondary Air Injection System Switching Valve “A” Circuit Shorted
-P0415 Secondary Air Injection System Switching Valve “B” Circuit
-P0416 Secondary Air Injection System Switching Valve “B” Circuit Open
-P0417 Secondary Air Injection System Switching Valve “B” Circuit Shorted
-P0418 Secondary Air Injection System Control “A” Circuit
-P0419 Secondary Air Injection System Control “B” Circuit
-P041A Exhaust Gas Recirculation Temperature Sensor “B” Circuit
-P041B Exhaust Gas Recirculation Temperature Sensor “B” Circuit Range/Performance
-P041C Exhaust Gas Recirculation Temperature Sensor “B” Circuit Low
-P041D Exhaust Gas Recirculation Temperature Sensor “B” Circuit High
-P041E Exhaust Gas Recirculation Temperature Sensor “B” Circuit Intermittent/Erratic
+P0412 Secondary Air Injection System Switching Valve "A" Circuit
+P0413 Secondary Air Injection System Switching Valve "A" Circuit Open
+P0414 Secondary Air Injection System Switching Valve "A" Circuit Shorted
+P0415 Secondary Air Injection System Switching Valve "B" Circuit
+P0416 Secondary Air Injection System Switching Valve "B" Circuit Open
+P0417 Secondary Air Injection System Switching Valve "B" Circuit Shorted
+P0418 Secondary Air Injection System Control "A" Circuit
+P0419 Secondary Air Injection System Control "B" Circuit
+P041A Exhaust Gas Recirculation Temperature Sensor "B" Circuit
+P041B Exhaust Gas Recirculation Temperature Sensor "B" Circuit Range/Performance
+P041C Exhaust Gas Recirculation Temperature Sensor "B" Circuit Low
+P041D Exhaust Gas Recirculation Temperature Sensor "B" Circuit High
+P041E Exhaust Gas Recirculation Temperature Sensor "B" Circuit Intermittent/Erratic
 P041F ISO/SAE reserved
 P0420 Catalyst System Efficiency Below Threshold Bank 1
 P0421 Warm Up Catalyst Efficiency Below Threshold Bank 1
@@ -549,31 +549,31 @@ P0456 Evaporative Emission System Leak Detected (very small leak)
 P0457 Evaporative Emission System Leak Detected (fuel cap loose/off)
 P0458 Evaporative Emission System Purge Control Valve Circuit Low
 P0459 Evaporative Emission System Purge Control Valve Circuit High
-P0460 Fuel Level Sensor “A” Circuit
-P0461 Fuel Level Sensor “A” Circuit Range/Performance
-P0462 Fuel Level Sensor “A” Circuit Low
-P0463 Fuel Level Sensor “A” Circuit High
-P0464 Fuel Level Sensor “A” Circuit Intermittent
+P0460 Fuel Level Sensor "A" Circuit
+P0461 Fuel Level Sensor "A" Circuit Range/Performance
+P0462 Fuel Level Sensor "A" Circuit Low
+P0463 Fuel Level Sensor "A" Circuit High
+P0464 Fuel Level Sensor "A" Circuit Intermittent
 P0465 EVAP Purge Flow Sensor Circuit
 P0466 EVAP Purge Flow Sensor Circuit Range/Performance
 P0467 EVAP Purge Flow Sensor Circuit Low
 P0468 EVAP Purge Flow Sensor Circuit High
 P0469 EVAP Purge Flow Sensor Circuit Intermittent
-P0470 Exhaust Pressure Sensor “A” Circuit
-P0471 Exhaust Pressure Sensor “A” Circuit Range/Performance
-P0472 Exhaust Pressure Sensor “A” Circuit Low
-P0473 Exhaust Pressure Sensor “A” Circuit High
-P0474 Exhaust Pressure Sensor “A” Circuit Intermittent/Erratic
+P0470 Exhaust Pressure Sensor "A" Circuit
+P0471 Exhaust Pressure Sensor "A" Circuit Range/Performance
+P0472 Exhaust Pressure Sensor "A" Circuit Low
+P0473 Exhaust Pressure Sensor "A" Circuit High
+P0474 Exhaust Pressure Sensor "A" Circuit Intermittent/Erratic
 P0475 Exhaust Pressure Control Valve
 P0476 Exhaust Pressure Control Valve Range/Performance
 P0477 Exhaust Pressure Control Valve Low
 P0478 Exhaust Pressure Control Valve High
 P0479 Exhaust Pressure Control Valve Intermittent
-P047A Exhaust Pressure Sensor “B” Circuit
-P047B Exhaust Pressure Sensor “B” Circuit Range/Performance
-P047C Exhaust Pressure Sensor “B” Circuit Low
-P047D Exhaust Pressure Sensor “B” Circuit High
-P047E Exhaust Pressure Sensor “B” Circuit Intermittent/Erratic
+P047A Exhaust Pressure Sensor "B" Circuit
+P047B Exhaust Pressure Sensor "B" Circuit Range/Performance
+P047C Exhaust Pressure Sensor "B" Circuit Low
+P047D Exhaust Pressure Sensor "B" Circuit High
+P047E Exhaust Pressure Sensor "B" Circuit Intermittent/Erratic
 P047F ISO/SAE reserved
 P0480 Fan 1 Control Circuit
 P0481 Fan 2 Control Circuit
@@ -581,11 +581,11 @@ P0482 Fan 3 Control Circuit
 P0483 Fan Rationality Check
 P0484 Fan Circuit Over Current
 P0485 Fan Power/Ground Circuit
-P0486 Exhaust Gas Recirculation Sensor “B” Circuit
-P0487 Exhaust Gas Recirculation Throttle Control Circuit “A” /Open
-P0488 Exhaust Gas Recirculation Throttle Control Circuit “A” Range/Performance
-P0489 Exhaust Gas Recirculation Control Circuit “A” Low
-P0490 Exhaust Gas Recirculation Control Circuit “A” High
+P0486 Exhaust Gas Recirculation Sensor "B" Circuit
+P0487 Exhaust Gas Recirculation Throttle Control Circuit "A" /Open
+P0488 Exhaust Gas Recirculation Throttle Control Circuit "A" Range/Performance
+P0489 Exhaust Gas Recirculation Control Circuit "A" Low
+P0490 Exhaust Gas Recirculation Control Circuit "A" High
 P0491 Secondary Air Injection System Insufficient Flow Bank 1
 P0492 Secondary Air Injection System Insufficient Flow Bank 2
 P0493 Fan Overspeed
@@ -595,11 +595,11 @@ P0496 Evaporative Emission System High Purge Flow
 P0497 Evaporative Emission System Low Purge Flow
 P0498 Evaporative Emission System Vent Valve Control Circuit Low
 P0499 Evaporative Emission System Vent Valve Control Circuit High
-P0500 Vehicle Speed Sensor “A”
-P0501 Vehicle Speed Sensor “A” Range/Performance
-P0502 Vehicle Speed Sensor “A” Circuit Low
-P0503 Vehicle Speed Sensor “A” Intermittent/Erratic/High
-P0504 Brake Switch “A”/”B” Correlation
+P0500 Vehicle Speed Sensor "A"
+P0501 Vehicle Speed Sensor "A" Range/Performance
+P0502 Vehicle Speed Sensor "A" Circuit Low
+P0503 Vehicle Speed Sensor "A" Intermittent/Erratic/High
+P0504 Brake Switch "A"/"B" Correlation
 P0505 Idle Air Control System
 P0506 Idle Air Control System RPM Lower Than Expected
 P0507 Idle Air Control System RPM Higher Than Expected
@@ -631,10 +631,10 @@ P0526 Fan Speed Sensor Circuit
 P0527 Fan Speed Sensor Circuit Range/Performance
 P0528 Fan Speed Sensor Circuit No Signal
 P0529 Fan Speed Sensor Circuit Intermittent
-P0530 A/C Refrigerant Pressure Sensor “A” Circuit
-P0531 A/C Refrigerant Pressure Sensor “A” Circuit Range/Performance
-P0532 A/C Refrigerant Pressure Sensor “A” Circuit Low
-P0533 A/C Refrigerant Pressure Sensor “A” Circuit High
+P0530 A/C Refrigerant Pressure Sensor "A" Circuit
+P0531 A/C Refrigerant Pressure Sensor "A" Circuit Range/Performance
+P0532 A/C Refrigerant Pressure Sensor "A" Circuit Low
+P0533 A/C Refrigerant Pressure Sensor "A" Circuit High
 P0534 A/C Refrigerant Charge Loss
 P0535 A/C Evaporator Temperature Sensor Circuit
 P0536 A/C Evaporator Temperature Sensor Circuit Range/Performance
@@ -644,10 +644,10 @@ P0539 A/C Evaporator Temperature Sensor Circuit Intermittent
 P053A Positive Crankcase Ventilation Heater Control Circuit /Open
 P053B Positive Crankcase Ventilation Heater Control Circuit Low
 P053C Positive Crankcase Ventilation Heater Control Circuit High
-P0540 Intake Air Heater “A” Circuit
-P0541 Intake Air Heater “A” Circuit Low
-P0542 Intake Air Heater “A” Circuit High
-P0543 Intake Air Heater “A” Circuit Open
+P0540 Intake Air Heater "A" Circuit
+P0541 Intake Air Heater "A" Circuit Low
+P0542 Intake Air Heater "A" Circuit High
+P0543 Intake Air Heater "A" Circuit Open
 P0544 Exhaust Gas Temperature Sensor Circuit Bank 1 Sensor 1
 P0545 Exhaust Gas Temperature Sensor Circuit Low Bank 1 Sensor 1
 P0546 Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 1
@@ -668,38 +668,38 @@ P0560 System Voltage
 P0561 System Voltage Unstable
 P0562 System Voltage Low
 P0563 System Voltage High
-P0564 Cruise Control Multi-Function Input “A” Circuit
-P0565 Cruise Control “On” Signal
-P0566 Cruise Control “Off” Signal
-P0567 Cruise Control “Resume” Signal
-P0568 Cruise Control “Set” Signal
-P0569 Cruise Control “Coast” Signal
-P056A Cruise Control “Increase Distance” Signal
-P056B Cruise Control “Decrease Distance” Signal
-P0570 Cruise Control “Accelerate” Signal
-P0571 Brake Switch “A” Circuit
-P0572 Brake Switch “A” Circuit Low
-P0573 Brake Switch “A” Circuit High
+P0564 Cruise Control Multi-Function Input "A" Circuit
+P0565 Cruise Control "On" Signal
+P0566 Cruise Control "Off" Signal
+P0567 Cruise Control "Resume" Signal
+P0568 Cruise Control "Set" Signal
+P0569 Cruise Control "Coast" Signal
+P056A Cruise Control "Increase Distance" Signal
+P056B Cruise Control "Decrease Distance" Signal
+P0570 Cruise Control "Accelerate" Signal
+P0571 Brake Switch "A" Circuit
+P0572 Brake Switch "A" Circuit Low
+P0573 Brake Switch "A" Circuit High
 P0574 Cruise Control System – Vehicle Speed Too High
 P0575 Cruise Control Input Circuit
 P0576 Cruise Control Input Circuit Low
 P0577 Cruise Control Input Circuit High
-P0578 Cruise Control Multi-Function Input “A” Circuit Stuck
-P0579 Cruise Control Multi-Function Input “A” Circuit Range/Performance
-P0580 Cruise Control Multi-Function Input “A” Circuit Low
-P0581 Cruise Control Multi-Function Input “A” Circuit High
+P0578 Cruise Control Multi-Function Input "A" Circuit Stuck
+P0579 Cruise Control Multi-Function Input "A" Circuit Range/Performance
+P0580 Cruise Control Multi-Function Input "A" Circuit Low
+P0581 Cruise Control Multi-Function Input "A" Circuit High
 P0582 Cruise Control Vacuum Control Circuit/Open
 P0583 Cruise Control Vacuum Control Circuit Low
 P0584 Cruise Control Vacuum Control Circuit High
-P0585 Cruise Control Multi-Function Input “A”/”B” Correlation
+P0585 Cruise Control Multi-Function Input "A"/"B" Correlation
 P0586 Cruise Control Vent Control Circuit/Open
 P0587 Cruise Control Vent Control Circuit Low
 P0588 Cruise Control Vent Control Circuit High
-P0589 Cruise Control Multi-Function Input “B” Circuit
-P0590 Cruise Control Multi-Function Input “B” Circuit Stuck
-P0591 Cruise Control Multi-Function Input “B” Circuit Range/Performance
-P0592 Cruise Control Multi-Function Input “B” Circuit Low
-P0593 Cruise Control Multi-Function Input “B” Circuit High
+P0589 Cruise Control Multi-Function Input "B" Circuit
+P0590 Cruise Control Multi-Function Input "B" Circuit Stuck
+P0591 Cruise Control Multi-Function Input "B" Circuit Range/Performance
+P0592 Cruise Control Multi-Function Input "B" Circuit Low
+P0593 Cruise Control Multi-Function Input "B" Circuit High
 P0594 Cruise Control Servo Control Circuit/Open
 P0595 Cruise Control Servo Control Circuit Low
 P0596 Cruise Control Servo Control Circuit High
@@ -714,8 +714,8 @@ P0604 Internal Control Module Random Access Memory (RAM) Error
 P0605 Internal Control Module Read Only Memory (ROM) Error
 P0606 ECM/PCM Processor
 P0607 Control Module Performance
-P0608 Control Module VSS Output “A”
-P0609 Control Module VSS Output “B”
+P0608 Control Module VSS Output "A"
+P0609 Control Module VSS Output "B"
 P060A Internal Control Module Monitoring Processor Performance
 P060B Internal Control Module A/D Processing Performance
 P060C Internal Control Module Main Processor Performance
@@ -745,9 +745,9 @@ P0623 Generator Lamp Control Circuit
 P0624 Fuel Cap Lamp Control Circuit
 P0625 Generator Field/F Terminal Circuit Low
 P0626 Generator Field/F Terminal Circuit High
-P0627 Fuel Pump “A” Control Circuit/Open
-P0628 Fuel Pump “A” Control Circuit Low
-P0629 Fuel Pump “A” Control Circuit High
+P0627 Fuel Pump "A" Control Circuit/Open
+P0628 Fuel Pump "A" Control Circuit Low
+P0629 Fuel Pump "A" Control Circuit High
 P062A Fuel Pump "A" Control Circuit Range/Performance
 P062B Internal Control Module Fuel Injector Control Performance
 P062C Internal Control Module Vehicle Speed Performance
@@ -771,9 +771,9 @@ P063D Generator Voltage Sense Circuit High
 P063E Auto Configuration Throttle Input Not Present
 P063F Auto Configuration Engine Coolant Temperature Input Not Present
 P0640 Intake Air Heater Control Circuit
-P0641 Sensor Reference Voltage “A” Circuit/Open
-P0642 Sensor Reference Voltage “A” Circuit Low
-P0643 Sensor Reference Voltage “A” Circuit High
+P0641 Sensor Reference Voltage "A" Circuit/Open
+P0642 Sensor Reference Voltage "A" Circuit Low
+P0643 Sensor Reference Voltage "A" Circuit High
 P0644 Driver Display Serial Communication Circuit
 P0645 A/C Clutch Relay Control Circuit
 P0646 A/C Clutch Relay Control Circuit Low
@@ -781,15 +781,15 @@ P0647 A/C Clutch Relay Control Circuit High
 P0648 Immobilizer Lamp Control Circuit
 P0649 Speed Control Lamp Control Circuit
 P0650 Malfunction Indicator Lamp (MIL) Control Circuit
-P0651 Sensor Reference Voltage “B” Circuit/Open
-P0652 Sensor Reference Voltage “B” Circuit Low
-P0653 Sensor Reference Voltage “B” Circuit High
+P0651 Sensor Reference Voltage "B" Circuit/Open
+P0652 Sensor Reference Voltage "B" Circuit Low
+P0653 Sensor Reference Voltage "B" Circuit High
 P0654 Engine RPM Output Circuit
 P0655 Engine Hot Lamp Output Control Circuit
 P0656 Fuel Level Output Circuit
-P0657 Actuator Supply Voltage “A” Circuit/Open
-P0658 Actuator Supply Voltage “A” Circuit Low
-P0659 Actuator Supply Voltage “A” Circuit High
+P0657 Actuator Supply Voltage "A" Circuit/Open
+P0658 Actuator Supply Voltage "A" Circuit Low
+P0659 Actuator Supply Voltage "A" Circuit High
 P065A Generator System Performance
 P065B Generator Control Circuit Range/Performance
 P0660 Intake Manifold Tuning Valve Control Circuit/Open Bank 1 a
@@ -847,9 +847,9 @@ P0693 Fan 2 Control Circuit Low
 P0694 Fan 2 Control Circuit High
 P0695 Fan 3 Control Circuit Low
 P0696 Fan 3 Control Circuit High
-P0697 Sensor Reference Voltage “C” Circuit/Open
-P0698 Sensor Reference Voltage “C” Circuit Low
-P0699 Sensor Reference Voltage “C” Circuit High
+P0697 Sensor Reference Voltage "C" Circuit/Open
+P0698 Sensor Reference Voltage "C" Circuit Low
+P0699 Sensor Reference Voltage "C" Circuit High
 P069A Glow Plug 9 Control Circuit Low
 P069B Glow Plug 9 Control Circuit High
 P069C Glow Plug 10 Control Circuit Low
@@ -859,40 +859,40 @@ P069F ISO/SAE reserved
 P0700 Transmission Control System (MIL Request)
 P0701 Transmission Control System Range/Performance
 P0702 Transmission Control System Electrical
-P0703 Brake Switch “B” Circuit
+P0703 Brake Switch "B" Circuit
 P0704 Clutch Switch Input Circuit
-P0705 Transmission Range Sensor “A” Circuit (PRNDL Input)
-P0706 Transmission Range Sensor “A” Circuit Range/Performance
-P0707 Transmission Range Sensor “A” Circuit Low
-P0708 Transmission Range Sensor “A” Circuit High
-P0709 Transmission Range Sensor “A” Circuit Intermittent
+P0705 Transmission Range Sensor "A" Circuit (PRNDL Input)
+P0706 Transmission Range Sensor "A" Circuit Range/Performance
+P0707 Transmission Range Sensor "A" Circuit Low
+P0708 Transmission Range Sensor "A" Circuit High
+P0709 Transmission Range Sensor "A" Circuit Intermittent
 P070A Transmission Fluid Level Sensor Circuit
 P070B Transmission Fluid Level Sensor Circuit Range/Performance
 P070C Transmission Fluid Level Sensor Circuit Low
 P070D Transmission Fluid Level Sensor Circuit High
 P070E Transmission Fluid Level Sensor Circuit intermittent/Erratic
 P070F Transmission Fluid Level Too Low
-P0710 Transmission Fluid Temperature Sensor “A” Circuit
-P0711 Transmission Fluid Temperature Sensor “A” Circuit Range/Performance
-P0712 Transmission Fluid Temperature Sensor “A” Circuit Low
-P0713 Transmission Fluid Temperature Sensor “A” Circuit High
-P0714 Transmission Fluid Temperature Sensor “A” Circuit Intermittent
-P0715 Input/Turbine Speed Sensor “A” Circuit
-P0716 Input/Turbine Speed Sensor “A” Circuit Range/Performance
-P0717 Input/Turbine Speed Sensor “A” Circuit No Signal
-P0718 Input/Turbine Speed Sensor “A” Circuit Intermittent
-P0719 Brake Switch “B” Circuit Low
-P071A Transmission Mode Switch “A” Circuit
-P071B Transmission Mode Switch “A” Circuit Low
-P071C Transmission Mode Switch “A” Circuit High
-P071D Transmission Mode Switch “B” Circuit
-P071E Transmission Mode Switch “B” Circuit Low
-P071F Transmission Mode Switch “B” Circuit High
+P0710 Transmission Fluid Temperature Sensor "A" Circuit
+P0711 Transmission Fluid Temperature Sensor "A" Circuit Range/Performance
+P0712 Transmission Fluid Temperature Sensor "A" Circuit Low
+P0713 Transmission Fluid Temperature Sensor "A" Circuit High
+P0714 Transmission Fluid Temperature Sensor "A" Circuit Intermittent
+P0715 Input/Turbine Speed Sensor "A" Circuit
+P0716 Input/Turbine Speed Sensor "A" Circuit Range/Performance
+P0717 Input/Turbine Speed Sensor "A" Circuit No Signal
+P0718 Input/Turbine Speed Sensor "A" Circuit Intermittent
+P0719 Brake Switch "B" Circuit Low
+P071A Transmission Mode Switch "A" Circuit
+P071B Transmission Mode Switch "A" Circuit Low
+P071C Transmission Mode Switch "A" Circuit High
+P071D Transmission Mode Switch "B" Circuit
+P071E Transmission Mode Switch "B" Circuit Low
+P071F Transmission Mode Switch "B" Circuit High
 P0720 Output Speed Sensor Circuit
 P0721 Output Speed Sensor Circuit Range/Performance
 P0722 Output Speed Sensor Circuit No Signal
 P0723 Output Speed Sensor Circuit Intermittent
-P0724 Brake Switch “B” Circuit High
+P0724 Brake Switch "B" Circuit High
 P0725 Engine Speed Input Circuit
 P0726 Engine Speed Input Circuit Range/Performance
 P0727 Engine Speed Input Circuit No Signal
@@ -913,53 +913,53 @@ P0741 Torque Converter Clutch Circuit Performance/Stuck Off
 P0742 Torque Converter Clutch Circuit Stuck On
 P0743 Torque Converter Clutch Circuit Electrical
 P0744 Torque Converter Clutch Circuit Intermittent
-P0745 Pressure Control Solenoid “A”
-P0746 Pressure Control Solenoid “A” Performance/Stuck Off
-P0747 Pressure Control Solenoid “A” Stuck On
-P0748 Pressure Control Solenoid “A” Electrical
-P0749 Pressure Control Solenoid “A” Intermittent
-P0750 Shift Solenoid “A”
-P0751 Shift Solenoid “A” Performance/Stuck Off
-P0752 Shift Solenoid “A” Stuck On
-P0753 Shift Solenoid “A” Electrical
-P0754 Shift Solenoid “A” Intermittent
-P0755 Shift Solenoid “B”
-P0756 Shift Solenoid “B” Performance/Stuck Off
-P0757 Shift Solenoid “B” Stuck On
-P0758 Shift Solenoid “B” Electrical
-P0759 Shift Solenoid “B” Intermittent
-P075A Shift Solenoid “G”
-P075B Shift Solenoid “G” Performance/Stuck Off
-P075C Shift Solenoid “G” Stuck On
-P075D Shift Solenoid “G” Electrical
-P075E Shift Solenoid “G” Intermittent
+P0745 Pressure Control Solenoid "A"
+P0746 Pressure Control Solenoid "A" Performance/Stuck Off
+P0747 Pressure Control Solenoid "A" Stuck On
+P0748 Pressure Control Solenoid "A" Electrical
+P0749 Pressure Control Solenoid "A" Intermittent
+P0750 Shift Solenoid "A"
+P0751 Shift Solenoid "A" Performance/Stuck Off
+P0752 Shift Solenoid "A" Stuck On
+P0753 Shift Solenoid "A" Electrical
+P0754 Shift Solenoid "A" Intermittent
+P0755 Shift Solenoid "B"
+P0756 Shift Solenoid "B" Performance/Stuck Off
+P0757 Shift Solenoid "B" Stuck On
+P0758 Shift Solenoid "B" Electrical
+P0759 Shift Solenoid "B" Intermittent
+P075A Shift Solenoid "G"
+P075B Shift Solenoid "G" Performance/Stuck Off
+P075C Shift Solenoid "G" Stuck On
+P075D Shift Solenoid "G" Electrical
+P075E Shift Solenoid "G" Intermittent
 P075F ISO/SAE reserved
-P0760 Shift Solenoid “C”
-P0761 Shift Solenoid “C” Performance/Stuck Off
-P0762 Shift Solenoid “C” Stuck On
-P0763 Shift Solenoid “C” Electrical
-P0764 Shift Solenoid “C” Intermittent
-P0765 Shift Solenoid “D”
-P0766 Shift Solenoid “D” Performance/Stuck Off
-P0767 Shift Solenoid “D” Stuck On
-P0768 Shift Solenoid “D” Electrical
-P0769 Shift Solenoid “D” Intermittent
-P076A Shift Solenoid “H”
-P076B Shift Solenoid “H” Performance/Stuck Off
-P076C Shift Solenoid “H” Stuck On
-P076D Shift Solenoid “H” Electrical
-P076E Shift Solenoid “H” Intermittent
+P0760 Shift Solenoid "C"
+P0761 Shift Solenoid "C" Performance/Stuck Off
+P0762 Shift Solenoid "C" Stuck On
+P0763 Shift Solenoid "C" Electrical
+P0764 Shift Solenoid "C" Intermittent
+P0765 Shift Solenoid "D"
+P0766 Shift Solenoid "D" Performance/Stuck Off
+P0767 Shift Solenoid "D" Stuck On
+P0768 Shift Solenoid "D" Electrical
+P0769 Shift Solenoid "D" Intermittent
+P076A Shift Solenoid "H"
+P076B Shift Solenoid "H" Performance/Stuck Off
+P076C Shift Solenoid "H" Stuck On
+P076D Shift Solenoid "H" Electrical
+P076E Shift Solenoid "H" Intermittent
 P076F Gear 7 Incorrect Ratio
-P0770 Shift Solenoid “E”
-P0771 Shift Solenoid “E” Performance/Stuck Off
-P0772 Shift Solenoid “E” Stuck On
-P0773 Shift Solenoid “E” Electrical
-P0774 Shift Solenoid “E” Intermittent
-P0775 Pressure Control Solenoid “B”
-P0776 Pressure Control Solenoid “B” Performance/Stuck Off
-P0777 Pressure Control Solenoid “B” Stuck On
-P0778 Pressure Control Solenoid “B” Electrical
-P0779 Pressure Control Solenoid “B” Intermittent
+P0770 Shift Solenoid "E"
+P0771 Shift Solenoid "E" Performance/Stuck Off
+P0772 Shift Solenoid "E" Stuck On
+P0773 Shift Solenoid "E" Electrical
+P0774 Shift Solenoid "E" Intermittent
+P0775 Pressure Control Solenoid "B"
+P0776 Pressure Control Solenoid "B" Performance/Stuck Off
+P0777 Pressure Control Solenoid "B" Stuck On
+P0778 Pressure Control Solenoid "B" Electrical
+P0779 Pressure Control Solenoid "B" Intermittent
 P0780 Shift Error
 P0781 1-2 Shift
 P0782 2-3 Shift
@@ -971,15 +971,15 @@ P0787 Shift/Timing Solenoid Low
 P0788 Shift/Timing Solenoid High
 P0789 Shift/Timing Solenoid Intermittent
 P0790 Normal/Performance Switch Circuit
-P0791 Intermediate Shaft Speed Sensor “A” Circuit
-P0792 Intermediate Shaft Speed Sensor “A” Circuit Range/Performance
-P0793 Intermediate Shaft Speed Sensor “A” Circuit No Signal
-P0794 Intermediate Shaft Speed Sensor “A” Circuit Intermittent
-P0795 Pressure Control Solenoid “C”
-P0796 Pressure Control Solenoid “C” Performance/Stuck Off
-P0797 Pressure Control Solenoid “C” Stuck On
-P0798 Pressure Control Solenoid “C” Electrical
-P0799 Pressure Control Solenoid “C” Intermittent
+P0791 Intermediate Shaft Speed Sensor "A" Circuit
+P0792 Intermediate Shaft Speed Sensor "A" Circuit Range/Performance
+P0793 Intermediate Shaft Speed Sensor "A" Circuit No Signal
+P0794 Intermediate Shaft Speed Sensor "A" Circuit Intermittent
+P0795 Pressure Control Solenoid "C"
+P0796 Pressure Control Solenoid "C" Performance/Stuck Off
+P0797 Pressure Control Solenoid "C" Stuck On
+P0798 Pressure Control Solenoid "C" Electrical
+P0799 Pressure Control Solenoid "C" Intermittent
 P0800 Transfer Case Control System (MIL Request)
 P0801 Reverse Inhibit Control Circuit
 P0802 Transmission Control System MIL Request Circuit/Open
@@ -997,7 +997,7 @@ P080D Upshift/Skip Shift Solenoid Control Circuit High
 P080E ISO/SAE reserved
 P080F ISO/SAE reserved
 P0810 Clutch Position Control Error
-P0811 Excessive Clutch “A” Slippage
+P0811 Excessive Clutch "A" Slippage
 P0812 Reverse Input Circuit
 P0813 Reverse Output Circuit
 P0814 Transmission Range Display Circuit
@@ -1010,7 +1010,7 @@ P081A Starter Disable Circuit Low
 P081B Starter Disable Circuit High
 P081C Park Input Circuit
 P081D Neutral Input Circuit
-P081E Excessive Clutch “B” Slippage
+P081E Excessive Clutch "B" Slippage
 P0820 Gear Lever X-Y Position Sensor Circuit
 P0821 Gear Lever X Position Circuit
 P0822 Gear Lever Y Position Circuit
@@ -1021,37 +1021,37 @@ P0826 Up and Down Shift Switch Circuit
 P0827 Up and Down Shift Switch Circuit Low
 P0828 Up and Down Shift Switch Circuit High
 P0829 5-6 Shift
-P0830 Clutch Pedal Switch “A” Circuit
-P0831 Clutch Pedal Switch “A” Circuit Low
-P0832 Clutch Pedal Switch “A” Circuit High
-P0833 Clutch Pedal Switch “B” Circuit
-P0834 Clutch Pedal Switch “B” Circuit Low
-P0835 Clutch Pedal Switch “B” Circuit High
+P0830 Clutch Pedal Switch "A" Circuit
+P0831 Clutch Pedal Switch "A" Circuit Low
+P0832 Clutch Pedal Switch "A" Circuit High
+P0833 Clutch Pedal Switch "B" Circuit
+P0834 Clutch Pedal Switch "B" Circuit Low
+P0835 Clutch Pedal Switch "B" Circuit High
 P0836 Four Wheel Drive (4WD) Switch Circuit
 P0837 Four Wheel Drive (4WD) Switch Circuit Range/Performance
 P0838 Four Wheel Drive (4WD) Switch Circuit Low
 P0839 Four Wheel Drive (4WD) Switch Circuit High
-P083A Transmission Fluid Pressure Sensor/Switch “G” Circuit
-P083B Transmission Fluid Pressure Sensor/Switch “G” Circuit Range/Performance
-P083C Transmission Fluid Pressure Sensor/Switch “G” Circuit Low
-P083D Transmission Fluid Pressure Sensor/Switch “G” Circuit High
-P083E Transmission Fluid Pressure Sensor/Switch “G” Circuit Intermittent
-P083F Clutch Pedal Switch “A”/”B” Correlation
-P0840 Transmission Fluid Pressure Sensor/Switch “A” Circuit
-P0841 Transmission Fluid Pressure Sensor/Switch “A” Circuit Range/Performance
-P0842 Transmission Fluid Pressure Sensor/Switch “A” Circuit Low
-P0843 Transmission Fluid Pressure Sensor/Switch “A” Circuit High
-P0844 Transmission Fluid Pressure Sensor/Switch “A” Circuit Intermittent
-P0845 Transmission Fluid Pressure Sensor/Switch “B” Circuit
-P0846 Transmission Fluid Pressure Sensor/Switch “B” Circuit Range/Performance
-P0847 Transmission Fluid Pressure Sensor/Switch “B” Circuit Low
-P0848 Transmission Fluid Pressure Sensor/Switch “B” Circuit High
-P0849 Transmission Fluid Pressure Sensor/Switch “B” Circuit Intermittent
-P084A Transmission Fluid Pressure Sensor/Switch “H” Circuit
-P084B Transmission Fluid Pressure Sensor/Switch “H” Circuit Range/Performance
-P084C Transmission Fluid Pressure Sensor/Switch “H” Circuit Low
-P084D Transmission Fluid Pressure Sensor/Switch “H” Circuit High
-P084E Transmission Fluid Pressure Sensor/Switch “H” Circuit Intermittent
+P083A Transmission Fluid Pressure Sensor/Switch "G" Circuit
+P083B Transmission Fluid Pressure Sensor/Switch "G" Circuit Range/Performance
+P083C Transmission Fluid Pressure Sensor/Switch "G" Circuit Low
+P083D Transmission Fluid Pressure Sensor/Switch "G" Circuit High
+P083E Transmission Fluid Pressure Sensor/Switch "G" Circuit Intermittent
+P083F Clutch Pedal Switch "A"/"B" Correlation
+P0840 Transmission Fluid Pressure Sensor/Switch "A" Circuit
+P0841 Transmission Fluid Pressure Sensor/Switch "A" Circuit Range/Performance
+P0842 Transmission Fluid Pressure Sensor/Switch "A" Circuit Low
+P0843 Transmission Fluid Pressure Sensor/Switch "A" Circuit High
+P0844 Transmission Fluid Pressure Sensor/Switch "A" Circuit Intermittent
+P0845 Transmission Fluid Pressure Sensor/Switch "B" Circuit
+P0846 Transmission Fluid Pressure Sensor/Switch "B" Circuit Range/Performance
+P0847 Transmission Fluid Pressure Sensor/Switch "B" Circuit Low
+P0848 Transmission Fluid Pressure Sensor/Switch "B" Circuit High
+P0849 Transmission Fluid Pressure Sensor/Switch "B" Circuit Intermittent
+P084A Transmission Fluid Pressure Sensor/Switch "H" Circuit
+P084B Transmission Fluid Pressure Sensor/Switch "H" Circuit Range/Performance
+P084C Transmission Fluid Pressure Sensor/Switch "H" Circuit Low
+P084D Transmission Fluid Pressure Sensor/Switch "H" Circuit High
+P084E Transmission Fluid Pressure Sensor/Switch "H" Circuit Intermittent
 P084F ISO/SAE reserved
 P0850 Park/Neutral Switch Input Circuit
 P0851 Park/Neutral Switch Input Circuit Low
@@ -1063,12 +1063,12 @@ P0856 Traction Control Input Signal
 P0857 Traction Control Input Signal Range/Performance
 P0858 Traction Control Input Signal Low
 P0859 Traction Control Input Signal High
-P085A Gear Shift Module “B” Communication Circuit
-P085B Gear Shift Module “B” Communication Circuit Low
-P085C Gear Shift Module “B” Communication Circuit High
-P0860 Gear Shift Module “A” Communication Circuit
-P0861 Gear Shift Module “A” Communication Circuit Low
-P0862 Gear Shift Module “A” Communication Circuit High
+P085A Gear Shift Module "B" Communication Circuit
+P085B Gear Shift Module "B" Communication Circuit Low
+P085C Gear Shift Module "B" Communication Circuit High
+P0860 Gear Shift Module "A" Communication Circuit
+P0861 Gear Shift Module "A" Communication Circuit Low
+P0862 Gear Shift Module "A" Communication Circuit High
 P0863 TCM Communication Circuit
 P0864 TCM Communication Circuit Range/Performance
 P0865 TCM Communication Circuit Low
@@ -1076,16 +1076,16 @@ P0866 TCM Communication Circuit High
 P0867 Transmission Fluid Pressure
 P0868 Transmission Fluid Pressure Low
 P0869 Transmission Fluid Pressure High
-P0870 Transmission Fluid Pressure Sensor/Switch “C” Circuit
-P0871 Transmission Fluid Pressure Sensor/Switch “C” Circuit Range/Performance
-P0872 Transmission Fluid Pressure Sensor/Switch “C” Circuit Low
-P0873 Transmission Fluid Pressure Sensor/Switch “C” Circuit High
-P0874 Transmission Fluid Pressure Sensor/Switch “C” Circuit Intermittent
-P0875 Transmission Fluid Pressure Sensor/Switch “D” Circuit
-P0876 Transmission Fluid Pressure Sensor/Switch “D” Circuit Range/Performance
-P0877 Transmission Fluid Pressure Sensor/Switch “D” Circuit Low
-P0878 Transmission Fluid Pressure Sensor/Switch “D” Circuit High
-P0879 Transmission Fluid Pressure Sensor/Switch “D” Circuit Intermittent
+P0870 Transmission Fluid Pressure Sensor/Switch "C" Circuit
+P0871 Transmission Fluid Pressure Sensor/Switch "C" Circuit Range/Performance
+P0872 Transmission Fluid Pressure Sensor/Switch "C" Circuit Low
+P0873 Transmission Fluid Pressure Sensor/Switch "C" Circuit High
+P0874 Transmission Fluid Pressure Sensor/Switch "C" Circuit Intermittent
+P0875 Transmission Fluid Pressure Sensor/Switch "D" Circuit
+P0876 Transmission Fluid Pressure Sensor/Switch "D" Circuit Range/Performance
+P0877 Transmission Fluid Pressure Sensor/Switch "D" Circuit Low
+P0878 Transmission Fluid Pressure Sensor/Switch "D" Circuit High
+P0879 Transmission Fluid Pressure Sensor/Switch "D" Circuit Intermittent
 P0880 TCM Power Input Signal
 P0881 TCM Power Input Signal Range/Performance
 P0882 TCM Power Input Signal Low
@@ -1166,52 +1166,52 @@ P0956 Auto Shift Manual Mode Circuit Range/Performance
 P0957 Auto Shift Manual Mode Circuit Low
 P0958 Auto Shift Manual Mode Circuit High
 P0959 Auto Shift Manual Mode Circuit Intermittent
-P0960 Pressure Control Solenoid “A” Control Circuit/Open
-P0961 Pressure Control Solenoid “A” Control Circuit Range/Performance
-P0962 Pressure Control Solenoid “A” Control Circuit Low
-P0963 Pressure Control Solenoid “A” Control Circuit High
-P0964 Pressure Control Solenoid “B” Control Circuit/Open
-P0965 Pressure Control Solenoid “B” Control Circuit Range/Performance
-P0966 Pressure Control Solenoid “B” Control Circuit Low
-P0967 Pressure Control Solenoid “B” Control Circuit High
-P0968 Pressure Control Solenoid “C” Control Circuit/Open
-P0969 Pressure Control Solenoid “C” Control Circuit Range/Performance
-P0970 Pressure Control Solenoid “C” Control Circuit Low
-P0971 Pressure Control Solenoid “C” Control Circuit High
-P0972 Shift Solenoid “A” Control Circuit Range/Performance
-P0973 Shift Solenoid “A” Control Circuit Low
-P0974 Shift Solenoid “A” Control Circuit High
-P0975 Shift Solenoid “B” Control Circuit Range/Performance
-P0976 Shift Solenoid “B” Control Circuit Low
-P0977 Shift Solenoid “B” Control Circuit High
-P0978 Shift Solenoid “C” Control Circuit Range/Performance
-P0979 Shift Solenoid “C” Control Circuit Low
-P0980 Shift Solenoid “C” Control Circuit High
-P0981 Shift Solenoid “D” Control Circuit Range/Performance
-P0982 Shift Solenoid “D” Control Circuit Low
-P0983 Shift Solenoid “D” Control Circuit High
-P0984 Shift Solenoid “E” Control Circuit Range/Performance
-P0985 Shift Solenoid “E” Control Circuit Low
-P0986 Shift Solenoid “E” Control Circuit High
-P0987 Transmission Fluid Pressure Sensor/Switch “E” Circuit
-P0988 Transmission Fluid Pressure Sensor/Switch “E” Circuit Range/Performance
-P0989 Transmission Fluid Pressure Sensor/Switch “E” Circuit Low
-P0990 Transmission Fluid Pressure Sensor/Switch “E” Circuit High
-P0991 Transmission Fluid Pressure Sensor/Switch “E” Circuit Intermittent
-P0992 Transmission Fluid Pressure Sensor/Switch “F” Circuit
-P0993 Transmission Fluid Pressure Sensor/Switch “F” Circuit Range/Performance
-P0994 Transmission Fluid Pressure Sensor/Switch “F” Circuit Low
-P0995 Transmission Fluid Pressure Sensor/Switch “F” Circuit High
-P0996 Transmission Fluid Pressure Sensor/Switch “F” Circuit Intermittent
-P0997 Shift Solenoid “F” Control Circuit Range/Performance
-P0998 Shift Solenoid “F” Control Circuit Low
-P0999 Shift Solenoid “F” Control Circuit High
-P099A Shift Solenoid “G” Control Circuit Range/Performance
-P099B Shift Solenoid “G” Control Circuit Low
-P099C Shift Solenoid “G” Control Circuit High
-P099D Shift Solenoid “H” Control Circuit Range/Performance
-P099E Shift Solenoid “H” Control Circuit Low
-P099F Shift Solenoid “H” Control Circuit High
+P0960 Pressure Control Solenoid "A" Control Circuit/Open
+P0961 Pressure Control Solenoid "A" Control Circuit Range/Performance
+P0962 Pressure Control Solenoid "A" Control Circuit Low
+P0963 Pressure Control Solenoid "A" Control Circuit High
+P0964 Pressure Control Solenoid "B" Control Circuit/Open
+P0965 Pressure Control Solenoid "B" Control Circuit Range/Performance
+P0966 Pressure Control Solenoid "B" Control Circuit Low
+P0967 Pressure Control Solenoid "B" Control Circuit High
+P0968 Pressure Control Solenoid "C" Control Circuit/Open
+P0969 Pressure Control Solenoid "C" Control Circuit Range/Performance
+P0970 Pressure Control Solenoid "C" Control Circuit Low
+P0971 Pressure Control Solenoid "C" Control Circuit High
+P0972 Shift Solenoid "A" Control Circuit Range/Performance
+P0973 Shift Solenoid "A" Control Circuit Low
+P0974 Shift Solenoid "A" Control Circuit High
+P0975 Shift Solenoid "B" Control Circuit Range/Performance
+P0976 Shift Solenoid "B" Control Circuit Low
+P0977 Shift Solenoid "B" Control Circuit High
+P0978 Shift Solenoid "C" Control Circuit Range/Performance
+P0979 Shift Solenoid "C" Control Circuit Low
+P0980 Shift Solenoid "C" Control Circuit High
+P0981 Shift Solenoid "D" Control Circuit Range/Performance
+P0982 Shift Solenoid "D" Control Circuit Low
+P0983 Shift Solenoid "D" Control Circuit High
+P0984 Shift Solenoid "E" Control Circuit Range/Performance
+P0985 Shift Solenoid "E" Control Circuit Low
+P0986 Shift Solenoid "E" Control Circuit High
+P0987 Transmission Fluid Pressure Sensor/Switch "E" Circuit
+P0988 Transmission Fluid Pressure Sensor/Switch "E" Circuit Range/Performance
+P0989 Transmission Fluid Pressure Sensor/Switch "E" Circuit Low
+P0990 Transmission Fluid Pressure Sensor/Switch "E" Circuit High
+P0991 Transmission Fluid Pressure Sensor/Switch "E" Circuit Intermittent
+P0992 Transmission Fluid Pressure Sensor/Switch "F" Circuit
+P0993 Transmission Fluid Pressure Sensor/Switch "F" Circuit Range/Performance
+P0994 Transmission Fluid Pressure Sensor/Switch "F" Circuit Low
+P0995 Transmission Fluid Pressure Sensor/Switch "F" Circuit High
+P0996 Transmission Fluid Pressure Sensor/Switch "F" Circuit Intermittent
+P0997 Shift Solenoid "F" Control Circuit Range/Performance
+P0998 Shift Solenoid "F" Control Circuit Low
+P0999 Shift Solenoid "F" Control Circuit High
+P099A Shift Solenoid "G" Control Circuit Range/Performance
+P099B Shift Solenoid "G" Control Circuit Low
+P099C Shift Solenoid "G" Control Circuit High
+P099D Shift Solenoid "H" Control Circuit Range/Performance
+P099E Shift Solenoid "H" Control Circuit Low
+P099F Shift Solenoid "H" Control Circuit High
 P0A00 Motor Electronics Coolant Temperature Sensor Circuit
 P0A01 Motor Electronics Coolant Temperature Sensor Circuit Range/Performance
 P0A02 Motor Electronics Coolant Temperature Sensor Circuit Low
@@ -1232,15 +1232,15 @@ P0A10 DC/DC Converter Status Circuit High
 P0A11 DC/DC Converter Enable Circuit/Open
 P0A12 DC/DC Converter Enable Circuit Low
 P0A13 DC/DC Converter Enable Circuit High
-P0A14 Engine Mount “A” Control Circuit/Open
-P0A15 Engine Mount “A” Control Circuit Low
-P0A16 Engine Mount “A” Control Circuit High
+P0A14 Engine Mount "A" Control Circuit/Open
+P0A15 Engine Mount "A" Control Circuit Low
+P0A16 Engine Mount "A" Control Circuit High
 P0A17 Motor Torque Sensor Circuit
 P0A18 Motor Torque Sensor Circuit Range/Performance
 P0A19 Motor Torque Sensor Circuit Low
 P0A1A Generator Control Module
-P0A1B Drive Motor “A” Control Module
-P0A1C Drive Motor “B” Control Module
+P0A1B Drive Motor "A" Control Module
+P0A1C Drive Motor "B" Control Module
 P0A1D Hybrid Powertrain Control Module
 P0A1E Starter/Generator Control Module
 P0A1F Battery Energy Control Module
@@ -1254,75 +1254,75 @@ P0A26 Generator Torque Sensor Circuit Intermittent
 P0A27 Hybrid Battery Power Off Circuit
 P0A28 Hybrid Battery Power Off Circuit Low
 P0A29 Hybrid Battery Power Off Circuit High
-P0A2A Drive Motor “A” Temperature Sensor Circuit
-P0A2B Drive Motor “A” Temperature Sensor Circuit Range/Performance
-P0A2C Drive Motor “A” Temperature Sensor Circuit Low
-P0A2D Drive Motor “A” Temperature Sensor Circuit High
-P0A2E Drive Motor “A” Temperature Sensor Circuit Intermittent
-P0A2F Drive Motor “A” Over Temperature
-P0A30 Drive Motor “B” Temperature Sensor Circuit
-P0A31 Drive Motor “B” Temperature Sensor Circuit Range/Performance
-P0A32 Drive Motor “B” Temperature Sensor Circuit Low
-P0A33 Drive Motor “B” Temperature Sensor Circuit High
-P0A34 Drive Motor “B” Temperature Sensor Circuit Intermittent
-P0A35 Drive Motor “B” Over Temperature
+P0A2A Drive Motor "A" Temperature Sensor Circuit
+P0A2B Drive Motor "A" Temperature Sensor Circuit Range/Performance
+P0A2C Drive Motor "A" Temperature Sensor Circuit Low
+P0A2D Drive Motor "A" Temperature Sensor Circuit High
+P0A2E Drive Motor "A" Temperature Sensor Circuit Intermittent
+P0A2F Drive Motor "A" Over Temperature
+P0A30 Drive Motor "B" Temperature Sensor Circuit
+P0A31 Drive Motor "B" Temperature Sensor Circuit Range/Performance
+P0A32 Drive Motor "B" Temperature Sensor Circuit Low
+P0A33 Drive Motor "B" Temperature Sensor Circuit High
+P0A34 Drive Motor "B" Temperature Sensor Circuit Intermittent
+P0A35 Drive Motor "B" Over Temperature
 P0A36 Generator Temperature Sensor Circuit
 P0A37 Generator Temperature Sensor Circuit Range/Performance
 P0A38 Generator Temperature Sensor Circuit Low
 P0A39 Generator Temperature Sensor Circuit High
 P0A3A Generator Temperature Sensor Circuit Intermittent
 P0A3B Generator Over Temperature
-P0A3C Drive Motor “A” Inverter Over Temperature
-P0A3D Drive Motor “B” Inverter Over Temperature
+P0A3C Drive Motor "A" Inverter Over Temperature
+P0A3D Drive Motor "B" Inverter Over Temperature
 P0A3E Generator Inverter Over Temperature
-P0A3F Drive Motor “A” Position Sensor Circuit
-P0A40 Drive Motor “A” Position Sensor Circuit Range/Performance
-P0A41 Drive Motor “A” Position Sensor Circuit Low
-P0A42 Drive Motor “A” Position Sensor Circuit High
-P0A43 Drive Motor “A” Position Sensor Circuit Intermittent
-P0A44 Drive Motor “A” Position Sensor Circuit Overspeed
-P0A45 Drive Motor “B” Position Sensor Circuit
-P0A46 Drive Motor “B” Position Sensor Circuit Range/Performance
-P0A47 Drive Motor “B” Position Sensor Circuit Low
-P0A48 Drive Motor “B” Position Sensor Circuit High
-P0A49 Drive Motor “B” Position Sensor Circuit Intermittent
-P0A4A Drive Motor “B” Position Sensor Circuit Overspeed
+P0A3F Drive Motor "A" Position Sensor Circuit
+P0A40 Drive Motor "A" Position Sensor Circuit Range/Performance
+P0A41 Drive Motor "A" Position Sensor Circuit Low
+P0A42 Drive Motor "A" Position Sensor Circuit High
+P0A43 Drive Motor "A" Position Sensor Circuit Intermittent
+P0A44 Drive Motor "A" Position Sensor Circuit Overspeed
+P0A45 Drive Motor "B" Position Sensor Circuit
+P0A46 Drive Motor "B" Position Sensor Circuit Range/Performance
+P0A47 Drive Motor "B" Position Sensor Circuit Low
+P0A48 Drive Motor "B" Position Sensor Circuit High
+P0A49 Drive Motor "B" Position Sensor Circuit Intermittent
+P0A4A Drive Motor "B" Position Sensor Circuit Overspeed
 P0A4B Generator Position Sensor Circuit
 P0A4C Generator Position Sensor Circuit Range/Performance
 P0A4D Generator Position Sensor Circuit Low
 P0A4E Generator Position Sensor Circuit High
 P0A4F Generator Position Sensor Circuit Intermittent
 P0A50 Generator Position Sensor Circuit Overspeed
-P0A51 Drive Motor “A” Current Sensor Circuit
-P0A52 Drive Motor “A” Current Sensor Circuit Range/Performance
-P0A53 Drive Motor “A” Current Sensor Circuit Low
-P0A54 Drive Motor “A” Current Sensor Circuit High
-P0A55 Drive Motor “B” Current Sensor Circuit
-P0A56 Drive Motor “B” Current Sensor Circuit Range/Performance
-P0A57 Drive Motor “B” Current Sensor Circuit Low
-P0A58 Drive Motor “B” Current Sensor Circuit High
+P0A51 Drive Motor "A" Current Sensor Circuit
+P0A52 Drive Motor "A" Current Sensor Circuit Range/Performance
+P0A53 Drive Motor "A" Current Sensor Circuit Low
+P0A54 Drive Motor "A" Current Sensor Circuit High
+P0A55 Drive Motor "B" Current Sensor Circuit
+P0A56 Drive Motor "B" Current Sensor Circuit Range/Performance
+P0A57 Drive Motor "B" Current Sensor Circuit Low
+P0A58 Drive Motor "B" Current Sensor Circuit High
 P0A59 Generator Current Sensor Circuit
 P0A5A Generator Current Sensor Circuit Range/Performance
 P0A5B Generator Current Sensor Circuit Low
 P0A5C Generator Current Sensor Circuit High
-P0A5D Drive Motor “A” Phase U Current
-P0A5E Drive Motor “A” Phase U Current Low
-P0A5F Drive Motor “A” Phase U Current High
-P0A60 Drive Motor “A” Phase V Current
-P0A61 Drive Motor “A” Phase V Current Low
-P0A62 Drive Motor “A” Phase V Current High
-P0A63 Drive Motor “A” Phase W Current
-P0A64 Drive Motor “A” Phase W Current Low
-P0A65 Drive Motor “A” Phase W Current High
-P0A66 Drive Motor “B” Phase U Current
-P0A67 Drive Motor “B” Phase U Current Low
-P0A68 Drive Motor “B” Phase U Current High
-P0A69 Drive Motor “B” Phase V Current
-P0A6A Drive Motor “B” Phase V Current Low
-P0A6B Drive Motor “B” Phase V Current High
-P0A6C Drive Motor “B” Phase W Current
-P0A6D Drive Motor “B” Phase W Current Low
-P0A6E Drive Motor “B” Phase W Current High
+P0A5D Drive Motor "A" Phase U Current
+P0A5E Drive Motor "A" Phase U Current Low
+P0A5F Drive Motor "A" Phase U Current High
+P0A60 Drive Motor "A" Phase V Current
+P0A61 Drive Motor "A" Phase V Current Low
+P0A62 Drive Motor "A" Phase V Current High
+P0A63 Drive Motor "A" Phase W Current
+P0A64 Drive Motor "A" Phase W Current Low
+P0A65 Drive Motor "A" Phase W Current High
+P0A66 Drive Motor "B" Phase U Current
+P0A67 Drive Motor "B" Phase U Current Low
+P0A68 Drive Motor "B" Phase U Current High
+P0A69 Drive Motor "B" Phase V Current
+P0A6A Drive Motor "B" Phase V Current Low
+P0A6B Drive Motor "B" Phase V Current High
+P0A6C Drive Motor "B" Phase W Current
+P0A6D Drive Motor "B" Phase W Current Low
+P0A6E Drive Motor "B" Phase W Current High
 P0A6F Generator Phase U Current
 P0A70 Generator Phase U Current Low
 P0A71 Generator Phase U Current High
@@ -1332,8 +1332,8 @@ P0A74 Generator Phase V Current High
 P0A75 Generator Phase W Current
 P0A76 Generator Phase W Current Low
 P0A77 Generator Phase W Current High
-P0A78 Drive Motor “A” Inverter Performance
-P0A79 Drive Motor “B” Inverter Performance
+P0A78 Drive Motor "A" Inverter Performance
+P0A79 Drive Motor "B" Inverter Performance
 P0A7A Generator Inverter Performance
 P0A7B Battery Energy Control Module Requested MIL Illumination
 P0A7C Motor Electronics Over Temperature
@@ -1356,8 +1356,8 @@ P0A8C 14 Volt Power Module System Voltage Unstable
 P0A8D 14 Volt Power Module System Voltage Low
 P0A8E 14 Volt Power Module System Voltage High
 P0A8F 14 Volt Power Module System Performance
-P0A90 Drive Motor “A” Performance
-P0A91 Drive Motor “B” Performance
+P0A90 Drive Motor "A" Performance
+P0A91 Drive Motor "B" Performance
 P0A92 Hybrid Generator Performance
 P0A93 Inverter Cooling System Performance
 P0A94 DC/DC Converter Performance
@@ -1367,11 +1367,11 @@ P0A97 Hybrid Battery Pack Cooling Fan 2 Performance/Stuck Off
 P0A98 Hybrid Battery Pack Cooling Fan 2 Stuck On
 P0A99 Hybrid Battery Pack Cooling Fan 2 Control Circuit Low
 P0A9A Hybrid Battery Pack Cooling Fan 2 Control Circuit High
-P0A9B Hybrid Battery Temperature Sensor “A” Circuit
-P0A9C Hybrid Battery Temperature Sensor “A” Range/Performance
-P0A9D Hybrid Battery Temperature Sensor “A” Circuit Low
-P0A9E Hybrid Battery Temperature Sensor “A” Circuit High
-P0A9F Hybrid Battery Temperature Sensor “A” Circuit Intermittent/Erratic
+P0A9B Hybrid Battery Temperature Sensor "A" Circuit
+P0A9C Hybrid Battery Temperature Sensor "A" Range/Performance
+P0A9D Hybrid Battery Temperature Sensor "A" Circuit Low
+P0A9E Hybrid Battery Temperature Sensor "A" Circuit High
+P0A9F Hybrid Battery Temperature Sensor "A" Circuit Intermittent/Erratic
 P0AA0 Hybrid Battery Positive Contactor Circuit
 P0AA1 Hybrid Battery Positive Contactor Circuit Stuck Closed
 P0AA2 Hybrid Battery Positive Contactor Circuit Stuck Open
@@ -1384,19 +1384,19 @@ P0AA8 Hybrid Battery Voltage Isolation Sensor Circuit Range/Performance
 P0AA9 Hybrid Battery Voltage Isolation Sensor Circuit Low
 P0AAA Hybrid Battery Voltage Isolation Sensor Circuit High
 P0AAB Hybrid Battery Voltage Isolation Sensor Circuit Intermittent/Erratic
-P0AAC Hybrid Battery Pack Air Temperature Sensor “A” Circuit
-P0AAD Hybrid Battery Pack Air Temperature Sensor “A” Circuit Range/Performance
-P0AAE Hybrid Battery Pack Air Temperature Sensor “A” Circuit Low
-P0AAF Hybrid Battery Pack Air Temperature Sensor “A” Circuit High
-P0AB0 Hybrid Battery Pack Air Temperature Sensor “A” Circuit Intermittent/Erratic
-P0AB1 Hybrid Battery Pack Air Temperature Sensor “B” Circuit
-P0AB2 Hybrid Battery Pack Air Temperature Sensor “B” Circuit Range/Performance
-P0AB3 Hybrid Battery Pack Air Temperature Sensor “B” Circuit Low
-P0AB4 Hybrid Battery Pack Air Temperature Sensor “B” Circuit High
-P0AB5 Hybrid Battery Pack Air Temperature Sensor “B” Circuit Intermittent/Erratic
-P0AB6 Engine Mount “B” Control Circuit/Open
-P0AB7 Engine Mount “B” Control Circuit Low
-P0AB8 Engine Mount “B” Control Circuit High
+P0AAC Hybrid Battery Pack Air Temperature Sensor "A" Circuit
+P0AAD Hybrid Battery Pack Air Temperature Sensor "A" Circuit Range/Performance
+P0AAE Hybrid Battery Pack Air Temperature Sensor "A" Circuit Low
+P0AAF Hybrid Battery Pack Air Temperature Sensor "A" Circuit High
+P0AB0 Hybrid Battery Pack Air Temperature Sensor "A" Circuit Intermittent/Erratic
+P0AB1 Hybrid Battery Pack Air Temperature Sensor "B" Circuit
+P0AB2 Hybrid Battery Pack Air Temperature Sensor "B" Circuit Range/Performance
+P0AB3 Hybrid Battery Pack Air Temperature Sensor "B" Circuit Low
+P0AB4 Hybrid Battery Pack Air Temperature Sensor "B" Circuit High
+P0AB5 Hybrid Battery Pack Air Temperature Sensor "B" Circuit Intermittent/Erratic
+P0AB6 Engine Mount "B" Control Circuit/Open
+P0AB7 Engine Mount "B" Control Circuit Low
+P0AB8 Engine Mount "B" Control Circuit High
 P0AB9 Hybrid System Performance
 P0ABA Hybrid Battery Pack Voltage Sense Circuit
 P0ABB Hybrid Battery Pack Voltage Sense Circuit Range/Performance
@@ -1409,26 +1409,26 @@ P0AC1 Hybrid Battery Pack Current Sensor Circuit Low
 P0AC2 Hybrid Battery Pack Current Sensor Circuit High
 P0AC3 Hybrid Battery Pack Current Sensor Circuit Intermittent/Erratic
 P0AC4 Hybrid Powertrain Control Module Requested MIL Illumination
-P0AC5 Hybrid Battery Temperature Sensor “B” Circuit
-P0AC6 Hybrid Battery Temperature Sensor “B” Range/Performance
-P0AC7 Hybrid Battery Temperature Sensor “B” Circuit Low
-P0AC8 Hybrid Battery Temperature Sensor “B” Circuit High
-P0AC9 Hybrid Battery Temperature Sensor “B” Circuit Intermittent/Erratic
-P0ACA Hybrid Battery Temperature Sensor “C” Circuit
-P0ACB Hybrid Battery Temperature Sensor “C” Range/Performance
-P0ACC Hybrid Battery Temperature Sensor “C” Circuit Low
-P0ACD Hybrid Battery Temperature Sensor “C” Circuit High
-P0ACE Hybrid Battery Temperature Sensor “C” Circuit Intermittent/Erratic
+P0AC5 Hybrid Battery Temperature Sensor "B" Circuit
+P0AC6 Hybrid Battery Temperature Sensor "B" Range/Performance
+P0AC7 Hybrid Battery Temperature Sensor "B" Circuit Low
+P0AC8 Hybrid Battery Temperature Sensor "B" Circuit High
+P0AC9 Hybrid Battery Temperature Sensor "B" Circuit Intermittent/Erratic
+P0ACA Hybrid Battery Temperature Sensor "C" Circuit
+P0ACB Hybrid Battery Temperature Sensor "C" Range/Performance
+P0ACC Hybrid Battery Temperature Sensor "C" Circuit Low
+P0ACD Hybrid Battery Temperature Sensor "C" Circuit High
+P0ACE Hybrid Battery Temperature Sensor "C" Circuit Intermittent/Erratic
 P0ACF Hybrid Battery Pack Cooling Fan 3 Control Circuit
 P0AD0 Hybrid Battery Pack Cooling Fan 3 Performance/Stuck Off
 P0AD1 Hybrid Battery Pack Cooling Fan 3 Stuck On
 P0AD2 Hybrid Battery Pack Cooling Fan 3 Control Circuit Low
 P0AD3 Hybrid Battery Pack Cooling Fan 3 Control Circuit High
 P0AD4 Hybrid Battery Pack Air Flow System Insufficient Air Flow
-P0AD5 Hybrid Battery Pack Air Flow Valve “A” Control Circuit/Open
-P0AD6 Hybrid Battery Pack Air Flow Valve “A” Control Circuit Range/Performance
-P0AD7 Hybrid Battery Pack Air Flow Valve “A” Control Circuit Low
-P0AD8 Hybrid Battery Pack Air Flow Valve “A” Control Circuit High
+P0AD5 Hybrid Battery Pack Air Flow Valve "A" Control Circuit/Open
+P0AD6 Hybrid Battery Pack Air Flow Valve "A" Control Circuit Range/Performance
+P0AD7 Hybrid Battery Pack Air Flow Valve "A" Control Circuit Low
+P0AD8 Hybrid Battery Pack Air Flow Valve "A" Control Circuit High
 P0AD9 Hybrid Battery Positive Contactor Control Circuit/Open
 P0ADA Hybrid Battery Positive Contactor Control Circuit Range/Performance
 P0ADB Hybrid Battery Positive Contactor Control Circuit Low
@@ -1444,21 +1444,21 @@ P0AE4 Hybrid Battery Precharge Contactor Control Circuit
 P0AE5 Hybrid Battery Precharge Contactor Control Circuit Range/Performance
 P0AE6 Hybrid Battery Precharge Contactor Control Circuit Low
 P0AE7 Hybrid Battery Precharge Contactor Control Circuit High
-P0AE8 Hybrid Battery Temperature Sensor “D” Circuit
-P0AE9 Hybrid Battery Temperature Sensor “D” Range/Performance
-P0AEA Hybrid Battery Temperature Sensor “D” Circuit Low
-P0AEB Hybrid Battery Temperature Sensor “D” Circuit High
-P0AEC Hybrid Battery Temperature Sensor “D” Circuit Intermittent/Erratic
-P0AED Drive Motor Inverter Temperature Sensor “A” Circuit
-P0AEE Drive Motor Inverter Temperature Sensor “A” Circuit Range/Performance
-P0AEF Drive Motor Inverter Temperature Sensor “A” Circuit Low
-P0AF0 Drive Motor Inverter Temperature Sensor “A” Circuit High
-P0AF1 Drive Motor Inverter Temperature Sensor “A” Circuit Intermittent/Erratic
-P0AF2 Drive Motor Inverter Temperature Sensor “B” Circuit
-P0AF3 Drive Motor Inverter Temperature Sensor “B” Circuit Range/Performance
-P0AF4 Drive Motor Inverter Temperature Sensor “B” Circuit Low
-P0AF5 Drive Motor Inverter Temperature Sensor “B” Circuit High
-P0AF6 Drive Motor Inverter Temperature Sensor “B” Circuit Intermittent/Erratic
+P0AE8 Hybrid Battery Temperature Sensor "D" Circuit
+P0AE9 Hybrid Battery Temperature Sensor "D" Range/Performance
+P0AEA Hybrid Battery Temperature Sensor "D" Circuit Low
+P0AEB Hybrid Battery Temperature Sensor "D" Circuit High
+P0AEC Hybrid Battery Temperature Sensor "D" Circuit Intermittent/Erratic
+P0AED Drive Motor Inverter Temperature Sensor "A" Circuit
+P0AEE Drive Motor Inverter Temperature Sensor "A" Circuit Range/Performance
+P0AEF Drive Motor Inverter Temperature Sensor "A" Circuit Low
+P0AF0 Drive Motor Inverter Temperature Sensor "A" Circuit High
+P0AF1 Drive Motor Inverter Temperature Sensor "A" Circuit Intermittent/Erratic
+P0AF2 Drive Motor Inverter Temperature Sensor "B" Circuit
+P0AF3 Drive Motor Inverter Temperature Sensor "B" Circuit Range/Performance
+P0AF4 Drive Motor Inverter Temperature Sensor "B" Circuit Low
+P0AF5 Drive Motor Inverter Temperature Sensor "B" Circuit High
+P0AF6 Drive Motor Inverter Temperature Sensor "B" Circuit Intermittent/Erratic
 P0AF7 14 Volt Power Module Internal Temperature Too High
 P0AF8 Hybrid Battery System Voltage
 P0AF9 Hybrid Battery System Voltage Unstable
@@ -1563,11 +1563,11 @@ P2061 Reductant Injection Air Pump Control Circuit High
 P2062 Reductant/Regeneration Supply Control Circuit/Open
 P2063 Reductant Supply Control Circuit Low
 P2064 Reductant Supply Control Circuit High
-P2065 Fuel Level Sensor “B” Circuit
-P2066 Fuel Level Sensor “B” Performance
-P2067 Fuel Level Sensor “B” Circuit Low
-P2068 Fuel Level Sensor “B” Circuit High
-P2069 Fuel Level Sensor “B” Circuit Intermittent
+P2065 Fuel Level Sensor "B" Circuit
+P2066 Fuel Level Sensor "B" Performance
+P2067 Fuel Level Sensor "B" Circuit Low
+P2068 Fuel Level Sensor "B" Circuit High
+P2069 Fuel Level Sensor "B" Circuit Intermittent
 P206A ISO/SAE reserved
 P206B ISO/SAE reserved
 P206C ISO/SAE reserved
@@ -1598,14 +1598,14 @@ P2084 Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 2
 P2085 Exhaust Gas Temperature Sensor Circuit Intermittent Bank 1 Sensor 2
 P2086 Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 2
 P2087 Exhaust Gas Temperature Sensor Circuit Intermittent Bank 2 Sensor 2
-P2088 “A“ Camshaft Position Actuator Control Circuit Low Bank 1 b
-P2089 “A” Camshaft Position Actuator Control Circuit High Bank 1 b
-P2090 “B” Camshaft Position Actuator Control Circuit Low Bank 1 c
-P2091 “B” Camshaft Position Actuator Control Circuit High Bank 1 c
-P2092 “A” Camshaft Position Actuator Control Circuit Low Bank 2 b
-P2093 “A” Camshaft Position Actuator Control Circuit High Bank 2 b
-P2094 “B” Camshaft Position Actuator Control Circuit Low Bank 2 c
-P2095 “B” Camshaft Position Actuator Control Circuit High Bank 2 c
+P2088 "A" Camshaft Position Actuator Control Circuit Low Bank 1 b
+P2089 "A" Camshaft Position Actuator Control Circuit High Bank 1 b
+P2090 "B" Camshaft Position Actuator Control Circuit Low Bank 1 c
+P2091 "B" Camshaft Position Actuator Control Circuit High Bank 1 c
+P2092 "A" Camshaft Position Actuator Control Circuit Low Bank 2 b
+P2093 "A" Camshaft Position Actuator Control Circuit High Bank 2 b
+P2094 "B" Camshaft Position Actuator Control Circuit Low Bank 2 c
+P2095 "B" Camshaft Position Actuator Control Circuit High Bank 2 c
 P2096 Post Catalyst Fuel Trim System Too Lean Bank 1
 P2097 Post Catalyst Fuel Trim System Too Rich Bank 1
 P2098 Post Catalyst Fuel Trim System Too Lean Bank 2
@@ -1619,72 +1619,72 @@ P2105 Throttle Actuator Control System – Forced Engine Shutdown
 P2106 Throttle Actuator Control System – Forced Limited Power
 P2107 Throttle Actuator Control Module Processor
 P2108 Throttle Actuator Control Module Performance
-P2109 Throttle/Pedal Position Sensor “A” Minimum Stop Performance
+P2109 Throttle/Pedal Position Sensor "A" Minimum Stop Performance
 P2110 Throttle Actuator Control System – Forced Limited RPM
 P2111 Throttle Actuator Control System – Stuck Open
 P2112 Throttle Actuator Control System – Stuck Closed
-P2113 Throttle/Pedal Position Sensor “B” Minimum Stop Performance
-P2114 Throttle/Pedal Position Sensor “C” Minimum Stop Performance
-P2115 Throttle/Pedal Position Sensor “D” Minimum Stop Performance
-P2116 Throttle/Pedal Position Sensor “E” Minimum Stop Performance
-P2117 Throttle/Pedal Position Sensor “F” Minimum Stop Performance
+P2113 Throttle/Pedal Position Sensor "B" Minimum Stop Performance
+P2114 Throttle/Pedal Position Sensor "C" Minimum Stop Performance
+P2115 Throttle/Pedal Position Sensor "D" Minimum Stop Performance
+P2116 Throttle/Pedal Position Sensor "E" Minimum Stop Performance
+P2117 Throttle/Pedal Position Sensor "F" Minimum Stop Performance
 P2118 Throttle Actuator Control Motor Current Range/Performance
 P2119 Throttle Actuator Control Throttle Body Range/Performance
-P2120 Throttle/Pedal Position Sensor/Switch “D” Circuit
-P2121 Throttle/Pedal Position Sensor/Switch “D” Circuit Range/Performance
-P2122 Throttle/Pedal Position Sensor/Switch “D” Circuit Low
-P2123 Throttle/Pedal Position Sensor/Switch “D” Circuit High
-P2124 Throttle/Pedal Position Sensor/Switch “D” Circuit Intermittent
-P2125 Throttle/Pedal Position Sensor/Switch “E” Circuit
-P2126 Throttle/Pedal Position Sensor/Switch “E” Circuit Range/Performance
-P2127 Throttle/Pedal Position Sensor/Switch “E” Circuit Low
-P2128 Throttle/Pedal Position Sensor/Switch “E” Circuit High
-P2129 Throttle/Pedal Position Sensor/Switch “E” Circuit Intermittent
-P2130 Throttle/Pedal Position Sensor/Switch “F” Circuit
-P2131 Throttle/Pedal Position Sensor/Switch “F” Circuit Range/Performance
-P2132 Throttle/Pedal Position Sensor/Switch “F” Circuit Low
-P2133 Throttle/Pedal Position Sensor/Switch “F” Circuit High
-P2134 Throttle/Pedal Position Sensor/Switch “F” Circuit Intermittent
-P2135 Throttle/Pedal Position Sensor/Switch “A”/“B” Voltage Correlation
-P2136 Throttle/Pedal Position Sensor/Switch “A”/“C” Voltage Correlation
-P2137 Throttle/Pedal Position Sensor/Switch “B”/“C” Voltage Correlation
-P2138 Throttle/Pedal Position Sensor/Switch “D”/“E” Voltage Correlation
-P2139 Throttle/Pedal Position Sensor/Switch “D”/“F” Voltage Correlation
-P213A Exhaust Gas Recirculation Throttle Control Circuit “B”/Open
-P213B Exhaust Gas Recirculation Throttle Control Circuit “B” Range/Performance
-P213C Exhaust Gas Recirculation Throttle Control Circuit “B” Low
-P213D Exhaust Gas Recirculation Throttle Control Circuit “B” High
-P2140 Throttle/Pedal Position Sensor/Switch “E”/“F” Voltage Correlation
-P2141 Exhaust Gas Recirculation Throttle Control Circuit “A” Low
-P2142 Exhaust Gas Recirculation Throttle Control Circuit “A” High
+P2120 Throttle/Pedal Position Sensor/Switch "D" Circuit
+P2121 Throttle/Pedal Position Sensor/Switch "D" Circuit Range/Performance
+P2122 Throttle/Pedal Position Sensor/Switch "D" Circuit Low
+P2123 Throttle/Pedal Position Sensor/Switch "D" Circuit High
+P2124 Throttle/Pedal Position Sensor/Switch "D" Circuit Intermittent
+P2125 Throttle/Pedal Position Sensor/Switch "E" Circuit
+P2126 Throttle/Pedal Position Sensor/Switch "E" Circuit Range/Performance
+P2127 Throttle/Pedal Position Sensor/Switch "E" Circuit Low
+P2128 Throttle/Pedal Position Sensor/Switch "E" Circuit High
+P2129 Throttle/Pedal Position Sensor/Switch "E" Circuit Intermittent
+P2130 Throttle/Pedal Position Sensor/Switch "F" Circuit
+P2131 Throttle/Pedal Position Sensor/Switch "F" Circuit Range/Performance
+P2132 Throttle/Pedal Position Sensor/Switch "F" Circuit Low
+P2133 Throttle/Pedal Position Sensor/Switch "F" Circuit High
+P2134 Throttle/Pedal Position Sensor/Switch "F" Circuit Intermittent
+P2135 Throttle/Pedal Position Sensor/Switch "A"/"B" Voltage Correlation
+P2136 Throttle/Pedal Position Sensor/Switch "A"/"C" Voltage Correlation
+P2137 Throttle/Pedal Position Sensor/Switch "B"/"C" Voltage Correlation
+P2138 Throttle/Pedal Position Sensor/Switch "D"/"E" Voltage Correlation
+P2139 Throttle/Pedal Position Sensor/Switch "D"/"F" Voltage Correlation
+P213A Exhaust Gas Recirculation Throttle Control Circuit "B"/Open
+P213B Exhaust Gas Recirculation Throttle Control Circuit "B" Range/Performance
+P213C Exhaust Gas Recirculation Throttle Control Circuit "B" Low
+P213D Exhaust Gas Recirculation Throttle Control Circuit "B" High
+P2140 Throttle/Pedal Position Sensor/Switch "E"/"F" Voltage Correlation
+P2141 Exhaust Gas Recirculation Throttle Control Circuit "A" Low
+P2142 Exhaust Gas Recirculation Throttle Control Circuit "A" High
 P2143 Exhaust Gas Recirculation Vent Control Circuit/Open
 P2144 Exhaust Gas Recirculation Vent Control Circuit Low
 P2145 Exhaust Gas Recirculation Vent Control Circuit High
-P2146 Fuel Injector Group “A” Supply Voltage Circuit/Open
-P2147 Fuel Injector Group “A” Supply Voltage Circuit Low
-P2148 Fuel Injector Group “A” Supply Voltage Circuit High
-P2149 Fuel Injector Group “B” Supply Voltage Circuit/Open
-P2150 Fuel Injector Group “B” Supply Voltage Circuit Low
-P2151 Fuel Injector Group “B” Supply Voltage Circuit High
-P2152 Fuel Injector Group “C” Supply Voltage Circuit/Open
-P2153 Fuel Injector Group “C” Supply Voltage Circuit Low
-P2154 Fuel Injector Group “C” Supply Voltage Circuit High
-P2155 Fuel Injector Group “D” Supply Voltage Circuit/Open
-P2156 Fuel Injector Group “D” Supply Voltage Circuit Low
-P2157 Fuel Injector Group “D” Supply Voltage Circuit High
-P2158 Vehicle Speed Sensor “B”
-P2159 Vehicle Speed Sensor “B” Range/Performance
+P2146 Fuel Injector Group "A" Supply Voltage Circuit/Open
+P2147 Fuel Injector Group "A" Supply Voltage Circuit Low
+P2148 Fuel Injector Group "A" Supply Voltage Circuit High
+P2149 Fuel Injector Group "B" Supply Voltage Circuit/Open
+P2150 Fuel Injector Group "B" Supply Voltage Circuit Low
+P2151 Fuel Injector Group "B" Supply Voltage Circuit High
+P2152 Fuel Injector Group "C" Supply Voltage Circuit/Open
+P2153 Fuel Injector Group "C" Supply Voltage Circuit Low
+P2154 Fuel Injector Group "C" Supply Voltage Circuit High
+P2155 Fuel Injector Group "D" Supply Voltage Circuit/Open
+P2156 Fuel Injector Group "D" Supply Voltage Circuit Low
+P2157 Fuel Injector Group "D" Supply Voltage Circuit High
+P2158 Vehicle Speed Sensor "B"
+P2159 Vehicle Speed Sensor "B" Range/Performance
 P215A Vehicle Speed – Wheel Speed Correlation
 P215B Vehicle Speed – Output Shaft Speed Correlation
-P2160 Vehicle Speed Sensor “B” Circuit Low
-P2161 Vehicle Speed Sensor “B” Intermittent/Erratic
-P2162 Vehicle Speed Sensor “A”/“B” Correlation
-P2163 Throttle/Pedal Position Sensor “A” Maximum Stop Performance
-P2164 Throttle/Pedal Position Sensor “B” Maximum Stop Performance
-P2165 Throttle/Pedal Position Sensor “C” Maximum Stop Performance
-P2166 Throttle/Pedal Position Sensor “D” Maximum Stop Performance
-P2167 Throttle/Pedal Position Sensor “E” Maximum Stop Performance
-P2168 Throttle/Pedal Position Sensor “F” Maximum Stop Performance
+P2160 Vehicle Speed Sensor "B" Circuit Low
+P2161 Vehicle Speed Sensor "B" Intermittent/Erratic
+P2162 Vehicle Speed Sensor "A"/"B" Correlation
+P2163 Throttle/Pedal Position Sensor "A" Maximum Stop Performance
+P2164 Throttle/Pedal Position Sensor "B" Maximum Stop Performance
+P2165 Throttle/Pedal Position Sensor "C" Maximum Stop Performance
+P2166 Throttle/Pedal Position Sensor "D" Maximum Stop Performance
+P2167 Throttle/Pedal Position Sensor "E" Maximum Stop Performance
+P2168 Throttle/Pedal Position Sensor "F" Maximum Stop Performance
 P2169 Exhaust Pressure Regulator Vent Solenoid Control Circuit/Open
 P2170 Exhaust Pressure Regulator Vent Solenoid Control Circuit Low
 P2171 Exhaust Pressure Regulator Vent Solenoid Control Circuit High
@@ -1773,10 +1773,10 @@ P2253 O2 Sensor Negative Current Control Circuit High Bank 1 Sensor 1
 P2254 O2 Sensor Negative Current Control Circuit/Open Bank 2 Sensor 1
 P2255 O2 Sensor Negative Current Control Circuit Low Bank 2 Sensor 1
 P2256 O2 Sensor Negative Current Control Circuit High Bank 2 Sensor 1
-P2257 Secondary Air Injection System Control “A” Circuit Low
-P2258 Secondary Air Injection System Control “A” Circuit High
-P2259 Secondary Air Injection System Control “B” Circuit Low
-P2260 Secondary Air Injection System Control “B” Circuit High
+P2257 Secondary Air Injection System Control "A" Circuit Low
+P2258 Secondary Air Injection System Control "A" Circuit High
+P2259 Secondary Air Injection System Control "B" Circuit Low
+P2260 Secondary Air Injection System Control "B" Circuit High
 P2261 Turbocharger/Supercharger Bypass Valve – Mechanical
 P2262 Turbocharger/Supercharger Boost Pressure Not Detected – Mechanical
 P2263 Turbocharger/Supercharger Boost System Performance
@@ -1816,42 +1816,42 @@ P2296 Fuel Pressure Regulator 2 Control Circuit High
 P2297 O2 Sensor Out of Range During Deceleration Bank 1 Sensor 1
 P2298 O2 Sensor Out of Range During Deceleration Bank 2 Sensor 1
 P2299 Brake Pedal Position/Accelerator Pedal Position Incompatible
-P2300 Ignition Coil “A” Primary Control Circuit Low
-P2301 Ignition Coil “A” Primary Control Circuit High
-P2302 Ignition Coil “A” Secondary Circuit
-P2303 Ignition Coil “B” Primary Control Circuit Low
-P2304 Ignition Coil “B” Primary Control Circuit High
-P2305 Ignition Coil “B” Secondary Circuit
-P2306 Ignition Coil “C” Primary Control Circuit Low
-P2307 Ignition Coil “C” Primary Control Circuit High
-P2308 Ignition Coil “C” Secondary Circuit
-P2309 Ignition Coil “D” Primary Control Circuit Low
-P2310 Ignition Coil “D” Primary Control Circuit High
-P2311 Ignition Coil “D” Secondary Circuit
-P2312 Ignition Coil “E” Primary Control Circuit Low
-P2313 Ignition Coil “E” Primary Control Circuit High
-P2314 Ignition Coil “E” Secondary Circuit
-P2315 Ignition Coil “F” Primary Control Circuit Low
-P2316 Ignition Coil “F” Primary Control Circuit High
-P2317 Ignition Coil “F” Secondary Circuit
-P2318 Ignition Coil “G” Primary Control Circuit Low
-P2319 Ignition Coil “G” Primary Control Circuit High
-P2320 Ignition Coil “G” Secondary Circuit
-P2321 Ignition Coil “H” Primary Control Circuit Low
-P2322 Ignition Coil “H” Primary Control Circuit High
-P2323 Ignition Coil “H” Secondary Circuit
-P2324 Ignition Coil “I” Primary Control Circuit Low
-P2325 Ignition Coil “I” Primary Control Circuit High
-P2326 Ignition Coil “I” Secondary Circuit
-P2327 Ignition Coil “J” Primary Control Circuit Low
-P2328 Ignition Coil “J” Primary Control Circuit High
-P2329 Ignition Coil “J” Secondary Circuit
-P2330 Ignition Coil “K” Primary Control Circuit Low
-P2331 Ignition Coil “K” Primary Control Circuit High
-P2332 Ignition Coil “K” Secondary Circuit
-P2333 Ignition Coil “L” Primary Control Circuit Low
-P2334 Ignition Coil “L” Primary Control Circuit High
-P2335 Ignition Coil “L” Secondary Circuit
+P2300 Ignition Coil "A" Primary Control Circuit Low
+P2301 Ignition Coil "A" Primary Control Circuit High
+P2302 Ignition Coil "A" Secondary Circuit
+P2303 Ignition Coil "B" Primary Control Circuit Low
+P2304 Ignition Coil "B" Primary Control Circuit High
+P2305 Ignition Coil "B" Secondary Circuit
+P2306 Ignition Coil "C" Primary Control Circuit Low
+P2307 Ignition Coil "C" Primary Control Circuit High
+P2308 Ignition Coil "C" Secondary Circuit
+P2309 Ignition Coil "D" Primary Control Circuit Low
+P2310 Ignition Coil "D" Primary Control Circuit High
+P2311 Ignition Coil "D" Secondary Circuit
+P2312 Ignition Coil "E" Primary Control Circuit Low
+P2313 Ignition Coil "E" Primary Control Circuit High
+P2314 Ignition Coil "E" Secondary Circuit
+P2315 Ignition Coil "F" Primary Control Circuit Low
+P2316 Ignition Coil "F" Primary Control Circuit High
+P2317 Ignition Coil "F" Secondary Circuit
+P2318 Ignition Coil "G" Primary Control Circuit Low
+P2319 Ignition Coil "G" Primary Control Circuit High
+P2320 Ignition Coil "G" Secondary Circuit
+P2321 Ignition Coil "H" Primary Control Circuit Low
+P2322 Ignition Coil "H" Primary Control Circuit High
+P2323 Ignition Coil "H" Secondary Circuit
+P2324 Ignition Coil "I" Primary Control Circuit Low
+P2325 Ignition Coil "I" Primary Control Circuit High
+P2326 Ignition Coil "I" Secondary Circuit
+P2327 Ignition Coil "J" Primary Control Circuit Low
+P2328 Ignition Coil "J" Primary Control Circuit High
+P2329 Ignition Coil "J" Secondary Circuit
+P2330 Ignition Coil "K" Primary Control Circuit Low
+P2331 Ignition Coil "K" Primary Control Circuit High
+P2332 Ignition Coil "K" Secondary Circuit
+P2333 Ignition Coil "L" Primary Control Circuit Low
+P2334 Ignition Coil "L" Primary Control Circuit High
+P2335 Ignition Coil "L" Secondary Circuit
 P2336 Cylinder 1 Above Knock Threshold
 P2337 Cylinder 2 Above Knock Threshold
 P2338 Cylinder 3 Above Knock Threshold
@@ -1963,22 +1963,22 @@ P2511 ECM/PCM Power Relay Sense Circuit Intermittent
 P2512 Event Data Recorder Request Circuit/ Open
 P2513 Event Data Recorder Request Circuit Low
 P2514 Event Data Recorder Request Circuit High
-P2515 A/C Refrigerant Pressure Sensor “B” Circuit
-P2516 A/C Refrigerant Pressure Sensor “B” Circuit Range/Performance
-P2517 A/C Refrigerant Pressure Sensor “B” Circuit Low
-P2518 A/C Refrigerant Pressure Sensor “B” Circuit High
-P2519 A/C Request “A” Circuit
+P2515 A/C Refrigerant Pressure Sensor "B" Circuit
+P2516 A/C Refrigerant Pressure Sensor "B" Circuit Range/Performance
+P2517 A/C Refrigerant Pressure Sensor "B" Circuit Low
+P2518 A/C Refrigerant Pressure Sensor "B" Circuit High
+P2519 A/C Request "A" Circuit
 P251A PTO Enable Switch Circuit/Open
 P251B PTO Enable Switch Circuit Low
 P251C PTO Enable Switch Circuit High
 P251D PTO Engine Shutdown Circuit/Open
 P251E PTO Engine Shutdown Circuit Low
 P251F PTO Engine Shutdown Circuit High
-P2520 A/C Request “A” Circuit Low
-P2521 A/C Request “A” Circuit High
-P2522 A/C Request “B” Circuit
-P2523 A/C Request “B” Circuit Low
-P2524 A/C Request “B” Circuit High
+P2520 A/C Request "A" Circuit Low
+P2521 A/C Request "A" Circuit High
+P2522 A/C Request "B" Circuit
+P2523 A/C Request "B" Circuit Low
+P2524 A/C Request "B" Circuit High
 P2525 Vacuum Reservoir Pressure Sensor Circuit
 P2526 Vacuum Reservoir Pressure Sensor Circuit Range/Performance
 P2527 Vacuum Reservoir Pressure Sensor Circuit Low
@@ -2010,20 +2010,20 @@ P2540 Low Pressure Fuel System Sensor Circuit Range/Performance
 P2541 Low Pressure Fuel System Sensor Circuit Low
 P2542 Low Pressure Fuel System Sensor Circuit High
 P2543 Low Pressure Fuel System Sensor Circuit Intermittent
-P2544 Torque Management Request Input Signal “A”
-P2545 Torque Management Request Input Signal “A” Range/Performance
-P2546 Torque Management Request Input Signal “A” Low
-P2547 Torque Management Request Input Signal “A” High
-P2548 Torque Management Request Input Signal “B”
-P2549 Torque Management Request Input Signal “B” Range/Performance
+P2544 Torque Management Request Input Signal "A"
+P2545 Torque Management Request Input Signal "A" Range/Performance
+P2546 Torque Management Request Input Signal "A" Low
+P2547 Torque Management Request Input Signal "A" High
+P2548 Torque Management Request Input Signal "B"
+P2549 Torque Management Request Input Signal "B" Range/Performance
 P254A PTO Speed Selector Sensor/Switch 1 Circuit/Open
 P254B PTO Speed Selector Sensor/Switch 1 Range/Performance
 P254C PTO Speed Selector Sensor/Switch 1 Circuit Low
 P254D PTO Speed Selector Sensor/Switch 1 Circuit High
 P254E PTO Speed Selector Sensor/Switch 1 Circuit Intermittent/Erratic
 P254F Engine Hood Switch Circuit
-P2550 Torque Management Request Input Signal “B” Low
-P2551 Torque Management Request Input Signal “B” High
+P2550 Torque Management Request Input Signal "B" Low
+P2551 Torque Management Request Input Signal "B" High
 P2552 Throttle/Fuel Inhibit Circuit
 P2553 Throttle/Fuel Inhibit Circuit Range/Performance
 P2554 Throttle/Fuel Inhibit Circuit Low
@@ -2040,11 +2040,11 @@ P255E PTO Speed Selector Sensor/Switch 2 Circuit Intermittent/Erratic
 P255F ISO/SAE reserved
 P2560 Engine Coolant Level Low
 P2561 A/C Control Module Requested MIL Illumination
-P2562 Turbocharger Boost Control Position Sensor “A” Circuit
-P2563 Turbocharger Boost Control Position Sensor “A” Circuit Range/Performance
-P2564 Turbocharger Boost Control Position Sensor “A” Circuit Low
-P2565 Turbocharger Boost Control Position Sensor “A” Circuit High
-P2566 Turbocharger Boost Control Position Sensor “A” Circuit Intermittent
+P2562 Turbocharger Boost Control Position Sensor "A" Circuit
+P2563 Turbocharger Boost Control Position Sensor "A" Circuit Range/Performance
+P2564 Turbocharger Boost Control Position Sensor "A" Circuit Low
+P2565 Turbocharger Boost Control Position Sensor "A" Circuit High
+P2566 Turbocharger Boost Control Position Sensor "A" Circuit Intermittent
 P2567 Direct Ozone Reduction Catalyst Temperature Sensor Circuit
 P2568 Direct Ozone Reduction Catalyst Temperature Sensor Circuit Range/Performance
 P2569 Direct Ozone Reduction Catalyst Temperature Sensor Circuit Low
@@ -2076,20 +2076,20 @@ P2582 Turbocharger Speed Sensor Circuit Intermittent
 P2583 Cruise Control Front Distance Range Sensor
 P2584 Fuel Additive Control Module Requested MIL Illumination
 P2585 Fuel Additive Control Module Warning Lamp Request
-P2586 Turbocharger Boost Control Position Sensor “B” Circuit
-P2587 Turbocharger Boost Control Position Sensor “B” Circuit Range/Performance
-P2588 Turbocharger Boost Control Position Sensor “B” Circuit Low
-P2589 Turbocharger Boost Control Position Sensor “B” Circuit High
-P2590 Turbocharger Boost Control Position Sensor “B” Circuit Intermittent/Erratic
+P2586 Turbocharger Boost Control Position Sensor "B" Circuit
+P2587 Turbocharger Boost Control Position Sensor "B" Circuit Range/Performance
+P2588 Turbocharger Boost Control Position Sensor "B" Circuit Low
+P2589 Turbocharger Boost Control Position Sensor "B" Circuit High
+P2590 Turbocharger Boost Control Position Sensor "B" Circuit Intermittent/Erratic
 P2600 Coolant Pump Control Circuit/Open
 P2601 Coolant Pump Control Circuit Range/Performance
 P2602 Coolant Pump Control Circuit Low
 P2603 Coolant Pump Control Circuit High
-P2604 Intake Air Heater “A” Circuit Range/Performance
-P2605 Intake Air Heater “A” Circuit/Open
-P2606 Intake Air Heater “B” Circuit Range/Performance
-P2607 Intake Air Heater “B” Circuit Low
-P2608 Intake Air Heater “B” Circuit High
+P2604 Intake Air Heater "A" Circuit Range/Performance
+P2605 Intake Air Heater "A" Circuit/Open
+P2606 Intake Air Heater "B" Circuit Range/Performance
+P2607 Intake Air Heater "B" Circuit Low
+P2608 Intake Air Heater "B" Circuit High
 P2609 Intake Air Heater System Performance
 P260A PTO Control Circuit/Open
 P260B PTO Control Circuit Low
@@ -2119,64 +2119,64 @@ P2628 O2 Sensor Pumping Current Trim Circuit High Bank 1 Sensor 1
 P2629 O2 Sensor Pumping Current Trim Circuit/Open Bank 2 Sensor 1
 P2630 O2 Sensor Pumping Current Trim Circuit Low Bank 2 Sensor 1
 P2631 O2 Sensor Pumping Current Trim Circuit High Bank 2 Sensor 1
-P2632 Fuel Pump “B” Control Circuit /Open
-P2633 Fuel Pump “B” Control Circuit Low
-P2634 Fuel Pump “B” Control Circuit High
-P2635 Fuel Pump “A” Low Flow / Performance
-P2636 Fuel Pump “B” Low Flow / Performance
-P2637 Torque Management Feedback Signal “A”
-P2638 Torque Management Feedback Signal “A” Range/Performance
-P2639 Torque Management Feedback Signal “A” Low
-P2640 Torque Management Feedback Signal “A” High
-P2641 Torque Management Feedback Signal “B”
-P2642 Torque Management Feedback Signal “B” Range/Performance
-P2643 Torque Management Feedback Signal “B” Low
-P2644 Torque Management Feedback Signal “B” High
-P2645 “A” Rocker Arm Actuator Control Circuit/Open Bank 1
-P2646 “A” Rocker Arm Actuator System Performance or Stuck Off Bank 1
-P2647 “A” Rocker Arm Actuator System Stuck On Bank 1
-P2648 “A” Rocker Arm Actuator Control Circuit Low Bank 1
-P2649 “A” Rocker Arm Actuator Control Circuit High Bank 1
-P264A “A” Rocker Arm Actuator Position Sensor Circuit Bank 1
-P264B “A” Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
-P264C “A” Rocker Arm Actuator Position Sensor Circuit Low Bank 1
-P264D “A” Rocker Arm Actuator Position Sensor Circuit High Bank 1
-P264E “A” Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
+P2632 Fuel Pump "B" Control Circuit /Open
+P2633 Fuel Pump "B" Control Circuit Low
+P2634 Fuel Pump "B" Control Circuit High
+P2635 Fuel Pump "A" Low Flow / Performance
+P2636 Fuel Pump "B" Low Flow / Performance
+P2637 Torque Management Feedback Signal "A"
+P2638 Torque Management Feedback Signal "A" Range/Performance
+P2639 Torque Management Feedback Signal "A" Low
+P2640 Torque Management Feedback Signal "A" High
+P2641 Torque Management Feedback Signal "B"
+P2642 Torque Management Feedback Signal "B" Range/Performance
+P2643 Torque Management Feedback Signal "B" Low
+P2644 Torque Management Feedback Signal "B" High
+P2645 "A" Rocker Arm Actuator Control Circuit/Open Bank 1
+P2646 "A" Rocker Arm Actuator System Performance or Stuck Off Bank 1
+P2647 "A" Rocker Arm Actuator System Stuck On Bank 1
+P2648 "A" Rocker Arm Actuator Control Circuit Low Bank 1
+P2649 "A" Rocker Arm Actuator Control Circuit High Bank 1
+P264A "A" Rocker Arm Actuator Position Sensor Circuit Bank 1
+P264B "A" Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
+P264C "A" Rocker Arm Actuator Position Sensor Circuit Low Bank 1
+P264D "A" Rocker Arm Actuator Position Sensor Circuit High Bank 1
+P264E "A" Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
 P264F ISO/SAE reserved
-P2650 “B” Rocker Arm Actuator Control Circuit/Open Bank 1
-P2651 “B” Rocker Arm Actuator System Performance/Stuck Off Bank 1
-P2652 “B” Rocker Arm Actuator System Stuck On Bank 1
-P2653 “B” Rocker Arm Actuator Control Circuit Low Bank 1
-P2654 “B” Rocker Arm Actuator Control Circuit High Bank 1
-P2655 “A” Rocker Arm Actuator Control Circuit/Open Bank 2
-P2656 “A” Rocker Arm Actuator System Performance or Stuck Off Bank 2
-P2657 “A” Rocker Arm Actuator System Stuck On Bank 2
-P2658 “A” Rocker Arm Actuator Control Circuit Low Bank 2
-P2659 “A” Rocker Arm Actuator Control Circuit High Bank 2
-P265A “B” Rocker Arm Actuator Position Sensor Circuit Bank 1
-P265B “B” Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
-P265C “B” Rocker Arm Actuator Position Sensor Circuit Low Bank 1
-P265D “B” Rocker Arm Actuator Position Sensor Circuit High Bank 1
-P265E “B” Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
+P2650 "B" Rocker Arm Actuator Control Circuit/Open Bank 1
+P2651 "B" Rocker Arm Actuator System Performance/Stuck Off Bank 1
+P2652 "B" Rocker Arm Actuator System Stuck On Bank 1
+P2653 "B" Rocker Arm Actuator Control Circuit Low Bank 1
+P2654 "B" Rocker Arm Actuator Control Circuit High Bank 1
+P2655 "A" Rocker Arm Actuator Control Circuit/Open Bank 2
+P2656 "A" Rocker Arm Actuator System Performance or Stuck Off Bank 2
+P2657 "A" Rocker Arm Actuator System Stuck On Bank 2
+P2658 "A" Rocker Arm Actuator Control Circuit Low Bank 2
+P2659 "A" Rocker Arm Actuator Control Circuit High Bank 2
+P265A "B" Rocker Arm Actuator Position Sensor Circuit Bank 1
+P265B "B" Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
+P265C "B" Rocker Arm Actuator Position Sensor Circuit Low Bank 1
+P265D "B" Rocker Arm Actuator Position Sensor Circuit High Bank 1
+P265E "B" Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
 P265F ISO/SAE reserved
-P2660 “B” Rocker Arm Actuator Control Circuit/Open Bank 2
-P2661 “B” Rocker Arm Actuator System Performance/Stuck Off Bank 2
-P2662 “B” Rocker Arm Actuator System Stuck On Bank 2
-P2663 “B” Rocker Arm Actuator Control Circuit Low Bank 2
-P2664 “B” Rocker Arm Actuator Control Circuit High Bank 2
-P2665 Fuel Shutoff Valve “B” Control Circuit/Open
-P2666 Fuel Shutoff Valve “B” Control Circuit Low
-P2667 Fuel Shutoff Valve “B” Control Circuit High
+P2660 "B" Rocker Arm Actuator Control Circuit/Open Bank 2
+P2661 "B" Rocker Arm Actuator System Performance/Stuck Off Bank 2
+P2662 "B" Rocker Arm Actuator System Stuck On Bank 2
+P2663 "B" Rocker Arm Actuator Control Circuit Low Bank 2
+P2664 "B" Rocker Arm Actuator Control Circuit High Bank 2
+P2665 Fuel Shutoff Valve "B" Control Circuit/Open
+P2666 Fuel Shutoff Valve "B" Control Circuit Low
+P2667 Fuel Shutoff Valve "B" Control Circuit High
 P2668 Fuel Mode Indicator Lamp Control Circuit
-P2669 Actuator Supply Voltage “B” Circuit /Open
-P266A “A” Rocker Arm Actuator Position Sensor Circuit Bank 2
-P266B “A” Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
-P266C “A” Rocker Arm Actuator Position Sensor Circuit Low Bank 2
-P266D “A” Rocker Arm Actuator Position Sensor Circuit High Bank 2
-P266E “A” Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
+P2669 Actuator Supply Voltage "B" Circuit /Open
+P266A "A" Rocker Arm Actuator Position Sensor Circuit Bank 2
+P266B "A" Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
+P266C "A" Rocker Arm Actuator Position Sensor Circuit Low Bank 2
+P266D "A" Rocker Arm Actuator Position Sensor Circuit High Bank 2
+P266E "A" Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
 P266F ISO/SAE reserved
-P2670 Actuator Supply Voltage “B” Circuit Low
-P2671 Actuator Supply Voltage “B” Circuit High
+P2670 Actuator Supply Voltage "B" Circuit Low
+P2671 Actuator Supply Voltage "B" Circuit High
 P2672 Injection Pump Timing Offset
 P2673 Injection Pump Timing Calibration Not Learned
 P2674 Injection Pump Fuel Calibration Not Learned
@@ -2185,19 +2185,19 @@ P2676 Air Cleaner Inlet Control Circuit Low
 P2677 Air Cleaner Inlet Control Circuit High
 P2678 Coolant Degassing Valve Control Circuit/Open
 P2679 Coolant Degassing Valve Control Circuit Low
-P267A “B” Rocker Arm Actuator Position Sensor Circuit Bank 2
-P267B “B” Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
-P267C “B” Rocker Arm Actuator Position Sensor Circuit Low Bank 2
-P267D “B” Rocker Arm Actuator Position Sensor Circuit High Bank 2
-P267E “B” Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
+P267A "B" Rocker Arm Actuator Position Sensor Circuit Bank 2
+P267B "B" Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
+P267C "B" Rocker Arm Actuator Position Sensor Circuit Low Bank 2
+P267D "B" Rocker Arm Actuator Position Sensor Circuit High Bank 2
+P267E "B" Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
 P267F ISO/SAE reserved
 P2680 Coolant Degassing Valve Control Circuit High
 P2681 Engine Coolant Bypass Valve Control Circuit/Open
 P2682 Engine Coolant Bypass Valve Control Circuit Low
 P2683 Engine Coolant Bypass Valve Control Circuit High
-P2684 Actuator Supply Voltage “C” Circuit/Open
-P2685 Actuator Supply Voltage “C” Circuit Low
-P2686 Actuator Supply Voltage “C” Circuit High
+P2684 Actuator Supply Voltage "C" Circuit/Open
+P2685 Actuator Supply Voltage "C" Circuit Low
+P2686 Actuator Supply Voltage "C" Circuit High
 P2687 Fuel Supply Heater Control Circuit/Open
 P2688 Fuel Supply Heater Control Circuit Low
 P2689 Fuel Supply Heater Control Circuit High
@@ -2207,65 +2207,65 @@ P268C ISO/SAE reserved
 P268D ISO/SAE reserved
 P268E ISO/SAE reserved
 P268F ISO/SAE reserved
-P2700 Transmission Friction Element “A” Apply Time Range/Performance
-P2701 Transmission Friction Element “B” Apply Time Range/Performance
-P2702 Transmission Friction Element “C” Apply Time Range/Performance
-P2703 Transmission Friction Element “D” Apply Time Range/Performance
-P2704 Transmission Friction Element “E” Apply Time Range/Performance
-P2705 Transmission Friction Element “F” Apply Time Range/Performance
-P2706 Shift Solenoid “F”
-P2707 Shift Solenoid “F” Performance/Stuck Off
-P2708 Shift Solenoid “F” Stuck On
-P2709 Shift Solenoid “F” Electrical
-P2710 Shift Solenoid “F” Intermittent
+P2700 Transmission Friction Element "A" Apply Time Range/Performance
+P2701 Transmission Friction Element "B" Apply Time Range/Performance
+P2702 Transmission Friction Element "C" Apply Time Range/Performance
+P2703 Transmission Friction Element "D" Apply Time Range/Performance
+P2704 Transmission Friction Element "E" Apply Time Range/Performance
+P2705 Transmission Friction Element "F" Apply Time Range/Performance
+P2706 Shift Solenoid "F"
+P2707 Shift Solenoid "F" Performance/Stuck Off
+P2708 Shift Solenoid "F" Stuck On
+P2709 Shift Solenoid "F" Electrical
+P2710 Shift Solenoid "F" Intermittent
 P2711 Unexpected Mechanical Gear Disengagement
 P2712 Hydraulic Power Unit Leakage
-P2713 Pressure Control Solenoid “D”
-P2714 Pressure Control Solenoid “D” Performance/Stuck Off
-P2715 Pressure Control Solenoid “D” Stuck On
-P2716 Pressure Control Solenoid “D” Electrical
-P2717 Pressure Control Solenoid “D” Intermittent
-P2718 Pressure Control Solenoid “D” Control Circuit/Open
-P2719 Pressure Control Solenoid “D” Control Circuit Range/Performance
-P2720 Pressure Control Solenoid “D” Control Circuit Low
-P2721 Pressure Control Solenoid “D” Control Circuit High
-P2722 Pressure Control Solenoid “E”
-P2723 Pressure Control Solenoid “E” Performance/Stuck Off
-P2724 Pressure Control Solenoid “E” Stuck On
-P2725 Pressure Control Solenoid “E” Electrical
-P2726 Pressure Control Solenoid “E” Intermittent
-P2727 Pressure Control Solenoid “E” Control Circuit/Open
-P2728 Pressure Control Solenoid “E” Control Circuit Range/Performance
-P2729 Pressure Control Solenoid “E” Control Circuit Low
-P2730 Pressure Control Solenoid “E” Control Circuit High
-P2731 Pressure Control Solenoid “F”
-P2732 Pressure Control Solenoid “F” Performance/Stuck Off
-P2733 Pressure Control Solenoid “F” Stuck On
-P2734 Pressure Control Solenoid “F” Electrical
-P2735 Pressure Control Solenoid “F” Intermittent
-P2736 Pressure Control Solenoid “F” Control Circuit/Open
-P2737 Pressure Control Solenoid “F” Control Circuit Range/Performance
-P2738 Pressure Control Solenoid “F” Control Circuit Low
-P2739 Pressure Control Solenoid “F” Control Circuit High
-P273A Transmission Friction Element “G” Apply Time Range/Performance
-P273B Transmission Friction Element “H” Apply Time Range/Performance
+P2713 Pressure Control Solenoid "D"
+P2714 Pressure Control Solenoid "D" Performance/Stuck Off
+P2715 Pressure Control Solenoid "D" Stuck On
+P2716 Pressure Control Solenoid "D" Electrical
+P2717 Pressure Control Solenoid "D" Intermittent
+P2718 Pressure Control Solenoid "D" Control Circuit/Open
+P2719 Pressure Control Solenoid "D" Control Circuit Range/Performance
+P2720 Pressure Control Solenoid "D" Control Circuit Low
+P2721 Pressure Control Solenoid "D" Control Circuit High
+P2722 Pressure Control Solenoid "E"
+P2723 Pressure Control Solenoid "E" Performance/Stuck Off
+P2724 Pressure Control Solenoid "E" Stuck On
+P2725 Pressure Control Solenoid "E" Electrical
+P2726 Pressure Control Solenoid "E" Intermittent
+P2727 Pressure Control Solenoid "E" Control Circuit/Open
+P2728 Pressure Control Solenoid "E" Control Circuit Range/Performance
+P2729 Pressure Control Solenoid "E" Control Circuit Low
+P2730 Pressure Control Solenoid "E" Control Circuit High
+P2731 Pressure Control Solenoid "F"
+P2732 Pressure Control Solenoid "F" Performance/Stuck Off
+P2733 Pressure Control Solenoid "F" Stuck On
+P2734 Pressure Control Solenoid "F" Electrical
+P2735 Pressure Control Solenoid "F" Intermittent
+P2736 Pressure Control Solenoid "F" Control Circuit/Open
+P2737 Pressure Control Solenoid "F" Control Circuit Range/Performance
+P2738 Pressure Control Solenoid "F" Control Circuit Low
+P2739 Pressure Control Solenoid "F" Control Circuit High
+P273A Transmission Friction Element "G" Apply Time Range/Performance
+P273B Transmission Friction Element "H" Apply Time Range/Performance
 P273C ISO/SAE reserved
 P273D ISO/SAE reserved
 P273E ISO/SAE reserved
 P273F ISO/SAE reserved
-P2740 Transmission Fluid Temperature Sensor “B” Circuit
-P2741 Transmission Fluid Temperature Sensor “B” Circuit Range/Performance
-P2742 Transmission Fluid Temperature Sensor “B” Circuit Low
-P2743 Transmission Fluid Temperature Sensor “B” Circuit High
-P2744 Transmission Fluid Temperature Sensor “B” Circuit Intermittent
-P2745 Intermediate Shaft Speed Sensor “B” Circuit
-P2746 Intermediate Shaft Speed Sensor “B” Circuit Range/Performance
-P2747 Intermediate Shaft Speed Sensor “B” Circuit No Signal
-P2748 Intermediate Shaft Speed Sensor “B” Circuit Intermittent
-P2749 Intermediate Shaft Speed Sensor “C” Circuit
-P2750 Intermediate Shaft Speed Sensor “C” Circuit Range/Performance
-P2751 Intermediate Shaft Speed Sensor “C” Circuit No Signal
-P2752 Intermediate Shaft Speed Sensor “C” Circuit Intermittent
+P2740 Transmission Fluid Temperature Sensor "B" Circuit
+P2741 Transmission Fluid Temperature Sensor "B" Circuit Range/Performance
+P2742 Transmission Fluid Temperature Sensor "B" Circuit Low
+P2743 Transmission Fluid Temperature Sensor "B" Circuit High
+P2744 Transmission Fluid Temperature Sensor "B" Circuit Intermittent
+P2745 Intermediate Shaft Speed Sensor "B" Circuit
+P2746 Intermediate Shaft Speed Sensor "B" Circuit Range/Performance
+P2747 Intermediate Shaft Speed Sensor "B" Circuit No Signal
+P2748 Intermediate Shaft Speed Sensor "B" Circuit Intermittent
+P2749 Intermediate Shaft Speed Sensor "C" Circuit
+P2750 Intermediate Shaft Speed Sensor "C" Circuit Range/Performance
+P2751 Intermediate Shaft Speed Sensor "C" Circuit No Signal
+P2752 Intermediate Shaft Speed Sensor "C" Circuit Intermittent
 P2753 Transmission Fluid Cooler Control Circuit/Open
 P2754 Transmission Fluid Cooler Control Circuit Low
 P2755 Transmission Fluid Cooler Control Circuit High
@@ -2278,10 +2278,10 @@ P2761 Torque Converter Clutch Pressure Control Solenoid Control Circuit/Open
 P2762 Torque Converter Clutch Pressure Control Solenoid Control Circuit Range/Performance
 P2763 Torque Converter Clutch Pressure Control Solenoid Control Circuit High
 P2764 Torque Converter Clutch Pressure Control Solenoid Control Circuit Low
-P2765 Input/Turbine Speed Sensor “B” Circuit
-P2766 Input/Turbine Speed Sensor “B” Circuit Range/Performance
-P2767 Input/Turbine Speed Sensor “B” Circuit No Signal
-P2768 Input/Turbine Speed Sensor “B” Circuit Intermittent
+P2765 Input/Turbine Speed Sensor "B" Circuit
+P2766 Input/Turbine Speed Sensor "B" Circuit Range/Performance
+P2767 Input/Turbine Speed Sensor "B" Circuit No Signal
+P2768 Input/Turbine Speed Sensor "B" Circuit Intermittent
 P2769 Torque Converter Clutch Circuit Low
 P2770 Torque Converter Clutch Circuit High
 P2771 Four Wheel Drive (4WD) Low Switch Circuit
@@ -2297,7 +2297,7 @@ P2780 Downshift Switch Circuit Low
 P2781 Downshift Switch Circuit High
 P2782 Downshift Switch Circuit Intermittent/Erratic
 P2783 Torque Converter Temperature Too High
-P2784 Input/Turbine Speed Sensor “A”/”B” Correlation
+P2784 Input/Turbine Speed Sensor "A"/"B" Correlation
 P2785 Clutch Actuator Temperature Too High
 P2786 Gear Shift Actuator Temperature Too High
 P2787 Clutch Temperature Too High
@@ -2325,49 +2325,49 @@ P279C ISO/SAE reserved
 P279D ISO/SAE reserved
 P279E ISO/SAE reserved
 P279F ISO/SAE reserved
-P2800 Transmission Range Sensor “B” Circuit (PRNDL Input)
-P2801 Transmission Range Sensor “B” Circuit Range/Performance
-P2802 Transmission Range Sensor “B” Circuit Low
-P2803 Transmission Range Sensor “B” Circuit High
-P2804 Transmission Range Sensor “B” Intermittent
-P2805 Transmission Range Sensor “A”/“B” Correlation
+P2800 Transmission Range Sensor "B" Circuit (PRNDL Input)
+P2801 Transmission Range Sensor "B" Circuit Range/Performance
+P2802 Transmission Range Sensor "B" Circuit Low
+P2803 Transmission Range Sensor "B" Circuit High
+P2804 Transmission Range Sensor "B" Intermittent
+P2805 Transmission Range Sensor "A"/"B" Correlation
 P2806 Transmission Range Sensor Alignment
-P2807 Pressure Control Solenoid “G”
-P2808 Pressure Control Solenoid “G” Performance/Stuck Off
-P2809 Pressure Control Solenoid “G” Stuck On
-P2810 Pressure Control Solenoid “G” Electrical
-P2811 Pressure Control Solenoid “G” Intermittent
-P2812 Pressure Control Solenoid “G” Control Circuit/Open
-P2813 Pressure Control Solenoid “G” Control Circuit Range/Performance
-P2814 Pressure Control Solenoid “G” Control Circuit Low
-P2815 Pressure Control Solenoid “G” Control Circuit High
-P2816 Pressure Control Solenoid “H”
-P2817 Pressure Control Solenoid “H” Performance/Stuck Off
-P2818 Pressure Control Solenoid “H” Stuck On
-P2819 Pressure Control Solenoid “H” Electrical
-P281A Pressure Control Solenoid “H” Intermittent
-P281B Pressure Control Solenoid “H” Control Circuit/Open
-P281C Pressure Control Solenoid “H” Control Circuit Range/Performance
-P281D Pressure Control Solenoid “H” Control Circuit Low
-P281E Pressure Control Solenoid “H” Control Circuit High
-P281F Pressure Control Solenoid “J”
-P2820 Pressure Control Solenoid “J” Performance/Stuck Off
-P2821 Pressure Control Solenoid “J” Stuck On
-P2822 Pressure Control Solenoid “J” Electrical
-P2823 Pressure Control Solenoid “J” Intermittent
-P2824 Pressure Control Solenoid “J” Control Circuit/Open
-P2825 Pressure Control Solenoid “J” Control Circuit Range/Performance
-P2826 Pressure Control Solenoid “J” Control Circuit Low
-P2827 Pressure Control Solenoid “J” Control Circuit High
-P2828 Pressure Control Solenoid “K”
-P2829 Pressure Control Solenoid “K” Performance/Stuck Off
-P282A Pressure Control Solenoid “K” Stuck On
-P282B Pressure Control Solenoid “K” Electrical
-P282C Pressure Control Solenoid “K” Intermittent
-P282D Pressure Control Solenoid “K” Control Circuit/Open
-P282E Pressure Control Solenoid “K” Control Circuit Range/Performance
-P282F Pressure Control Solenoid “K” Control Circuit Low
-P2830 Pressure Control Solenoid “K” Control Circuit High
+P2807 Pressure Control Solenoid "G"
+P2808 Pressure Control Solenoid "G" Performance/Stuck Off
+P2809 Pressure Control Solenoid "G" Stuck On
+P2810 Pressure Control Solenoid "G" Electrical
+P2811 Pressure Control Solenoid "G" Intermittent
+P2812 Pressure Control Solenoid "G" Control Circuit/Open
+P2813 Pressure Control Solenoid "G" Control Circuit Range/Performance
+P2814 Pressure Control Solenoid "G" Control Circuit Low
+P2815 Pressure Control Solenoid "G" Control Circuit High
+P2816 Pressure Control Solenoid "H"
+P2817 Pressure Control Solenoid "H" Performance/Stuck Off
+P2818 Pressure Control Solenoid "H" Stuck On
+P2819 Pressure Control Solenoid "H" Electrical
+P281A Pressure Control Solenoid "H" Intermittent
+P281B Pressure Control Solenoid "H" Control Circuit/Open
+P281C Pressure Control Solenoid "H" Control Circuit Range/Performance
+P281D Pressure Control Solenoid "H" Control Circuit Low
+P281E Pressure Control Solenoid "H" Control Circuit High
+P281F Pressure Control Solenoid "J"
+P2820 Pressure Control Solenoid "J" Performance/Stuck Off
+P2821 Pressure Control Solenoid "J" Stuck On
+P2822 Pressure Control Solenoid "J" Electrical
+P2823 Pressure Control Solenoid "J" Intermittent
+P2824 Pressure Control Solenoid "J" Control Circuit/Open
+P2825 Pressure Control Solenoid "J" Control Circuit Range/Performance
+P2826 Pressure Control Solenoid "J" Control Circuit Low
+P2827 Pressure Control Solenoid "J" Control Circuit High
+P2828 Pressure Control Solenoid "K"
+P2829 Pressure Control Solenoid "K" Performance/Stuck Off
+P282A Pressure Control Solenoid "K" Stuck On
+P282B Pressure Control Solenoid "K" Electrical
+P282C Pressure Control Solenoid "K" Intermittent
+P282D Pressure Control Solenoid "K" Control Circuit/Open
+P282E Pressure Control Solenoid "K" Control Circuit Range/Performance
+P282F Pressure Control Solenoid "K" Control Circuit Low
+P2830 Pressure Control Solenoid "K" Control Circuit High
 P2A00 O2 Sensor Circuit Range/Performance Bank 1 Sensor 1
 P2A01 O2 Sensor Circuit Range/Performance Bank 1 Sensor 2
 P2A02 O2 Sensor Circuit Range/Performance Bank 1 Sensor 3
@@ -2578,22 +2578,22 @@ U0096 ISO/SAE reserved
 U0097 ISO/SAE reserved
 U0098 ISO/SAE reserved
 U0099 ISO/SAE reserved
-U0100 Lost Communication With ECM/PCM “A”
+U0100 Lost Communication With ECM/PCM "A"
 U0101 Lost Communication with TCM
 U0102 Lost Communication with Transfer Case Control Module
-U0103 Lost Communication With Gear Shift Control Module “A”
+U0103 Lost Communication With Gear Shift Control Module "A"
 U0104 Lost Communication With Cruise Control Module
 U0105 Lost Communication With Fuel Injector Control Module
 U0106 Lost Communication With Glow Plug Control Module
 U0107 Lost Communication With Throttle Actuator Control Module
 U0108 Lost Communication With Alternative Fuel Control Module
 U0109 Lost Communication With Fuel Pump Control Module
-U0110 Lost Communication With Drive Motor Control Module “A”
-U0111 Lost Communication With Battery Energy Control Module “A”
-U0112 Lost Communication With Battery Energy Control Module “B”
+U0110 Lost Communication With Drive Motor Control Module "A"
+U0111 Lost Communication With Battery Energy Control Module "A"
+U0112 Lost Communication With Battery Energy Control Module "B"
 U0113 Lost Communication With Emissions Critical Control Information
 U0114 Lost Communication With Four–Wheel Drive Clutch Control Module
-U0115 Lost Communication With ECM/PCM “B”
+U0115 Lost Communication With ECM/PCM "B"
 U0116 Lost Communication With Coolant Temperature Control Module
 U0117 Lost Communication With Electrical PTO Control Module
 U0118 Lost Communication With Fuel Additive Control Module
@@ -2619,25 +2619,25 @@ U0137 Lost Communication With Trailer Brake Control Module
 U0138 Lost Communication With All Terrain Control Module
 U0139 ISO/SAE reserved
 U0140 Lost Communication With Body Control Module
-U0141 Lost Communication With Body Control Module “A”
-U0142 Lost Communication With Body Control Module “B”
-U0143 Lost Communication With Body Control Module “C”
-U0144 Lost Communication With Body Control Module “D”
-U0145 Lost Communication With Body Control Module “E”
-U0146 Lost Communication With Gateway “A”
-U0147 Lost Communication With Gateway “B”
-U0148 Lost Communication With Gateway “C”
-U0149 Lost Communication With Gateway “D”
-U0150 Lost Communication With Gateway “E”
+U0141 Lost Communication With Body Control Module "A"
+U0142 Lost Communication With Body Control Module "B"
+U0143 Lost Communication With Body Control Module "C"
+U0144 Lost Communication With Body Control Module "D"
+U0145 Lost Communication With Body Control Module "E"
+U0146 Lost Communication With Gateway "A"
+U0147 Lost Communication With Gateway "B"
+U0148 Lost Communication With Gateway "C"
+U0149 Lost Communication With Gateway "D"
+U0150 Lost Communication With Gateway "E"
 U0151 Lost Communication With Restraints Control Module
 U0152 Lost Communication With Side Restraints Control Module Left
 U0153 Lost Communication With Side Restraints Control Module Right
 U0154 Lost Communication With Restraints Occupant Classification System Module
 U0155 Lost Communication With Instrument Panel Cluster (IPC) Control Module
-U0156 Lost Communication With Information Center “A”
-U0157 Lost Communication With Information Center “B”
+U0156 Lost Communication With Information Center "A"
+U0157 Lost Communication With Information Center "B"
 U0158 Lost Communication With Head Up Display
-U0159 Lost Communication With Parking Assist Control Module “A”
+U0159 Lost Communication With Parking Assist Control Module "A"
 U0160 Lost Communication With Audible Alert Control Module
 U0161 Lost Communication With Compass Module
 U0162 Lost Communication With Navigation Display Module
@@ -2648,69 +2648,69 @@ U0166 Lost Communication With Auxiliary Heater Control Module
 U0167 Lost Communication With Vehicle Immobilizer Control Module
 U0168 Lost Communication With Vehicle Security Control Module
 U0169 Lost Communication With Sunroof Control Module
-U0170 Lost Communication With “Restraints System Sensor A”
-U0171 Lost Communication With “Restraints System Sensor B”
-U0172 Lost Communication With “Restraints System Sensor C”
-U0173 Lost Communication With “Restraints System Sensor D”
-U0174 Lost Communication With “Restraints System Sensor E”
-U0175 Lost Communication With “Restraints System Sensor F”
-U0176 Lost Communication With “Restraints System Sensor G”
-U0177 Lost Communication With “Restraints System Sensor H”
-U0178 Lost Communication With “Restraints System Sensor I”
-U0179 Lost Communication With “Restraints System Sensor J”
-U017A Lost Communication With “Restraints System Sensor K”
-U017B Lost Communication With “Restraints System Sensor L”
-U017C Lost Communication With “Restraints System Sensor M”
-U017D Lost Communication With “Restraints System Sensor N”
+U0170 Lost Communication With "Restraints System Sensor A"
+U0171 Lost Communication With "Restraints System Sensor B"
+U0172 Lost Communication With "Restraints System Sensor C"
+U0173 Lost Communication With "Restraints System Sensor D"
+U0174 Lost Communication With "Restraints System Sensor E"
+U0175 Lost Communication With "Restraints System Sensor F"
+U0176 Lost Communication With "Restraints System Sensor G"
+U0177 Lost Communication With "Restraints System Sensor H"
+U0178 Lost Communication With "Restraints System Sensor I"
+U0179 Lost Communication With "Restraints System Sensor J"
+U017A Lost Communication With "Restraints System Sensor K"
+U017B Lost Communication With "Restraints System Sensor L"
+U017C Lost Communication With "Restraints System Sensor M"
+U017D Lost Communication With "Restraints System Sensor N"
 U0180 Lost Communication With Automatic Lighting Control Module
 U0181 Lost Communication With Headlamp Leveling Control Module
 U0182 Lost Communication With Lighting Control Module Front
-U0183 Lost Communication With Lighting Control Module Rear “A”
+U0183 Lost Communication With Lighting Control Module Rear "A"
 U0184 Lost Communication With Radio
 U0185 Lost Communication With Antenna Control Module
 U0186 Lost Communication With Audio Amplifier
-U0187 Lost Communication With Digital Disc Player/Changer Module “A”
-U0188 Lost Communication With Digital Disc Player/Changer Module “B”
-U0189 Lost Communication With Digital Disc Player/Changer Module “C”
-U0190 Lost Communication With Digital Disc Player/Changer Module “D”
+U0187 Lost Communication With Digital Disc Player/Changer Module "A"
+U0188 Lost Communication With Digital Disc Player/Changer Module "B"
+U0189 Lost Communication With Digital Disc Player/Changer Module "C"
+U0190 Lost Communication With Digital Disc Player/Changer Module "D"
 U0191 Lost Communication With Television
 U0192 Lost Communication With Personal Computer
-U0193 Lost Communication With “Digital Audio Control Module A”
-U0194 Lost Communication With “Digital Audio Control Module B”
+U0193 Lost Communication With "Digital Audio Control Module A"
+U0194 Lost Communication With "Digital Audio Control Module B"
 U0195 Lost Communication With Subscription Entertainment Receiver Module
 U0196 Lost Communication With Entertainment Control Module
 U0197 Lost Communication With Telephone Control Module
 U0198 Lost Communication With Telematic Control Module
-U0199 Lost Communication With “Door Control Module A”
-U0200 Lost Communication With “Door Control Module B”
-U0201 Lost Communication With “Door Control Module C”
-U0202 Lost Communication With “Door Control Module D”
-U0203 Lost Communication With “Door Control Module E”
-U0204 Lost Communication With “Door Control Module F”
-U0205 Lost Communication With “Door Control Module G”
+U0199 Lost Communication With "Door Control Module A"
+U0200 Lost Communication With "Door Control Module B"
+U0201 Lost Communication With "Door Control Module C"
+U0202 Lost Communication With "Door Control Module D"
+U0203 Lost Communication With "Door Control Module E"
+U0204 Lost Communication With "Door Control Module F"
+U0205 Lost Communication With "Door Control Module G"
 U0206 Lost Communication With Folding Top Control Module
 U0207 Lost Communication With Moveable Roof Control Module
-U0208 Lost Communication With “Seat Control Module A”
-U0209 Lost Communication With “Seat Control Module B”
-U0210 Lost Communication With “Seat Control Module C”
-U0211 Lost Communication With “Seat Control Module D”
+U0208 Lost Communication With "Seat Control Module A"
+U0209 Lost Communication With "Seat Control Module B"
+U0210 Lost Communication With "Seat Control Module C"
+U0211 Lost Communication With "Seat Control Module D"
 U0212 Lost Communication With Steering Column Control Module
-U0213 Lost Communication With Mirror Control Module “A”
+U0213 Lost Communication With Mirror Control Module "A"
 U0214 Lost Communication With Remote Function Actuation
-U0215 Lost Communication With “Door Switch A”
-U0216 Lost Communication With “Door Switch B”
-U0217 Lost Communication With “Door Switch C”
-U0218 Lost Communication With “Door Switch D”
-U0219 Lost Communication With “Door Switch E”
-U0220 Lost Communication With “Door Switch F”
-U0221 Lost Communication With “Door Switch G”
-U0222 Lost Communication With “Door Window Motor A”
-U0223 Lost Communication With “Door Window Motor B”
-U0224 Lost Communication With “Door Window Motor C”
-U0225 Lost Communication With “Door Window Motor D”
-U0226 Lost Communication With “Door Window Motor E”
-U0227 Lost Communication With “Door Window Motor F”
-U0228 Lost Communication With “Door Window Motor G”
+U0215 Lost Communication With "Door Switch A"
+U0216 Lost Communication With "Door Switch B"
+U0217 Lost Communication With "Door Switch C"
+U0218 Lost Communication With "Door Switch D"
+U0219 Lost Communication With "Door Switch E"
+U0220 Lost Communication With "Door Switch F"
+U0221 Lost Communication With "Door Switch G"
+U0222 Lost Communication With "Door Window Motor A"
+U0223 Lost Communication With "Door Window Motor B"
+U0224 Lost Communication With "Door Window Motor C"
+U0225 Lost Communication With "Door Window Motor D"
+U0226 Lost Communication With "Door Window Motor E"
+U0227 Lost Communication With "Door Window Motor F"
+U0228 Lost Communication With "Door Window Motor G"
 U0229 Lost Communication With Heated Steering Wheel Module
 U0230 Lost Communication With Rear Gate Module
 U0231 Lost Communication With Rain Sensing Module
@@ -2719,21 +2719,21 @@ U0233 Lost Communication With Side Obstacle Detection Control Module Right
 U0234 Lost Communication With Convenience Recall Module
 U0235 Lost Communication With Cruise Control Front Distance Range Sensor
 U0236 Lost Communication With Column Lock Module
-U0237 Lost Communication With “Digital Audio Control Module C”
-U0238 Lost Communication With “Digital Audio Control Module D”
-U0239 Lost Communication With Entrapment Control Module “A”
-U0240 Lost Communication With Entrapment Control Module “B”
-U0241 Lost Communication With Headlamp Control Module “A”
-U0242 Lost Communication With Headlamp Control Module “B”
-U0243 Lost Communication With Parking Assist Control Module “B”
-U0244 Lost Communication With Running Board Control Module “A”
+U0237 Lost Communication With "Digital Audio Control Module C"
+U0238 Lost Communication With "Digital Audio Control Module D"
+U0239 Lost Communication With Entrapment Control Module "A"
+U0240 Lost Communication With Entrapment Control Module "B"
+U0241 Lost Communication With Headlamp Control Module "A"
+U0242 Lost Communication With Headlamp Control Module "B"
+U0243 Lost Communication With Parking Assist Control Module "B"
+U0244 Lost Communication With Running Board Control Module "A"
 U0245 Lost Communication With Entertainment Control Module
-U0246 Lost Communication With Seat Control Module “E”
-U0247 Lost Communication With Seat Control Module “F”
+U0246 Lost Communication With Seat Control Module "E"
+U0247 Lost Communication With Seat Control Module "F"
 U0248 Lost Communication With Remote Accessory Module
 U0249 Lost Communication With Entertainment Control Module
 U0250 Lost Communication With Impact Classification System Module
-U0251 Lost Communication With Running Board Control Module “B”
+U0251 Lost Communication With Running Board Control Module "B"
 U0252 Lost Communication With Lighting Control Module
 U0253 ISO/SAE reserved
 U0254 ISO/SAE reserved
@@ -2773,20 +2773,20 @@ U0287 ISO/SAE reserved
 U0288 ISO/SAE reserved
 U0289 ISO/SAE reserved
 U0290 ISO/SAE reserved
-U0291 Lost Communication With Gear Shift Control Module “B”
-U0292 Lost Communication With Drive Motor Control Module “B”
+U0291 Lost Communication With Gear Shift Control Module "B"
+U0292 Lost Communication With Drive Motor Control Module "B"
 U0293 Lost Communication With Hybrid Powertrain Control Module
 U0294 Lost Communication With Powertrain Control Monitor Module
 U0295 Lost Communication With AC to AC Converter Control Module
-U0296 Lost Communication With AC to DC Converter Control Module “A”
-U0297 Lost Communication With AC to DC Converter Control Module “B”
-U0298 Lost Communication With DC to DC Converter Control Module “A”
-U0299 Lost Communication With DC to DC Converter Control Module “B”
+U0296 Lost Communication With AC to DC Converter Control Module "A"
+U0297 Lost Communication With AC to DC Converter Control Module "B"
+U0298 Lost Communication With DC to DC Converter Control Module "A"
+U0299 Lost Communication With DC to DC Converter Control Module "B"
 U0300 Internal Control Module Software Incompatibility
 U0301 Software Incompatibility With ECM/PCM
 U0302 Software Incompatibility With Transmission Control Module
 U0303 Software Incompatibility With Transfer Case Control Module
-U0304 Software Incompatibility With Gear Shift Control Module “A”
+U0304 Software Incompatibility With Gear Shift Control Module "A"
 U0305 Software Incompatibility With Cruise Control Module
 U0306 Software Incompatibility With Fuel Injector Control Module
 U0307 Software Incompatibility With Glow Plug Control Module
@@ -2813,24 +2813,24 @@ U0327 Software Incompatibility With Vehicle Security Control Module
 U0328 Software Incompatibility With Steering Angle Sensor Module
 U0329 Software Incompatibility With Steering Column Control Module
 U0330 Software Incompatibility With Tire Pressure Monitor Module
-U0331 Software Incompatibility With Body Control Module “A”
+U0331 Software Incompatibility With Body Control Module "A"
 U0332 Software Incompatibility With Multi-axis Acceleration Sensor Module
-U0333 Software Incompatibility With Gear Shift Control Module “B”
+U0333 Software Incompatibility With Gear Shift Control Module "B"
 U0334 Software Incompatibility With Radio
 U0400 Invalid Data Received
-U0401 Invalid Data Received From ECM/PCM “A”
+U0401 Invalid Data Received From ECM/PCM "A"
 U0402 Invalid Data Received From TCM
 U0403 Invalid Data Received From Transfer Case Control Module
-U0404 Invalid Data Received From Gear Shift Control Module “A”
+U0404 Invalid Data Received From Gear Shift Control Module "A"
 U0405 Invalid Data Received From Cruise Control Module
 U0406 Invalid Data Received From Fuel Injector Control Module
 U0407 Invalid Data Received From Glow Plug Control Module
 U0408 Invalid Data Received From Throttle Actuator Control Module
 U0409 Invalid Data Received From Alternative Fuel Control Module
 U0410 Invalid Data Received From Fuel Pump Control Module
-U0411 Invalid Data Received From Drive Motor Control Module “A”
-U0412 Invalid Data Received From Battery Energy Control Module “A”
-U0413 Invalid Data Received From Battery Energy Control Module “B”
+U0411 Invalid Data Received From Drive Motor Control Module "A"
+U0412 Invalid Data Received From Battery Energy Control Module "A"
+U0413 Invalid Data Received From Battery Energy Control Module "B"
 U0414 Invalid Data Received From Four-Wheel Drive Clutch Control Module
 U0415 Invalid Data Received From Anti-Lock Brake System (ABS) Control Module
 U0416 Invalid Data Received From Vehicle Dynamics Control Module
@@ -2848,7 +2848,7 @@ U0427 Invalid Data Received From Vehicle Security Control Module
 U0428 Invalid Data Received From Steering Angle Sensor Module
 U0429 Invalid Data Received From Steering Column Control Module
 U0430 Invalid Data Received From Tire Pressure Monitor Module
-U0431 Invalid Data Received From Body Control Module “A”
+U0431 Invalid Data Received From Body Control Module "A"
 U0432 Invalid Data Received From Multi-axis Acceleration Sensor Module
 U0433 Invalid Data Received From Cruise Control Front Distance Range Sensor
 U0434 Invalid Data Received From Active Roll Control Module
@@ -2859,25 +2859,25 @@ U0438 Invalid Data Received From Trailer Brake Control Module
 U0439 Invalid Data Received From All Terrain Control Module
 U043A ISO/SAE reserved
 U0441 Invalid Data Received From Emissions Critical Control Information
-U0442 Invalid Data Received From ECM/PCM “B”
-U0443 Invalid Data Received From Body Control Module “B”
-U0444 Invalid Data Received From Body Control Module “C”
-U0445 Invalid Data Received From Body Control Module “D”
-U0446 Invalid Data Received From Body Control Module “E”
-U0447 Invalid Data Received From Gateway “A”
-U0448 Invalid Data Received From Gateway “B”
-U0449 Invalid Data Received From Gateway “C”
-U044A Invalid Data Received From Gateway “D”
-U0451 Invalid Data Received From Gateway “E”
+U0442 Invalid Data Received From ECM/PCM "B"
+U0443 Invalid Data Received From Body Control Module "B"
+U0444 Invalid Data Received From Body Control Module "C"
+U0445 Invalid Data Received From Body Control Module "D"
+U0446 Invalid Data Received From Body Control Module "E"
+U0447 Invalid Data Received From Gateway "A"
+U0448 Invalid Data Received From Gateway "B"
+U0449 Invalid Data Received From Gateway "C"
+U044A Invalid Data Received From Gateway "D"
+U0451 Invalid Data Received From Gateway "E"
 U0452 Invalid Data Received From Restraints Control Module
 U0453 Invalid Data Received From Side Restraints Control Module Left
 U0454 Invalid Data Received From Side Restraints Control Module Right
 U0455 Invalid Data Received From Restraints Occupant Classification System Module
 U0456 Invalid Data Received From Coolant Temperature Control Module
-U0457 Invalid Data Received From Information Center “A”
-U0458 Invalid Data Received From Information Center “B”
+U0457 Invalid Data Received From Information Center "A"
+U0458 Invalid Data Received From Information Center "B"
 U0459 Invalid Data Received From Head Up Display
-U045A Invalid Data Received From Parking Assist Control Module “A”
+U045A Invalid Data Received From Parking Assist Control Module "A"
 U0461 Invalid Data Received From Audible Alert Control Module
 U0462 Invalid Data Received From Compass Module
 U0463 Invalid Data Received From Navigation Display Module
@@ -2888,69 +2888,69 @@ U0467 Invalid Data Received From Fuel Additive Control Module
 U0468 Invalid Data Received From Fuel Cell Control Module
 U0469 Invalid Data Received From Starter / Generator Control Module
 U046A Invalid Data Received From Sunroof Control Module
-U0471 Invalid Data Received From “Restraints System Sensor A”
-U0472 Invalid Data Received From “Restraints System Sensor B”
-U0473 Invalid Data Received From “Restraints System Sensor C”
-U0474 Invalid Data Received From “Restraints System Sensor D”
-U0475 Invalid Data Received From “Restraints System Sensor E”
-U0476 Invalid Data Received From “Restraints System Sensor F”
-U0477 Invalid Data Received From “Restraints System Sensor G”
-U0478 Invalid Data Received From “Restraints System Sensor H”
-U0479 Invalid Data Received From “Restraints System Sensor I”
-U047A Invalid Data Received From “Restraints System Sensor J”
-U047B Invalid Data Received From “Restraints System Sensor K”
-U047C Invalid Data Received From “Restraints System Sensor L”
-U047D Invalid Data Received From “Restraints System Sensor M”
-U047E Invalid Data Received From “Restraints System Sensor N”
+U0471 Invalid Data Received From "Restraints System Sensor A"
+U0472 Invalid Data Received From "Restraints System Sensor B"
+U0473 Invalid Data Received From "Restraints System Sensor C"
+U0474 Invalid Data Received From "Restraints System Sensor D"
+U0475 Invalid Data Received From "Restraints System Sensor E"
+U0476 Invalid Data Received From "Restraints System Sensor F"
+U0477 Invalid Data Received From "Restraints System Sensor G"
+U0478 Invalid Data Received From "Restraints System Sensor H"
+U0479 Invalid Data Received From "Restraints System Sensor I"
+U047A Invalid Data Received From "Restraints System Sensor J"
+U047B Invalid Data Received From "Restraints System Sensor K"
+U047C Invalid Data Received From "Restraints System Sensor L"
+U047D Invalid Data Received From "Restraints System Sensor M"
+U047E Invalid Data Received From "Restraints System Sensor N"
 U0481 Invalid Data Received From Automatic Lighting Control Module
 U0482 Invalid Data Received From Headlamp Leveling Control Module
 U0483 Invalid Data Received From Lighting Control Module Front
-U0484 Invalid Data Received From Lighting Control Module Rear “A”
+U0484 Invalid Data Received From Lighting Control Module Rear "A"
 U0485 Invalid Data Received From Radio
 U0486 Invalid Data Received From Antenna Control Module
 U0487 Invalid Data Received From Audio Amplifier
-U0488 Invalid Data Received From Digital Disc Player/Changer Module “A”
-U0489 Invalid Data Received From Digital Disc Player/Changer Module “B”
-U040A Invalid Data Received From Digital Disc Player/Changer Module “C”
-U0491 Invalid Data Received From Digital Disc Player/Changer Module “D”
+U0488 Invalid Data Received From Digital Disc Player/Changer Module "A"
+U0489 Invalid Data Received From Digital Disc Player/Changer Module "B"
+U040A Invalid Data Received From Digital Disc Player/Changer Module "C"
+U0491 Invalid Data Received From Digital Disc Player/Changer Module "D"
 U0492 Invalid Data Received From Television
 U0493 Invalid Data Received From Personal Computer
-U0494 Invalid Data Received From “Digital Audio Control Module A”
-U0495 Invalid Data Received From “Digital Audio Control Module B”
+U0494 Invalid Data Received From "Digital Audio Control Module A"
+U0495 Invalid Data Received From "Digital Audio Control Module B"
 U0496 Invalid Data Received From Subscription Entertainment Receiver Module
 U0497 Invalid Data Received From Entertainment Control Module
 U0498 Invalid Data Received From Telephone Control Module
 U0499 Invalid Data Received From Telematic Control Module
-U049A Invalid Data Received From “Door Control Module A”
-U0501 Invalid Data Received From “Door Control Module B”
-U0502 Invalid Data Received From “Door Control Module C”
-U0503 Invalid Data Received From “Door Control Module D”
-U0504 Invalid Data Received From “Door Control Module E”
-U0505 Invalid Data Received From “Door Control Module F”
-U0506 Invalid Data Received From “Door Control Module G”
+U049A Invalid Data Received From "Door Control Module A"
+U0501 Invalid Data Received From "Door Control Module B"
+U0502 Invalid Data Received From "Door Control Module C"
+U0503 Invalid Data Received From "Door Control Module D"
+U0504 Invalid Data Received From "Door Control Module E"
+U0505 Invalid Data Received From "Door Control Module F"
+U0506 Invalid Data Received From "Door Control Module G"
 U0507 Invalid Data Received From Folding Top Control Module
 U0508 Invalid Data Received From Moveable Roof Control Module
-U0509 Invalid Data Received From “Seat Control Module A”
-U050A Invalid Data Received From “Seat Control Module B”
-U0511 Invalid Data Received From “Seat Control Module C”
-U0512 Invalid Data Received From “Seat Control Module D”
+U0509 Invalid Data Received From "Seat Control Module A"
+U050A Invalid Data Received From "Seat Control Module B"
+U0511 Invalid Data Received From "Seat Control Module C"
+U0512 Invalid Data Received From "Seat Control Module D"
 U0513 Invalid Data Received From Yaw Rate Sensor Module
-U0514 Invalid Data Received From Mirror Control Module “A”
+U0514 Invalid Data Received From Mirror Control Module "A"
 U0515 Invalid Data Received From Remote Function Actuation
-U0516 Invalid Data Received From “Door Switch A”
-U0517 Invalid Data Received From “Door Switch B"
-U0518 Invalid Data Received From “Door Switch C"
-U0519 Invalid Data Received From “Door Switch D"
-U051A Invalid Data Received From “Door Switch E"
-U0521 Invalid Data Received From “Door Switch F"
-U0522 Invalid Data Received From “Door Switch G"
-U0523 Invalid Data Received From “Door Window Motor A”
-U0524 Invalid Data Received From “Door Window Motor B”
-U0525 Invalid Data Received From “Door Window Motor C”
-U0526 Invalid Data Received From “Door Window Motor D”
-U0527 Invalid Data Received From “Door Window Motor E”
-U0528 Invalid Data Received From “Door Window Motor F”
-U0529 Invalid Data Received From “Door Window Motor G”
+U0516 Invalid Data Received From "Door Switch A"
+U0517 Invalid Data Received From "Door Switch B"
+U0518 Invalid Data Received From "Door Switch C"
+U0519 Invalid Data Received From "Door Switch D"
+U051A Invalid Data Received From "Door Switch E"
+U0521 Invalid Data Received From "Door Switch F"
+U0522 Invalid Data Received From "Door Switch G"
+U0523 Invalid Data Received From "Door Window Motor A"
+U0524 Invalid Data Received From "Door Window Motor B"
+U0525 Invalid Data Received From "Door Window Motor C"
+U0526 Invalid Data Received From "Door Window Motor D"
+U0527 Invalid Data Received From "Door Window Motor E"
+U0528 Invalid Data Received From "Door Window Motor F"
+U0529 Invalid Data Received From "Door Window Motor G"
 U052A Invalid Data Received From Heated Steering Wheel Module
 U0531 Invalid Data Received From Rear Gate Module
 U0532 Invalid Data Received From Rain Sensing Module
@@ -2959,21 +2959,21 @@ U0534 Invalid Data Received From Side Obstacle Detection Control Module Right
 U0535 Invalid Data Received From Convenience Recall Module
 U0536 Invalid Data Received From Lateral Acceleration Sensor Module
 U0537 Invalid Data Received From Column Lock Module
-U0538 Invalid Data Received From “Digital Audio Control Module C”
-U0539 Invalid Data Received From “Digital Audio Control Module D”
-U053A Invalid Data Received From Entrapment Control Module “A”
-U0541 Invalid Data Received From Entrapment Control Module “B”
-U0542 Invalid Data Received From Headlamp Control Module “A”
-U0543 Invalid Data Received From Headlamp Control Module “B”
-U0544 Invalid Data Received From Parking Assist Control Module “B”
+U0538 Invalid Data Received From "Digital Audio Control Module C"
+U0539 Invalid Data Received From "Digital Audio Control Module D"
+U053A Invalid Data Received From Entrapment Control Module "A"
+U0541 Invalid Data Received From Entrapment Control Module "B"
+U0542 Invalid Data Received From Headlamp Control Module "A"
+U0543 Invalid Data Received From Headlamp Control Module "B"
+U0544 Invalid Data Received From Parking Assist Control Module "B"
 U0545 Invalid Data Received From Running Board Control Module
 U0546 Invalid Data Received From Entertainment Control Module
-U0547 Invalid Data Received From Seat Control Module “E”
-U0548 Invalid Data Received From Seat Control Module “F”
+U0547 Invalid Data Received From Seat Control Module "E"
+U0548 Invalid Data Received From Seat Control Module "F"
 U0549 Invalid Data Received From Remote Accessory Module
 U054A Invalid Data Received From Entertainment Control Module
 U0551 Invalid Data Received From Impact Classification System Module
-U0552 Invalid Data Received From Running Board Control Module “B”
+U0552 Invalid Data Received From Running Board Control Module "B"
 U0553 Invalid Data Received From Lighting Control Module
 U0554 ISO/SAE reserved
 U0555 ISO/SAE reserved
@@ -3013,25 +3013,25 @@ U0588 ISO/SAE reserved
 U0589 ISO/SAE reserved
 U0590 ISO/SAE reserved
 U0591 ISO/SAE reserved
-U0592 Invalid Data Received From Gear Shift Control Module “B”
-U0593 Invalid Data Received From Drive Motor Control Module “B”
+U0592 Invalid Data Received From Gear Shift Control Module "B"
+U0593 Invalid Data Received From Drive Motor Control Module "B"
 U0594 Invalid Data Received From Hybrid Powertrain Control Module
 U0595 Invalid Data Received From Powertrain Control Monitor Module
 U0596 Invalid Data Received From AC to AC Converter Control Module
-U0597 Invalid Data Received From AC to DC Converter Control Module “A”
-U0598 Invalid Data Received From AC to DC Converter Control Module “B”
-U0599 Invalid Data Received From DC to DC Converter Control Module “A”
-U059A Invalid Data Received From DC to DC Converter Control Module “B”
+U0597 Invalid Data Received From AC to DC Converter Control Module "A"
+U0598 Invalid Data Received From AC to DC Converter Control Module "B"
+U0599 Invalid Data Received From DC to DC Converter Control Module "A"
+U059A Invalid Data Received From DC to DC Converter Control Module "B"
 U3000 Control Module
 U3001 Control Module Improper Shutdown
 U3002 Vehicle Identification Number
 U3003 Battery Voltage
 U3004 Accessory Power Relay
 U3005 Retained Accessory Power
-U3006 Control Module Input Power “A”
-U3007 Control Module Input Power “B”
-U3008 Control Module Ground “A”
-U3009 Control Module Ground “B”
+U3006 Control Module Input Power "A"
+U3007 Control Module Input Power "B"
+U3008 Control Module Ground "A"
+U3009 Control Module Ground "B"
 U300A Ignition Switch
 U300B Ignition Input Accessory/On/Start
 U300C Ignition Input Off/On/Start
@@ -3161,8 +3161,8 @@ B0075 Second Row Right Seatbelt Pretensioner Deployment Control (Subfault)
 B0076 Third Row Left Seatbelt Pretensioner Deployment Control (Subfault)
 B0077 Third Row Center Seatbelt Pretensioner Deployment Control (Subfault)
 B0078 Third Row Right Seatbelt Pretensioner Deployment Control (Subfault)
-B0079 Driver Seatbelt Pretensioner “B” Deployment Control (Subfault)
-B007A Passenger Seatbelt Pretensioner “B” Deployment Control (Subfault)
+B0079 Driver Seatbelt Pretensioner "B" Deployment Control (Subfault)
+B007A Passenger Seatbelt Pretensioner "B" Deployment Control (Subfault)
 B007B ISO/SAE reserved
 B007C ISO/SAE reserved
 B007D ISO/SAE reserved
@@ -3216,34 +3216,34 @@ B00AC ISO/SAE reserved
 B00AD ISO/SAE reserved
 B00AE ISO/SAE reserved
 B00AF ISO/SAE reserved
-B00B0 Driver Seat Occupant Classification Sensor “A” (Subfault)
-B00B1 Driver Seat Occupant Classification Sensor “B” (Subfault)
-B00B2 Driver Seat Occupant Classification Sensor “C” (Subfault)
-B00B3 Driver Seat Occupant Classification Sensor “D” (Subfault)
-B00B4 Driver Seat Occupant Classification Sensor “E” (Subfault)
+B00B0 Driver Seat Occupant Classification Sensor "A" (Subfault)
+B00B1 Driver Seat Occupant Classification Sensor "B" (Subfault)
+B00B2 Driver Seat Occupant Classification Sensor "C" (Subfault)
+B00B3 Driver Seat Occupant Classification Sensor "D" (Subfault)
+B00B4 Driver Seat Occupant Classification Sensor "E" (Subfault)
 B00B5 Driver Seat Track Position Restraints Sensor (Subfault)
 B00B6 Driver Seat Recline Position Restraints Sensor (Subfault)
-B00B7 Driver Seat Occupant Position Sensor “A” (Subfault)
-B00B8 Driver Seat Occupant Position Sensor “B” (Subfault)
-B00B9 Driver Seat Occupant Position Sensor “C” (Subfault)
-B00BA Driver Seat Occupant Position Sensor “D” (Subfault)
-B00BB Driver Seat Occupant Position Sensor “E” (Subfault)
+B00B7 Driver Seat Occupant Position Sensor "A" (Subfault)
+B00B8 Driver Seat Occupant Position Sensor "B" (Subfault)
+B00B9 Driver Seat Occupant Position Sensor "C" (Subfault)
+B00BA Driver Seat Occupant Position Sensor "D" (Subfault)
+B00BB Driver Seat Occupant Position Sensor "E" (Subfault)
 B00BC ISO/SAE reserved
 B00BD ISO/SAE reserved
 B00BE ISO/SAE reserved
 B00BF ISO/SAE reserved
-B00C0 Passenger Seat Occupant Classification Sensor “A” (Subfault)
-B00C1 Passenger Seat Occupant Classification Sensor “B” (Subfault)
-B00C2 Passenger Seat Occupant Classification Sensor “C” (Subfault)
-B00C3 Passenger Seat Occupant Classification Sensor “D” (Subfault)
-B00C4 Passenger Seat Occupant Classification Sensor “E” (Subfault)
+B00C0 Passenger Seat Occupant Classification Sensor "A" (Subfault)
+B00C1 Passenger Seat Occupant Classification Sensor "B" (Subfault)
+B00C2 Passenger Seat Occupant Classification Sensor "C" (Subfault)
+B00C3 Passenger Seat Occupant Classification Sensor "D" (Subfault)
+B00C4 Passenger Seat Occupant Classification Sensor "E" (Subfault)
 B00C5 Passenger Seat Track Position Restraints Sensor (Subfault)
 B00C6 Passenger Seat Recline Position Restraints Sensor (Subfault)
-B00C7 Passenger Seat Occupant Position Sensor “A” (Subfault)
-B00C8 Passenger Seat Occupant Position Sensor “B” (Subfault)
-B00C9 Passenger Seat Occupant Position Sensor “C” (Subfault)
-B00CA Passenger Seat Occupant Position Sensor “D” (Subfault)
-B00CB Passenger Seat Occupant Position Sensor “E” (Subfault)
+B00C7 Passenger Seat Occupant Position Sensor "A" (Subfault)
+B00C8 Passenger Seat Occupant Position Sensor "B" (Subfault)
+B00C9 Passenger Seat Occupant Position Sensor "C" (Subfault)
+B00CA Passenger Seat Occupant Position Sensor "D" (Subfault)
+B00CB Passenger Seat Occupant Position Sensor "E" (Subfault)
 B00CC ISO/SAE reserved
 B00CD ISO/SAE reserved
 B00CE ISO/SAE reserved
@@ -3293,10 +3293,10 @@ B00FD ISO/SAE reserved
 B00FE ISO/SAE reserved
 B00FF ISO/SAE reserved
 C0000 ISO/SAE reserved
-C0001 TCS Control Channel “A” Valve 1 (Subfault)
-C0002 TCS Control Channel “A” Valve 2 (Subfault)
-C0003 TCS Control Channel “B” Valve 1 (Subfault)
-C0004 TCS Control Channel “B” Valve 2 (Subfault)
+C0001 TCS Control Channel "A" Valve 1 (Subfault)
+C0002 TCS Control Channel "A" Valve 2 (Subfault)
+C0003 TCS Control Channel "B" Valve 1 (Subfault)
+C0004 TCS Control Channel "B" Valve 2 (Subfault)
 C0005 ISO/SAE reserved
 C0006 ISO/SAE reserved
 C0007 ISO/SAE reserved
@@ -3356,13 +3356,13 @@ C003C Rear Tone Wheel (Subfault)
 C003D Rear Wheel Speed Sensor (Subfault)
 C003E Rear Wheel Speed Sensor Supply (Subfault)
 C003F ISO/SAE reserved
-C0040 Brake Pedal Switch “A” (Subfault)
-C0041 Brake Pedal Switch “B” (Subfault)
-C0042 Brake Pedal Position Sensor “Circuit A” (Subfault)
-C0043 Brake Pedal Position Sensor “Circuit B” (Subfault)
-C0044 Brake Pressure Sensor “A” (Subfault)
-C0045 Brake Pressure Sensor “B” (Subfault)
-C0046 Brake Pressure Sensor “A”/“B” (Subfault)
+C0040 Brake Pedal Switch "A" (Subfault)
+C0041 Brake Pedal Switch "B" (Subfault)
+C0042 Brake Pedal Position Sensor "Circuit A" (Subfault)
+C0043 Brake Pedal Position Sensor "Circuit B" (Subfault)
+C0044 Brake Pressure Sensor "A" (Subfault)
+C0045 Brake Pressure Sensor "B" (Subfault)
+C0046 Brake Pressure Sensor "A"/"B" (Subfault)
 C0047 Brake Booster Pressure Sensor (Subfault)
 C0048 Brake Booster Travel Sensor (Subfault)
 C0049 Brake Fluid (Subfault)
@@ -3374,10 +3374,10 @@ C004E ISO/SAE reserved
 C004F ISO/SAE reserved
 C0050 ISO/SAE reserved
 C0051 Steering Wheel Position Sensor (Subfault)
-C0052 Steering Wheel Position Sensor “Signal A” (Subfault)
-C0053 Steering Wheel Position Sensor “Signal B” (Subfault)
-C0054 Steering Wheel Position Sensor “Signal C” (Subfault)
-C0055 Steering Wheel Position Sensor “Signal D” (Subfault)
+C0052 Steering Wheel Position Sensor "Signal A" (Subfault)
+C0053 Steering Wheel Position Sensor "Signal B" (Subfault)
+C0054 Steering Wheel Position Sensor "Signal C" (Subfault)
+C0055 Steering Wheel Position Sensor "Signal D" (Subfault)
 C0056 ISO/SAE reserved
 C0057 ISO/SAE reserved
 C0058 ISO/SAE reserved
