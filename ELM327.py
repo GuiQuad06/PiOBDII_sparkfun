@@ -22,9 +22,17 @@
 #/***************************************************************************/
 
 
-
+import sys
 import time
-import serial
+try:
+	import serial
+	import serial.tools.list_ports
+except ImportError as e:
+	print(e)
+	msg = str(e).split()
+	print("Please run: pip install " + msg[-1].replace("'", ""))
+	input("Press Enter to quit...")
+	sys.exit()
 
 
 DEBUG = "OFF"
@@ -35,7 +43,6 @@ CONNECT_ELM327_FAIL = 1
 CONNECT_CAN_BUS_FAIL = 2
 
 # Serial port constants.
-SERIAL_PORT_NAME = None
 #SERIAL_PORT_BAUD = 115200
 #SERIAL_PORT_BAUD = 57600
 #SERIAL_PORT_BAUD = 38400
@@ -175,7 +182,17 @@ class ELM327:
 		except:
 			self.InitResult += "FAILED TO READ FILE: DATA/PidDescriptionsMode09.txt\n"
 
-
+#  /********************************/
+# /* Auto Detect the Serial Port  */
+#/********************************/
+		self.port = None
+		try:
+			self.serial_auto_detect()
+		except:
+			self.InitResult += "FAILED TO AUTO DETECT SERIAL PORT\n"
+#  /********************/
+# /*END OF CONSTRUCTOR*/
+#/********************/
 
 	def __del__(self):
 		# Close the ELM327 device after use.
@@ -308,6 +325,31 @@ class ELM327:
 		return Result
 
 
+#/*************************************************/
+#/* This function can be used to auto detect the  */
+#/* serial COM Port.                              */
+#/* Only one match is allowed, else an Error is   */
+#/* raised (ValueError).                          */
+#/* Takes the search pattern as a parameter,      */
+#/* for instance FTDI cables interfaces started   */
+#/* with "USB Serial Port"                        */
+#/* Returns the COM Port.                         */
+#/* response.                                     */
+#/*************************************************/
+	def serial_auto_detect(self, search_pattern="USB Serial Port"):
+		# retrieve comport by description
+		tmp_comport = list(serial.tools.list_ports.grep(f".*{search_pattern}.*"))
+
+		if len(tmp_comport) == 0:
+			raise ValueError(f"Unable to find comport with pattern '{search_pattern}'")
+
+		if len(tmp_comport) > 1:
+			tmp_name = "\t-> " + ",\n\t-> ".join([c.description for c in tmp_comport])
+			raise ValueError(f"Several comports with pattern '{search_pattern}'\n{tmp_name}")
+
+		else:
+			self.port = tmp_comport[0]
+			print(f"[auto detect] Found {self.port.description}")
 
 #/********************************************************/
 #/* Connect the ELM327 device to the CAN BUS on the ECU. */
@@ -322,7 +364,7 @@ class ELM327:
 # /* Open the required serial port which the ELM327 device is on. */
 #/****************************************************************/
 		try:
-			self.ELM327 = serial.Serial(SERIAL_PORT_NAME, SERIAL_PORT_BAUD)
+			self.ELM327 = serial.Serial(self.port.device, SERIAL_PORT_BAUD)
 			self.ELM327.timeout = SERIAL_PORT_TIME_OUT
 			self.ELM327.write_timeout = SERIAL_PORT_TIME_OUT
 

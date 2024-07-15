@@ -123,7 +123,7 @@ def DebugDisplayZOrder():
 def ApplyConfig():
 	Config.LoadConfig()
 	ELM327.DEBUG = Config.ConfigValues["Debug"]
-	ELM327.SERIAL_PORT_NAME = Config.ConfigValues["SerialPort"]
+	#ELM327.SERIAL_PORT_NAME = Config.ConfigValues["SerialPort"]
 	ThisDisplay.DEBUG = Config.ConfigValues["Debug"]
 	ThisELM327.LoadVehicle(Config.ConfigValues["Vehicle"])
 	Visual.VisualZOrder[0].SetFont(Config.ConfigValues["FontName"])
