@@ -90,14 +90,14 @@ class Display:
 
 		# Define the buttons to be displayed on the background.
 		self.Buttons = {
-			"METERS" : Button.Button(self.ThisSurface, "METERS", Visual.PRESS_LATCH, 2*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Meters.png"),
-			"FRAME" : Button.Button(self.ThisSurface, "FRAME", Visual.PRESS_LATCH, 3*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Frame.png"),
-			"FREEZE" : Button.Button(self.ThisSurface, "FREEZE", Visual.PRESS_LATCH, 4*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/FreezeFrame.png"),
-			"PLOTS" : Button.Button(self.ThisSurface, "PLOTS", Visual.PRESS_LATCH, 5*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Plots.png"),
-			"TROUBLE" : Button.Button(self.ThisSurface, "TROUBLE", Visual.PRESS_LATCH, 6*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Trouble.png"),
-			"VEHICLE" : Button.Button(self.ThisSurface, "VEHICLE", Visual.PRESS_LATCH, 7*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Vehicle.png"),
-			"ELM327" : Button.Button(self.ThisSurface, "ELM327", Visual.PRESS_LATCH, 8*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/OBDII.png"),
-			"BUSY" : Button.Button(self.ThisSurface, "BUSY", Visual.PRESS_DOWN, self.DisplayXLen-2*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Busy.png"),
+			"METERS" : Button.Button(self.ThisSurface, "METERS", Visual.PRESS_LATCH, 2*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Meters"),
+			"FRAME" : Button.Button(self.ThisSurface, "FRAME", Visual.PRESS_LATCH, 3*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Frame"),
+			"FREEZE" : Button.Button(self.ThisSurface, "FREEZE", Visual.PRESS_LATCH, 4*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Freezed\nFrames"),
+			"PLOTS" : Button.Button(self.ThisSurface, "PLOTS", Visual.PRESS_LATCH, 5*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Plots"),
+			"TROUBLE" : Button.Button(self.ThisSurface, "TROUBLE", Visual.PRESS_LATCH, 6*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Trouble\nCodes"),
+			"VEHICLE" : Button.Button(self.ThisSurface, "VEHICLE", Visual.PRESS_LATCH, 7*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Vehicle\nInfo"),
+			"ELM327" : Button.Button(self.ThisSurface, "ELM327", Visual.PRESS_LATCH, 8*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="ELM327"),
+			"BUSY" : Button.Button(self.ThisSurface, "BUSY", Visual.PRESS_DOWN, self.DisplayXLen-2*self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, Text="Busy"),
 			"EXIT" : Button.Button(self.ThisSurface, "EXIT", Visual.PRESS_DOWN, self.DisplayXLen-self.ButtonWidth, 0, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/Exit.png"),
 
 			"MIL" : Button.Button(self.ThisSurface, "MIL", Visual.PRESS_DOWN, 0, Visual.BUTTON_HEIGHT, self.ButtonWidth, Visual.BUTTON_HEIGHT, "IMAGE:ICONS/MIL_Off.png", DownText = "IMAGE:ICONS/MIL_On.png"),

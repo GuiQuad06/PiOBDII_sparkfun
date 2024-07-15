@@ -52,7 +52,7 @@ X_MARGIN = 8
 Y_MARGIN = 8
 
 # Default button height (and usually width).
-BUTTON_HEIGHT = 55
+BUTTON_HEIGHT = 75
 
 
 # Which visual items are placed on top of which, from bottom to top.
