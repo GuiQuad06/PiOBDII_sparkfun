@@ -434,6 +434,10 @@ class ELM327:
 				# Close serial port if connection failed.
 				self.ELM327.close()
 			else:
+				# Through away the SEARCHING... response.
+				if Response[:12] == "SEARCHING...":
+					Response = Response[13:]
+				# Through away the 2 ACK knowledge bytes at the start of the response.
 				Response = self.PruneData(Response, 2)
 				ResultVal1 = int(Response[:2], 16)
 				if (ResultVal1 & 0x80) != 0:
