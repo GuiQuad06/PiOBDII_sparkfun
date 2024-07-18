@@ -643,6 +643,29 @@ class ELM327:
 		return Response
 
 
+#/*******************************************************/
+#/* This is very particular case I got from get VIN	    */
+#/* It seems that the STN1110 chip is sending the data  */
+#/* differently on my SparkFun OBDII UART board.        */
+#/* I have to prune a different nb of byte depending on */
+#/* the line number as the chip is sending line number !*/
+#/* Only the VIN (0902) as this format of data.         */
+#/*******************************************************/
+	def PruneDataVin(self, Data, RemoveByteCount):
+		Response = ""
+		for index, Line in enumerate(Data.split('\n')):
+			# Second line "0:" + ACK shall be pruned" 
+			if index == 1:
+				Response += Line[2 * 4:]
+			# Other lines only "i:" line number shall be pruned
+			elif 2 <= index < 4:
+				Response += Line[2:]
+			# First & last line RemoveByteCount
+			else:
+				Response += Line[2 * RemoveByteCount:]
+		return Response
+
+
 #/**************************************/
 #/* ODBII MODE 01 - Show current data. */
 #/**************************************/
@@ -1794,7 +1817,7 @@ class ELM327:
 
 		if '0902' in self.ValidPIDs:
 			Response = self.GetResponse(b'0902\r')
-			Response = self.PruneData(Response, 3)
+			Response = self.PruneDataVin(Response, 3)
 			Result = str(bytearray.fromhex(Response).replace(bytes([0x00]), b' '), 'UTF-8')
 
 		return Result
