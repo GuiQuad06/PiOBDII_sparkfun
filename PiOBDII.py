@@ -113,6 +113,28 @@ def PruneData(Data, RemoveByteCount):
 	return Response
 
 
+#/*******************************************************/
+#/* This is very particular case I got from get VIN     */
+#/* It seems that the STN1110 chip is sending the data  */
+#/* differently on my SparkFun OBDII UART board.        */
+#/* I have to prune a different nb of byte depending on */
+#/* the line number as the chip is sending line number !*/
+#/* Only the VIN (0902) as this format of data.         */
+#/*******************************************************/
+def PruneDataVin(Data, RemoveByteCount):
+	Response = ""
+	for index, Line in enumerate(Data.split('\n')):
+		# Second line "0:" + ACK shall be pruned" 
+		if index == 1:
+			Response += Line[2 * 4:]
+		# Other lines only "i:" line number shall be pruned
+		elif 2 <= index < 4:
+			Response += Line[2:]
+		# First & last line RemoveByteCount
+		else:
+			Response += Line[2 * RemoveByteCount:]
+	return Response
+
 
 #/**********************************************************/
 #/* Convert pairs of data bytes into actual trouble codes, */
@@ -250,7 +272,7 @@ print("Using CAN BUS Protocol: " + Response)
 
 # Get the current Vehicle VIN Number from the ECU.
 Response = GetResponse(ELM327, b'0902\r')
-Response = PruneData(Response, 3)
+Response = PruneDataVin(Response, 3)
 Response = str(bytearray.fromhex(Response).replace(bytes([0x00]), b' '), 'UTF-8')
 print("Vehicle VIN Number: " + str(Response) + "\n")
 
