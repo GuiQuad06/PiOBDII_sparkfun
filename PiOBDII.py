@@ -276,6 +276,16 @@ Response = PruneDataVin(Response, 3)
 Response = str(bytearray.fromhex(Response).replace(bytes([0x00]), b' '), 'UTF-8')
 print("Vehicle VIN Number: " + str(Response) + "\n")
 
+# Get the Supported PIDs for Mode 1 from the ECU.
+Response = GetResponse(ELM327, b'0100\r')
+Response = PruneData(Response, 2)
+print("Supported PIDs for Mode 1 (RAW DATA): " + Response)
+
+# Get the current data (Mode 1 PID 1)
+Response = GetResponse(ELM327, b'0101\r')
+Response = PruneData(Response, 2)
+print("Current Data (Mode 1 PID 1) (RAW DATA): " + Response)
+
 # Get the Stored Trouble Codes from the ECU.
 Response = GetTroubleCodeData(ELM327, b'03')
 print("Stored Trouble Codes:")
