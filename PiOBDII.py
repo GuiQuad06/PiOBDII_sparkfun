@@ -48,6 +48,9 @@ SERIAL_PORT_TIME_OUT = 60
 ELM_CONNECT_SETTLE_PERIOD = 5
 ELM_CONNECT_TRY_COUNT = 5
 
+ENGINE_ECU_ID = 0
+TRANSMISSION_ECU_ID = 1
+
 #/*************************************************/
 #/* This function can be used to auto detect the  */
 #/* serial COM Port.                              */
@@ -170,6 +173,51 @@ def GetTroubleCodeData(ELM327, OBDIImode):
 			TroubleCodeData += " : [DESCRIPTION NOT FOUND]\n"
 	return TroubleCodeData
 
+def EcuSequence(ecu_type):
+	# Set Headers
+	res = GetResponse(ELM327, b'ATH1\r')
+	print("Headers: " + res)
+	# Mask the header to take care only on the selected ECU
+	res = GetResponse(ELM327, bytearray("AT SH 7E" + "{:01d}".format(ecu_type) + "\r", "UTF-8"))
+	print(res)
+	# Mask the header in CAN bus
+	res = GetResponse(ELM327, bytearray("AT CRA 7E" + "{:01d}".format(ecu_type + 8) + "\r", "UTF-8"))
+	print(res)
+	# Remove Headers
+	res = GetResponse(ELM327, b'ATH0\r')
+	print("Headers: " + res)
+	time.sleep(0.5)
+	PID0100()
+	time.sleep(0.5)
+	PID0101()
+	# Get the Stored Trouble Codes from the ECU.
+	res = GetTroubleCodeData(ELM327, b'03')
+	print("Stored Trouble Codes:")
+	print(res)
+	time.sleep(0.5)
+	# Get the Pending Trouble Codes from the ECU.
+	res = GetTroubleCodeData(ELM327, b'07')
+	print("Pending Trouble Codes:")
+	print(res)
+	time.sleep(0.5)
+	# Get the Permanent Trouble Codes from the ECU.
+	res = GetTroubleCodeData(ELM327, b'0A')
+	print("Permanent Trouble Codes:")
+	print(res)
+
+def PID0100(): 
+	# Get the Supported PIDs for Mode 1 from the ECU.
+	res = GetResponse(ELM327, b'0100\r')
+	print("Supported PIDs for Mode 1 (RAW DATA): " + res)
+	res =  PruneData(res, 2)
+	print("Supported PIDs for Mode 1 (Pruned RAW DATA): " + res)
+
+def PID0101():
+	# Get the current data (Mode 1 PID 1)
+	res = GetResponse(ELM327, b'0101\r')
+	print("Current Data (Mode 1 PID 1) (RAW DATA): " + res)
+	res = PruneData(res, 2)
+	print("Current Data (Mode 1 PID 1) (Pruned RAW DATA): " + res)
 
 
 #  /**********************************************/
@@ -276,30 +324,10 @@ Response = PruneDataVin(Response, 3)
 Response = str(bytearray.fromhex(Response).replace(bytes([0x00]), b' '), 'UTF-8')
 print("Vehicle VIN Number: " + str(Response) + "\n")
 
-# Get the Supported PIDs for Mode 1 from the ECU.
-Response = GetResponse(ELM327, b'0100\r')
-Response = PruneData(Response, 2)
-print("Supported PIDs for Mode 1 (RAW DATA): " + Response)
+time.sleep(0.5)
 
-# Get the current data (Mode 1 PID 1)
-Response = GetResponse(ELM327, b'0101\r')
-Response = PruneData(Response, 2)
-print("Current Data (Mode 1 PID 1) (RAW DATA): " + Response)
-
-# Get the Stored Trouble Codes from the ECU.
-Response = GetTroubleCodeData(ELM327, b'03')
-print("Stored Trouble Codes:")
-print(Response)
-
-# Get the Pending Trouble Codes from the ECU.
-Response = GetTroubleCodeData(ELM327, b'07')
-print("Pending Trouble Codes:")
-print(Response)
-
-# Get the Permanent Trouble Codes from the ECU.
-Response = GetTroubleCodeData(ELM327, b'0A')
-print("Permanent Trouble Codes:")
-print(Response)
+EcuSequence(ENGINE_ECU_ID)
+EcuSequence(TRANSMISSION_ECU_ID)
 
 # Erase all Pending/Stored Trouble Codes and Data from the ECU.
 # Response = GetResponse(ELM327, b'04\r')
