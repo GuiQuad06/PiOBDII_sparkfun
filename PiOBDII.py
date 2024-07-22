@@ -200,10 +200,11 @@ def EcuSequence(ecu_type):
 	print("Pending Trouble Codes:")
 	print(res)
 	time.sleep(0.5)
-	# Get the Permanent Trouble Codes from the ECU.
-	res = GetTroubleCodeData(ELM327, b'0A')
-	print("Permanent Trouble Codes:")
-	print(res)
+	# Get the Permanent Trouble Codes from the ECU (only engine ECU).
+	if ecu_type == ENGINE_ECU_ID:
+		res = GetTroubleCodeData(ELM327, b'0A')
+		print("Permanent Trouble Codes:")
+		print(res)
 
 def PID0100(): 
 	# Get the Supported PIDs for Mode 1 from the ECU.
