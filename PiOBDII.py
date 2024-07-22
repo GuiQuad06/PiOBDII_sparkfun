@@ -176,16 +176,21 @@ def GetTroubleCodeData(ELM327, OBDIImode):
 def EcuSequence(ecu_type):
 	# Set Headers
 	res = GetResponse(ELM327, b'ATH1\r')
-	print("Headers: " + res)
+	if res != 'OK\n':
+		print("FAILED: AT H1 (Set Headers On)")
 	# Mask the header to take care only on the selected ECU
 	res = GetResponse(ELM327, bytearray("AT SH 7E" + "{:01d}".format(ecu_type) + "\r", "UTF-8"))
-	print(res)
+	if res != 'OK\n':
+		print("FAILED: AT SH 7E" + "{:01d}".format(ecu_type))
 	# Mask the header in CAN bus
 	res = GetResponse(ELM327, bytearray("AT CRA 7E" + "{:01d}".format(ecu_type + 8) + "\r", "UTF-8"))
-	print(res)
+	if res != 'OK\n':
+		print("FAILED: AT CRA 7E" + "{:01d}".format(ecu_type + 8))
 	# Remove Headers
 	res = GetResponse(ELM327, b'ATH0\r')
-	print("Headers: " + res)
+	if res != 'OK\n':
+		print("FAILED: AT H0 (Set Headers Off)")
+
 	time.sleep(0.5)
 	PID0100()
 	time.sleep(0.5)
