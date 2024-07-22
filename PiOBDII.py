@@ -173,7 +173,13 @@ def GetTroubleCodeData(ELM327, OBDIImode):
 			TroubleCodeData += " : [DESCRIPTION NOT FOUND]\n"
 	return TroubleCodeData
 
-def EcuSequence(ecu_type):
+#/********************************************************/
+#/* Run the ECU sequence to get the trouble codes and    */
+#/* current data from the ECU.                           */
+#/* Got info for engine ECU by default, could be changed */ 
+#/* to another ecu (transmission for instance)           */
+#/********************************************************/
+def EcuSequence(ecu_type = ENGINE_ECU_ID):
 	# Set Headers
 	res = GetResponse(ELM327, b'ATH1\r')
 	if res != 'OK\n':
@@ -186,11 +192,10 @@ def EcuSequence(ecu_type):
 	res = GetResponse(ELM327, bytearray("AT CRA 7E" + "{:01d}".format(ecu_type + 8) + "\r", "UTF-8"))
 	if res != 'OK\n':
 		print("FAILED: AT CRA 7E" + "{:01d}".format(ecu_type + 8))
-	# Remove Headers
+	# Remove Headers to move back compliant with the PruneData removing
 	res = GetResponse(ELM327, b'ATH0\r')
 	if res != 'OK\n':
 		print("FAILED: AT H0 (Set Headers Off)")
-
 	time.sleep(0.5)
 	PID0100()
 	time.sleep(0.5)
